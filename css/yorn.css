@@ -1,0 +1,78 @@
+body {
+    background: #412456;
+}
+
+.instructions {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  
+    
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    text-align: center;
+    font-family: aviano-flare, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgba(251, 201, 38, 0.5);
+    font-size: 14px;
+    background-color: rgba(65, 36, 86,.75);  
+}
+
+.card-header h6 {
+    padding-top:4px;
+}
+
+.card-body {
+    background-color: rgba(65, 36, 86, 0.5);
+}
+
+.card-body h6 {
+    color: rgb(65, 36, 86);
+    padding-top: 4px;
+}
+
+hr {
+    background-color: rgb(65, 36, 86)
+}
+
+.tokens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tokens button {  
+    height: 50px ;
+    border-radius: 75%;
+    border: medium solid #412456;
+    background-color: rgba(65, 36, 86, 0.5);
+    color: rgb(251, 201, 38);
+}
+
+.tokens button:hover {
+    box-shadow: 0px 0px 20px rgba(251,201,38, 0.5);
+}
+
+#gameBoard {
+    width: 70%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#gameReveal {
+    width: 80%;
+    height: 90%;
+    outline-style: inset;
+    outline-color: rgba(251,201,38, 0.5);
+    
+}

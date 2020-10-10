@@ -4,21 +4,22 @@
         <!--Required meta tags-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Ask The Tarot</title>
+        <title>Ask The Tarot - Yes Or No</title>
         <!--Bootstrap CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="preconnect" href="https://app.snipcart.com">
-        <link rel="preconnect" href="https://cdn.snipcart.com"> 
+        <link rel="preconnect" href="https://cdn.snipcart.com">
         <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.22/default/snipcart.css" />
         <link rel="stylesheet" href="https://use.typekit.net/ilb6asc.css">
-        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="../style.css"/>
+        <link rel="stylesheet" href="../CSS/yorn.css"/>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg">
               
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/LogoNoBkgd-1.png" class="d-inline-block align-center" width="90" height="90" alt="...">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/LogoNoBkgd-1.png" class="d-inline-block align-center" width="90" height="90" alt="...">
                 Ask The Tarot</a>
                 <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,15 +28,15 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="./index.html">Home </a>
+                            <a class="nav-link" href="../index.html">Home </a>
                         </li>
             
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/about.html">About</a>
+                            <a class="nav-link" href="./about.html">About</a>
                         </li>
             
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/readings.html">Readings</a>
+                            <a class="nav-link" href="../html/readings.html">Readings</a>
                         </li>
 
                         <li class="nav-item">
@@ -57,73 +58,85 @@
                 </div>
             </nav>
         </header>
+       
 
-        <div id="landingPanel" class="container-fluid ml-3 mr-3 p-0">
-            <div class="row d-flex justify-content-center">
+        <div class="container-fluid m-2">
+            <div class="row ml-4 mr-4">
+           
+            <div class="instructions d-flex-column">
 
-        <div id="lhsPanel" class="container-fluid m-0 p-0">
+          <div class="card" style="width: 14rem;">
+              <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="btn btn-primary">Card button</a>
+              </div>
+          </div>      
 
-            <div id="lhsCardTop" class="container-fluid d-flex-row m-0 p-0">
-               
+         <div class="card" style="width: 14rem;">
+             <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+             <div class="card-header">
+               <h6>  Add To Cart: </h6>
+             </div>
+             <div class="card-body">
 
-                
-            </div> <!--Ends LHS Card Top Panel-->
-            <div id="lhsCardBtm" class="container-fluid m-0 p-0">
-                sell a package or subscription
-            </div>
-        </div>    
+                <div class="tokens" id="25">
+                <h6>25 tokens </h6>
+                <button class="snipcart-add-item w-50"
+                   data-item-id="T-25"
+                   data-item-price="5.95"
+                   data-item-url="../html/ynlog.html"
+                   data-item-name="Tokens - 25">$5.95
+                </button>
+                  
+                </div>
 
-        <div id="centralPanel" class="container-fluid m-0 p-3">
+                <hr>
 
-            <h1>Hook Sentence About Choice & Confusion & Insight & Clarity</h1>
-            <hr>
-            <h2>Follow Up on Why ATT is for them</h2>
-            <hr>
-          
-            <p>features and benefits & reasons to believe</p>
-            <p>features and benefits & reasons to believe</p>
-            <p>features and benefits & reasons to believe</p>
-        </div>
+                <div class="tokens" id="50">
+                    <h6>50 tokens </h6>
+                    <button class="snipcart-add-item w-50"
+                    data-item-id="T-50"
+                    data-item-price="9.95"
+                    data-item-url="../html/ynlog.html"
+                    data-item-name="Tokens - 50">$9.95
+                 </button>   
 
+                </div> 
 
-        
-        <div id="rhsPanel" class="container-fluid m-0 p-0">
-            <div id="rhsCardTop" class="container-fluid m-0 p-0">
-                <div class="focalChakraImage">
-                    <img class="img-fluid" src="./assets/chakra/crown.svg">
-                </div>    
-            </div>
-            <div id="rhsCardBtm" class="container-fluid m-0 p-0">
-                <div class="container-fluid p-2">
-                    <div class="yornHeader mt-2 mb-2">
-                        <h6>A simple "yes" or "no"</h6>
-                    </div>
-                    <div class="yornBody">
-                        <p>
-                       Ever found yourself agonising over a simple "yes" or "no" decision? Chances are you have, & know that not everything in life is simple.
-                        </p>
-                        <p>
-                         Ever wished for a little neutral insight to help guide your decisions? Or confirm the weird feeling in your gut is your intuition & not just a dodgy curry?
-                        </p>
-                        <p>
-                         Now you can. Make better, more considered choices. Decide confidently with insight drawn from the wisdom of the tarot. </p>
-                        </p>
-                        <p>
-                        Just one click shuffles & cuts the deck. Sage advice and a yes, or a no, are yours. Simple.                         </p>
-                        </p>    
-                    </div>
-                    <div class="yornCTA d-flex justify-content-center">
-                        <button type="button" class="button w-100 mt-3"><a href="./html/ynlog.html">Ask The Tarot <br>Yes or No?</a></button>
-                    </div>
+                <hr>
 
-
+                <div class="tokens" id="100">
+                    <h6>100 tokens </h6>        
+                    <button class="snipcart-add-item w-50"
+                    data-item-id="T-100"
+                    data-item-price="15.95"
+                    data-item-url="../html/ynlog.html"
+                    data-item-name="Tokens - 100">$15.95
+                 </button>
 
                 </div>
-                           
-            </div>
-        </div>
-    </div>
-        </div> <!--end container fluid-->    
+
+                </div> <!--end Token Card Body-->
+            
+         </div> <!--end Token Card-->   
+         </div> <!--end Instructions Div-->
+
+    <div id="gameBoard" class="container-fluid d-flex justify-content-center">
+
+        <div id="gameReveal" class="container-fluid d-flex justify-content-center">
+
+
+
+        </div> <!--end gamereveal div-->
+    </div>  <!--end gameboard div-->       
+
+</div> <!--end row-->
+    </div><!--End Container Fluid-->
 
     <footer>
         <div class="container-fluid d-flex flex-direction-column justify-content-center" id="mandatories">
@@ -140,7 +153,6 @@
         </div>
     </div>
     </footer>  
-
         <!--Optional JavaScript-->
         <!--jQuery first, then Popper.js, then Bootstrap JS-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -150,7 +162,6 @@
         <script async src="https://cdn.snipcart.com/themes/v3.0.22/default/snipcart.js"></script>
         <div hidden id="snipcart" data-api-key="YjkzMmM5NmMtYTY4ZC00YjdmLTk1YTQtMjI3NWEyNzM2NjNiNjM3Mzc4MDU1NDU1MjY1OTAw"></div> 
         <!--App Javascript-->
-        <script src="./js/dailycard.js"></script>        
         <script src="./app.js"></script>
     
     </body>
