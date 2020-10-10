@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/AdobeStock_99358557_Preview.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  background-color: rgb(65, 36, 86);
+  box-shadow: 0px 0px 15px rgba(251, 201, 38, 0.25);
+}
+
+.navbar-nav {
+  margin-right: 5%;
+}
+.navbar-nav a {
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(251, 201, 38, 0.5);
+}
+
+.navbar-brand img {
+  margin-left: 20%;
+}
+
+.navbar-brand {
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(246, 212, 100, 0.5);
+}
+
+.nav-item button {
+  background: none;
+  border: 0.5px solid rgba(251, 201, 38, 0.5);
+  border-radius: 3px;
+  margin-top: 2px;
+  padding: 0;
+  font-size: 12px;
+}
+
+#landingPanel {
+  min-height: 80vh;
+  min-width: 100%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#lhsPanel {
+  height: 80vh;
+  border: thin solid rgb(65, 36, 86);
+  width: 18%;
+}
+
+#lhsCardTop {
+  height: 70%;
+  width: 100%;
+  background-color: rgba(251, 201, 38, 0.2);
+}
+
+.dailyCardHeader {
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(65, 36, 86);
+  text-align: center;
+}
+
+.dailyCardHeader h6 {
+  font-size: 12px;
+}
+
+.dailyCardHeader p {
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.dailyCardName {
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(65, 36, 86);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dailyCardName h5 {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.dailyCardImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.dailyCardImage img {
+  max-width: 50%;
+  box-shadow: 0px 0px 30px rgba(65, 36, 86, 0.8);
+}
+
+.dailyCardMessage p {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: rgb(65, 36, 86);
+}
+
+#lhsCardBtm {
+  height: 30%;
+  width: 100%;
+  background-color: rgba(65, 36, 86, 0.2);
+}
+
+#rhsPanel {
+  min-height: 80vh;
+  width: 18%;
+  border: thin solid rgb(65, 36, 86);
+}
+
+#rhsCardTop {
+  height: 30%;
+  width: 100%;
+  background-color: rgba(65, 36, 86, 0.2);
+}
+
+.focalChakraImage {
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
+  object-position: 50% 50%;
+  object-fit: contain;
+  height: 98%;
+}
+
+.focalChakraImage img {
+  padding: 2px;
+}
+
+#rhsCardBtm {
+  height: 70%;
+  width: 100%;
+  background-color: rgba(251, 201, 38, 0.2);
+}
+
+.yornHeader {
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(65, 36, 86);
+  text-align: center;
+}
+
+.yornHeader h6 {
+  font-size: 12px;
+}
+
+.yornBody p {
+  font-family: sans-serif;
+  font-size: 10px;
+  color: rgb(65, 36, 86);
+}
+.yornCTA button {
+  background: rgba(251, 201, 38, 0.5);
+  border: thin solid rgb(65, 36, 86);
+  border-radius: 5px 15px;
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.yornCTA button a {
+  color: rgb(65, 36, 86);
+}
+
+.yornCTA button:hover {
+  box-shadow: 0px 0px 25px rgba(65, 36, 86, 0.8);
+}
+
+#centralPanel {
+  min-height: 75vh;
+  width: 58%;
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(251, 201, 38, 0.5);
+}
+
+#centralPanel hr {
+  background-color: rgba(251, 201, 38, 0.5);
+}
+
+#centralPanel h1 {
+  margin-top: 10%;
+  font-size: 24px;
+}
+
+#centralPanel h2 {
+  font-size: 20px;
+}
+
+#centralPanel p {
+  font-size: 14px;
+}
+
+footer {
+  min-width: 100vw;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  margin-top: 3%;
+  background-color: rgb(65, 36, 86);
+  color: rgb(111, 50, 155);
+  box-shadow: 0px 0px 15px rgba(251, 201, 38, 0.25);
+}
+
+#mandatories {
+  min-width: 100%;
+  max-height: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#mandatories a {
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+#mandatories p {
+  font-size: 10px;
+}
+
+#a {
+  width: 20%;
+  text-align: center;
+}
+
+#b {
+  width: 20%;
+  text-align: center;
+}
+#c {
+  width: 20%;
+  text-align: center;
+}
+
+#d {
+  width: 20%;
+  text-align: center;
+}
+#e {
+  width: 20%;
+  text-align: center;
+}

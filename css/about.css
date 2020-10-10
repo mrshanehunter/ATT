@@ -1,0 +1,44 @@
+body {
+    background: rgb(251,201,38);
+    background: radial-gradient(circle, rgba(251,201,38,1) 0%, rgba(65,36,86,1) 75%);
+}
+
+.card {
+    margin: 1.5%;
+    min-height: 80%;
+    background-color: rgba(65,36,86,0.2);
+    box-shadow: 0px 0px 15px rgba(251,201,38,0.5);
+}
+
+.card-header {
+    font-family: aviano-flare, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(251,201,38,0.5);
+    background-color: rgb(65, 36, 86)
+}
+
+.card-body {
+    background-color: rgba(65,36,86,0.5)
+}
+
+.card h5 {
+    font-size: 14px;
+}
+
+.card h6 {
+    font-size: 12px;
+}
+
+.card p {
+    font-size: 10px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    
+}
+
