@@ -506,7 +506,7 @@ function dailyCardDraw () {
       <div class="container-fluid p-2">
         <div class="dailyCardHeader">
         <h6>Daily Tarot Meditation</h6>
-        <p>Note the card's meaning as the day begins. As its end, reflect on the card's manifestation into your day.</p>
+        <p>Note the card's meaning as the day begins. Later, notice the card's manifestation in your day.</p>
         </div>
            
             <div class="dailyCardImage">
