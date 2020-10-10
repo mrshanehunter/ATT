@@ -87,16 +87,36 @@ body {
 
 .card-body:hover .overlay {
     opacity: 1;
-}    
+}   
+
+.card-title {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: rgb(251,201,38);  
+}
+
+.card-subtitle {
+    position: absolute;
+    top: 15.5%;
+    left: 10%;
+}
+
+.card-price {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: rgb(251,201,38);
+}
 
 
 .card-text {
     color: rgb(251,201,38);
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    top: 35%;
+    left: 10%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
 }
 
 
@@ -113,7 +133,7 @@ body {
 
 .card-footer > button {
     border: thin solid rgb(65,36,86);
-    border-radius: 5px 10px;
+    border-radius: 5px 15px;
     padding: 5px;
     background-color: rgba(65, 36, 86, 0);
     color: #fbc926;
