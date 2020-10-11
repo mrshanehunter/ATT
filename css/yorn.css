@@ -2,17 +2,23 @@ body {
     background: #412456;
 }
 
-.instructions {
-    width: 30%;
+#mainContainer {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-  
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
 
+#instructions {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;   
+}
+
 .card {
+    width: 45%;
     margin-bottom: 20px;
     border-color: rgba(251, 201, 38, 1)
 }
@@ -67,18 +73,84 @@ hr {
     box-shadow: 0px 0px 20px rgba(251,201,38, 0.5);
 }
 
-#gameBoard {
-    width: 70%;
-    min-height: 100px;
+ #gameBoard {
+    width: 60%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;    
 }
 
 #gameReveal {
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 85%;
+    margin: 0px;
+    padding: 0px;
     outline-style: inset;
     outline-color: rgba(251,201,38, 0.5);
-    
+   
+} 
+
+.cardDrawn {
+    align-self: center;
 }
+
+.cardDrawnName {
+    font-family: aviano-flare, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgba(251, 201, 38, 0.5);
+}
+
+.cardDrawnName p {
+    padding-top: 2%;
+    padding-bottom: 0;
+}
+
+.cardDrawnImage img {
+    box-shadow: 0 0 25px rgba(204, 159, 236, 0.5);
+}
+
+.cardResponse p {
+    padding-top: 2%;
+    font-family: aviano-flare, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgba(251, 201, 38, 0.5);
+}
+
+.cardMessage p {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgba(251, 201, 38, 0.5);
+}
+
+
+
+
+#gameBtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    margin-top: 2.5%;
+
+}
+
+#gameBtn button {
+    background: none;
+    color: rgba(251, 201, 38, 0.5);
+    border: thin solid rgb(251, 201, 38);
+    border-radius: 5px 15px;
+    font-family: aviano-flare, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding: 7px;
+  }
+  
+ 
+  
+  #gameBtn button:hover {
+    box-shadow: 0px 0px 25px rgba(204, 159, 236, 0.5);
+  }

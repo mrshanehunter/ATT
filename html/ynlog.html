@@ -59,93 +59,84 @@
             </nav>
         </header>
        
-
-        <div class="container-fluid m-2">
-            <div class="row ml-4 mr-4">
-           
-            <div class="instructions d-flex-column">
-
-          <div class="card" style="width: 18rem;">
-           <div class="card-header">
-               <h6>How It Works:</h6>
-           </div>
-              <div class="card-body">
-                  
-                  <p class="card-text">Simply put the tarot isn’t designed for straight “yes” or “no” questions. But sometimes they're the type of question you need answered, and fast. That’s how “Ask The Tarot Yes or No” came to be.</p>
-                  <p class="card-text">It’s your own personal reader – with you 24/7 – offering clarity, context & the wisdom of the tarot when you’re faced with a tricky decision to make. </p>
-                  <p class="card-text">To start, you’ll need to add some tokens to your account. Once that’s done, reflect on your question & then simply hit the button. </p>  
-                 
-                  <p class="card-text">The deck is shuffled and cut once, revealing the card that holds the answer to your question.</p>  
-                  <p class="card-text">You will get a “yes” or “no”, but you’ll also get an interpretation of the card’s meaning to help guide you in making your final decision.</p>  
+    <div id="mainContainer" class="container-fluid">
+        <div id="instructions" class="container-fluid m-2">
+            
+          <!--How To Card-->  
+          <div class="card">
+                <div class="card-header">
+                    <h6>How It Works:</h6>
                 </div>
-          </div>      
+                <div class="card-body">
+                    
+                    <p class="card-text">Simply put the tarot isn’t designed for straight “yes” or “no” questions. But sometimes they're the type of question you need answered, and fast. That’s how “Ask The Tarot Yes or No” came to be.</p>
+                    <p class="card-text">It’s your own personal reader – with you 24/7 – offering clarity, context & the wisdom of the tarot when you’re faced with a tricky decision to make. </p>
+                    <p class="card-text">To start, you’ll need to add some tokens to your account. Once that’s done, reflect on your question & then simply hit the button. </p>  
+                    
+                    <p class="card-text">The deck is shuffled and cut once, revealing the card that holds the answer to your question.</p>  
+                    <p class="card-text">You will get a “yes” or “no”, but you’ll also get an interpretation of the card’s meaning to help guide you in making your final decision.</p>  
+                    </div>
+          </div> <!--End How To Card-->     
 
-         <div class="card" style="width: 18rem;">
-             <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
-             <div class="card-header">
-               <h6>  Add To Cart: </h6>
-             </div>
-             <div class="card-body">
 
-                <div class="tokens" id="25">
-                <h6>25 tokens </h6>
-                <button class="snipcart-add-item w-50"
-                   data-item-id="T-25"
-                   data-item-price="5.95"
-                   data-item-url="../html/ynlog.html"
-                   data-item-name="Tokens - 25">$5.95
-                </button>
-                  
+         <div class="card">
+                <div class="card-header">
+                   <h6>  Add To Cart: </h6>
                 </div>
-
-                <hr>
-
-                <div class="tokens" id="50">
-                    <h6>50 tokens </h6>
-                    <button class="snipcart-add-item w-50"
-                    data-item-id="T-50"
-                    data-item-price="9.95"
-                    data-item-url="../html/ynlog.html"
-                    data-item-name="Tokens - 50">$9.95
-                 </button>   
-
-                </div> 
-
-                <hr>
-
-                <div class="tokens" id="100">
-                    <h6>100 tokens </h6>        
-                    <button class="snipcart-add-item w-50"
-                    data-item-id="T-100"
-                    data-item-price="15.95"
-                    data-item-url="../html/ynlog.html"
-                    data-item-name="Tokens - 100">$15.95
-                 </button>
-
-                </div>
-
+                <div class="card-body">
+                      <div class="tokens" id="25">
+                            <h6>25 tokens </h6>
+                            <button class="snipcart-add-item w-50"
+                            data-item-id="T-25"
+                            data-item-price="5.95"
+                            data-item-url="../html/ynlog.html"
+                            data-item-name="Tokens - 25">$5.95
+                            </button>
+                      </div>
+                       <hr>
+                        <div class="tokens" id="50">
+                            <h6>50 tokens </h6>
+                            <button class="snipcart-add-item w-50"
+                            data-item-id="T-50"
+                            data-item-price="9.95"
+                            data-item-url="../html/ynlog.html"
+                            data-item-name="Tokens - 50">$9.95
+                            </button>   
+                        </div> 
+                        <hr>
+                        <div class="tokens" id="100">
+                            <h6>100 tokens </h6>        
+                            <button class="snipcart-add-item w-50"
+                            data-item-id="T-100"
+                            data-item-price="15.95"
+                            data-item-url="../html/ynlog.html"
+                            data-item-name="Tokens - 100">$15.95
+                            </button>
+                        </div>
                 </div> <!--end Token Card Body-->
-            
          </div> <!--end Token Card-->   
-         </div> <!--end Instructions Div-->
+     
+    </div><!--End Instructions Container Fluid-->
 
-    <div id="gameBoard" class="container-fluid">
-        <div class=>
-            <button id="enterBtn" type="button" class="btn btn-success">Ask The Tarot</button>
-        </div>
 
-        <div id="gameReveal" class="container-fluid d-flex justify-content-center">
+        <div id="gameBoard" class="container-fluid m-2">
+          
+
+            <div id="gameReveal" class="container-fluid d-flex justify-content-center">
+                
+                <div id="cardDrawn" class="div">
+
+                </div>
+
             
-            <div id="cardDrawn" class="div">
 
+            </div> <!--end gamereveal div-->
+            <div id="gameBtn">
+                <button id="enterBtn" type="button" class="button">Ask The Tarot Yes Or No</button>
             </div>
+        </div>  <!--end gameboard div-->       
+    </div> <!--End of Main Container-->
 
-
-        </div> <!--end gamereveal div-->
-    </div>  <!--end gameboard div-->       
-
-</div> <!--end row-->
-    </div><!--End Container Fluid-->
 
     <footer>
         <div class="container-fluid d-flex flex-direction-column justify-content-center" id="mandatories">

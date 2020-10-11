@@ -506,26 +506,23 @@ function tarotYesOrNo() {
     const cardHTML = `
          <div class="admin m-0 p-0" data-name="${theCardName}">
   
-         <div class="d-flex justify-content-center m-0 p-0 cardDrawnName">
-         <p>${theCardName}</p>
-         </div>   
-          <div class="d-flex justify-content-center m-0 p-0 cardDrawnImage">
-        
-          <img class="m-0 p-0" src="${theCardImage}" height="275" width="auto">
+             <div class="d-flex justify-content-center m-0 p-0 cardDrawnName">
+                <p>${theCardName}</p>
+            </div>   
+
+            <div class="d-flex justify-content-center m-0 p-0 cardDrawnImage">
+                <img class="m-0 p-0" src="${theCardImage}" height="275" width="auto">
+            </div>
+
+            <div class="cardResponse d-flex m-0 p-0 justify-content-center">
+               <p><strong>${theCardResponse}</strong></p>
+            </div>
   
-          </div>
-          <div class="cardResponse d-flex m-0 p-0 justify-content-center">
-          
-          <p>Your answer:<br><strong>${theCardResponse}</strong></p>
+            <div class="cardMessage d-flex m-0 p-0 justify-content-center">
+                <p><strong>${theCardMessage}</strong></p>
+            </div>
   
-          </div>
-          <div class="cardMessage d-flex m-0 p-0 text-center">
-  
-          <p>Your message: <br><strong>${theCardMessage}</strong></p>
-  
-          </div>
-          </div>
-         
+        </div>
          `;
     cardNameContainer.innerHTML = cardHTML;
     cardNameContainer.appendChild(div);
