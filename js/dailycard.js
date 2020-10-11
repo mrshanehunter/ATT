@@ -2,100 +2,83 @@ function dailyCardDraw () {
 
     const dailyTarot = [
         {
-          cardName: "The Fool",
-           
-          cardMeaning: "The Universe is behind you 100%.",
+          cardName: "The Fool",  
+          cardMeaning: "The first card in the deck, it signifies infinite possibilities, new beginnings, innocence, originality & freedom. The card is also symbolic of free-spiritedness, spontaneity, adventure & idealism.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar00.jpg",
         },
         {
-          cardName: "The Magician",
-           
-          cardMeaning: "Use strategy & logic to beat the odds.",
+          cardName: "The Magician",           
+          cardMeaning: "The embodiment of will power & manifestation. Symbolic of skill & ability and resourcefulness, it can also signify desire & concentration. A reminder of infinite possibilites of creation by will.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar01.jpg",
         },
         {
-          cardName: "The High Priestess",
-            
-          cardMeaning: "Now isn't the right time.",
+          cardName: "The High Priestess",    
+          cardMeaning: "Related to inner knowledge & intuition. Depicts 'the divine feminine' archetype - mysterious & secretive, she holds the answers to the deep unknowns of self, nature & spirituality.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar02.jpg",
         },
         {
-          cardName: "The Empress",
-           
-          cardMeaning: "But be warned, you'll need to play by the rules.",
+          cardName: "The Empress",           
+          cardMeaning: "Symbolises abundance, fertility, beauty, nature, and creativity. The card is also representative of a Mother Earth type ideal, connecting with our feminine side & sensuality. ",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar03.jpg",
         },
         {
-          cardName: "The Emperor",
-           
-          cardMeaning: "There couldn't be a better time for it!",
+          cardName: "The Emperor",           
+          cardMeaning: "Signifies control, authority, order, discipline and honor. Sybmobic of a wisdom gained through experience and indicative of a strategic thinker who puts plan into action & completion. ",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar04.jpg",
         },
         {
-          cardName: "The Hierophant",
-           
-          cardMeaning: "If you have someone helping you or advising you.",
+          cardName: "The Hierophant",           
+          cardMeaning: "Indicative of conforming & conventionality. It signifies a deep sense of tradition & the values, morals & beliefs that go with it - some religious overtones - and the passing down / sharing of those traditions. ",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar05.jpg",
         },
         {
-          cardName: "The Lovers",
-           
-          cardMeaning:
-            "For anything related to love, otherwise think very carefully, it will be life altering.",
+          cardName: "The Lovers",           
+          cardMeaning: "For anything related to love, otherwise think very carefully, it will be life altering.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar06.jpg",
         },
         {
           cardName: "The Chariot",
             
-          cardMeaning:
-            "You can't control the situation, better to be patient for now.",
+          cardMeaning: "You can't control the situation, better to be patient for now.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar07.jpg",
         },
         {
           cardName: "Strength",
-           
           cardMeaning: "But are you strong enough to deal with what will happen?",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar08.jpg",
         },
         {
-          cardName: "The Hermit",
-            
+          cardName: "The Hermit",            
           cardMeaning: "Don't make the same mistake again. Think twice.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar09.jpg",
         },
         {
-          cardName: "Wheel Of Fortune",
-           
+          cardName: "Wheel Of Fortune",           
           cardMeaning: "But be aware, there are strings attached.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar10.jpg",
         },
         {
-          cardName: "Justice",
-            
+          cardName: "Justice",            
           cardMeaning: "You have some unfinished business to take care of first.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar11.jpg",
         },
         {
-          cardName: "The Hanged Man",
-            
+          cardName: "The Hanged Man",            
           cardMeaning: "Things need to change first, so hang in there.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar12.jpg",
         },
         {
-          cardName: "Death",
-           
+          cardName: "Death",           
           cardMeaning: "It's not going to be easy, but it will happen.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar13.jpg",
         },
         {
-          cardName: "Temperance",
-           
+          cardName: "Temperance",           
           cardMeaning: "But make sure all your ducks are in a row first.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar14.jpg",
         },
         {
-          cardName: "The Devil",
-            
+          cardName: "The Devil",            
           cardMeaning:
             "You might want to, but something is holding you back for a reason.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar15.jpg",
@@ -134,10 +117,8 @@ function dailyCardDraw () {
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar20.jpg",
         },
         {
-          cardName: "The World",
-            
-          cardMeaning:
-            "Time for a little patience. Everything will soon fall into place.",
+          cardName: "The World",   
+          cardMeaning: "Symbolises accomplishment. assured success, completion - coming full or situations coming to a close, harmony, a sense of belonging. It can also signify travel or a change of location.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar21.jpg",
         },
         {
