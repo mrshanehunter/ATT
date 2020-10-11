@@ -52,8 +52,16 @@ nav {
   color: rgba(251, 201, 38, 0.5);
 }
 
+.navbar-nav a:hover {
+  color: rgb(111, 50, 155);
+}
+
 .navbar-brand img {
   margin-left: 20%;
+}
+
+.navbar-brand:hover {
+  color: rgb(111, 50, 155);
 }
 
 .navbar-brand {
@@ -204,6 +212,11 @@ nav {
 .chakra {
   height: 90%;
 }
+
+article p {
+  font-size: 10px;
+}
+
 
 #rhsCardBtm {
   height: 70%;
