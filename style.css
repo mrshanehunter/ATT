@@ -66,10 +66,15 @@ nav {
 .nav-item button {
   background: none;
   border: 0.5px solid rgba(251, 201, 38, 0.5);
-  border-radius: 3px;
+  border-radius: 5px 15px;
   margin-top: 2px;
   padding: 0;
   font-size: 12px;
+}
+
+.nav-item button:hover {
+  box-shadow: 0 0 15px rgba(251, 201, 38, 0.5);
+  color: rgb(111, 50, 155);
 }
 
 #landingPanel {
@@ -157,17 +162,47 @@ nav {
   background-color: rgba(65, 36, 86, 0.2);
 }
 
-.focalChakraImage {
+.focalChakraHeading {
+  height: 20%;
   display: flex;
   justify-content: center;
-  opacity: 0.5;
-  object-position: 50% 50%;
-  object-fit: contain;
-  height: 98%;
+  padding-top: 2%;
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.focalChakraImage img {
-  padding: 2px;
+
+.focalChakraHeading h6 {
+  color: rgba(251, 201, 38, 0.5);
+  font-size: 12px;
+  align-self: center;
+}
+
+.focalChakraImage {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+
+
+.focalChakraImage > button{
+  width: 90%;
+  height: 90%;
+  border: thin solid rgba(246, 212, 100, 0.5);
+  border-radius: 15px 35px;
+  background: rgba(65, 36, 86, 0.25);
+}
+
+.focalChakraImage > button:hover {
+  box-shadow: 0px 0px 25px rgba(65, 36, 86, 0.8);
+}
+
+.chakra {
+  height: 90%;
 }
 
 #rhsCardBtm {
@@ -194,7 +229,7 @@ nav {
   color: rgb(65, 36, 86);
 }
 .yornCTA button {
-  background: rgba(251, 201, 38, 0.5);
+  background: rgba(251, 201, 38, 0.25);
   border: thin solid rgb(65, 36, 86);
   border-radius: 5px 15px;
   font-family: aviano-flare, sans-serif;
