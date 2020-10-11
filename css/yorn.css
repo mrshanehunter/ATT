@@ -14,6 +14,7 @@ body {
 
 .card {
     margin-bottom: 20px;
+    border-color: rgba(251, 201, 38, 1)
 }
 
 .card-header {
@@ -37,6 +38,11 @@ body {
 .card-body h6 {
     color: rgb(65, 36, 86);
     padding-top: 4px;
+}
+
+.card-text {
+    color: rgb(65, 36, 86);
+    font-size: 10px;
 }
 
 hr {

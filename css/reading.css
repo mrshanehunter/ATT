@@ -18,6 +18,11 @@ body {
 }
 
 
+.card {
+    border-color: rgba(251,201,38,1);
+}
+
+
 .general > .card-header {
     background: #412456;
 }
