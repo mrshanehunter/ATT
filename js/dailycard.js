@@ -23,7 +23,7 @@ function dailyCardDraw () {
         },
         {
           cardName: "The Emperor",           
-          cardMeaning: "Signifies control, authority, order, discipline and honor. Sybmobic of a wisdom gained through experience and indicative of a strategic thinker who puts plan into action & completion. ",
+          cardMeaning: "Signifies control, authority, order, discipline and honor. Sybmobic of a wisdom gained through experience and indicative of a strategic thinker who puts plan into action & sees it through to completion. ",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar04.jpg",
         },
         {
@@ -33,87 +33,77 @@ function dailyCardDraw () {
         },
         {
           cardName: "The Lovers",           
-          cardMeaning: "For anything related to love, otherwise think very carefully, it will be life altering.",
+          cardMeaning: "Its obvjous meaning is love & romance. It also symbolises partnerships, relationships & unity, which can also signify balance. It can indicate free flowing communication and can also represent a choice to be made. ",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar06.jpg",
         },
         {
-          cardName: "The Chariot",
-            
-          cardMeaning: "You can't control the situation, better to be patient for now.",
+          cardName: "The Chariot",   
+          cardMeaning: "Symbolises the overcoming of challenges to achieve success through sheer will power in a calm & controlled manner. This also extends to ideas of determination, ambition, self-discioline & focus.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar07.jpg",
         },
         {
           cardName: "Strength",
-          cardMeaning: "But are you strong enough to deal with what will happen?",
+          cardMeaning: "Signifies courage, bravery and a sense of inner power that can recognise the need for compassion. It symbolises self-confidence & an ability to remain calm & disciplined, even in the face of adversity.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar08.jpg",
         },
         {
           cardName: "The Hermit",            
-          cardMeaning: "Don't make the same mistake again. Think twice.",
+          cardMeaning: "Symbolic of a spiritual level of self-awareness & understanding that can only be attained through self-reflection & instrospection. It signifies a need for solitude & contemplation or a withdrawal from a situation.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar09.jpg",
         },
         {
           cardName: "Wheel Of Fortune",           
-          cardMeaning: "But be aware, there are strings attached.",
+          cardMeaning: "Represents the idea that everything is cyclical - good times come & go, as do bad. It is a symbol of fate, luck, fortune, & change. It can also symbolise a decisive moment or unexpected event.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar10.jpg",
         },
         {
           cardName: "Justice",            
-          cardMeaning: "You have some unfinished business to take care of first.",
+          cardMeaning: "Indicative of truth, fairness, honesty, justice, and the law. Symbolises the idea of cause & effect, and karma. Signifies we will all be judged, the need for accountability & an awareness of the consequences of our actions.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar11.jpg",
         },
         {
           cardName: "The Hanged Man",            
-          cardMeaning: "Things need to change first, so hang in there.",
+          cardMeaning: "Can represent a 'one step back two steps forward' kind of self sacrifice for personal gain. Symbolises adoipting a different or new perspective. It can also signify uncertainty, a lack of direction or biding time waiting.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar12.jpg",
         },
         {
           cardName: "Death",           
-          cardMeaning: "It's not going to be easy, but it will happen.",
+          cardMeaning: "It derives its meaning in the figurative sense. Symbolises change or transition, transformation, endings, release, and letting go. It represents the idea that you need to close one door before opening another.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar13.jpg",
         },
         {
           cardName: "Temperance",           
-          cardMeaning: "But make sure all your ducks are in a row first.",
+          cardMeaning: "Symbolises the ideals of moderation, balance and patience that in turn deliver harmony, tranquility, peace & calm. It also suggests avoiding the chaos of extremes by choosing to remain centered & serene.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar14.jpg",
         },
         {
           cardName: "The Devil",            
-          cardMeaning:
-            "You might want to, but something is holding you back for a reason.",
+          cardMeaning:"Signifies a loss of personal power, emptiness or lack of fulfilment, becoming enslaved or feelings of oppression, restriction  or limitation in some way.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar15.jpg",
         },
         {
-          cardName: "The Tower",
-           
-          cardMeaning:
-            "The decision isn't up to you - your fate has already been decided.",
+          cardName: "The Tower",  
+          cardMeaning: "Symbolises the chaos, fear - even terror - sudden and unexpected upheaval or change can bring about. It signifies a ground-breaking change or transformation requiring a new foundation or basis.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar16.jpg",
         },
         {
           cardName: "The Star",
-           
-          cardMeaning:
-            "Your wish has been granted - look for signs in the horoscope.",
+          cardMeaning: "Signfies that hope, faith & positivity can rejuvenate the inner strength & power needed to carry on with life. It symbolises that we have all we need for our own fulfilment & how abundantly blessed we truly are - even if it isn't obvious in the moment.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar17.jpg",
         },
         {
-          cardName: "The Moon",
-            
-          cardMeaning: "You're still in the dark, wait unitl you know more.",
+          cardName: "The Moon",   
+          cardMeaning: "It symbolises hidden secrets, uncertainty, and the confusion opposing forces - like good & evil - can cause. It can also signify the need to tap into intuition to see through an illusion.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar18.jpg",
         },
         {
-          cardName: "The Sun",
-           
-          cardMeaning: "New things are the order of the day.",
+          cardName: "The Sun", 
+          cardMeaning: "Symbolic of the energy of life itself, it signifies joy, vitality, optimism and confidence. A symbol of child-like innocence suggests that happiness occurs when we have nothing & can be our true & authentic self.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar19.jpg",
         },
         {
-          cardName: "Judgement",
-           
-          cardMeaning:
-            "It's time to do what must be done - your judgement is sound.",
+          cardName: "Judgement", 
+          cardMeaning: "Suggests time for self-reckoning & reflection is needed. It symbolises an awakening, renewal, purpose. It can mean a significant time in your life is approaching where you must start to evaluate yourself & your actions.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar20.jpg",
         },
         {
