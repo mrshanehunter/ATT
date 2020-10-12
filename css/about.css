@@ -1,3 +1,5 @@
+
+
 body {
     background: rgb(251,201,38);
     background: radial-gradient(circle, rgba(251,201,38,1) 0%, rgba(65,36,86,1) 75%);
@@ -22,12 +24,17 @@ body {
 }
 
 .card-body {
-    background-color: rgba(65,36,86,0.6)
-}
+    background-color: rgba(65,36,86,0.6);
+    color: rgba(251,201,38,1);
+    }
+
 
 .card p {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
-    color: rgba(251,201,38,1);
+  
 }
 
 
