@@ -209,8 +209,57 @@ nav {
   height: 90%;
 }
 
+#centralPanel {
+  min-height: 80vh;
+  width: 50%;
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(251, 201, 38, 0.5);
+}
 
+#centralPanel hr {
+  background-color: rgba(251, 201, 38, 0.5);
+}
 
+#centralPanel h1 {
+  margin-top: 10%;
+  font-size: 24px;
+}
+
+#centralPanel h2 {
+  font-size: 20px;
+}
+
+#centralPanel p {
+  font-size: 14px;
+}
+
+.centerCopy {
+  margin-bottom: 10%;
+}
+
+.carousel {
+  margin: 0;
+  padding: 0;
+}
+
+#testimonialCarousel {
+  margin-left: 20%;
+  
+}
+
+.carousel-inner {
+  width:80%;
+  /* height: 100%; */
+}
+
+.carousel-item{
+  transition: 10s ease-in-out;
+}
 
 
 #rhsPanel {
@@ -329,34 +378,6 @@ article p {
   box-shadow: 0px 0px 25px rgba(65, 36, 86, 0.95);
 }
 
-#centralPanel {
-  min-height: 80vh;
-  width: 50%;
-  font-family: aviano-flare, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: rgba(251, 201, 38, 0.5);
-}
-
-#centralPanel hr {
-  background-color: rgba(251, 201, 38, 0.5);
-}
-
-#centralPanel h1 {
-  margin-top: 10%;
-  font-size: 24px;
-}
-
-#centralPanel h2 {
-  font-size: 20px;
-}
-
-#centralPanel p {
-  font-size: 14px;
-}
 
 footer {
   font-family: futura-pt, sans-serif;
