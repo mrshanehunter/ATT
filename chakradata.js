@@ -118,7 +118,7 @@ const focalChakraContainer = document.getElementById('focalModal');
 const focalChakraHTML = `
 
 <div class="modal fade" id="test" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title">Chakra: ${focalChakraName}</h5>
@@ -128,7 +128,7 @@ const focalChakraHTML = `
                     </div>
                     <div class="modal-body">
                         <image style="position:absolute; top:0%; left:10%; width:60%;">
-                            <img style="opacity:0.5;" src="${focalChakraImageSrc}"/>
+                            <img style="opacity:0.3;" src="${focalChakraImageSrc}"/>
                         </image>
                         <article style="position:absolute; top:1.5%; left:3.5%; margin-right:3.5%;">
                         <p><strong>Attributes: ${focalChakraAttributes}</strong></p>
@@ -144,7 +144,7 @@ const focalChakraHTML = `
                     </div>
                     <div class="modal-footer">
                      
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="button" id="modalBtn" data-dismiss="modal">Close</button>
                     </div>
                   </div>
                 </div>

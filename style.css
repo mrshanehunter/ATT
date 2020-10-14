@@ -242,6 +242,10 @@ nav {
   margin-bottom: 10%;
 }
 
+#headlineUSP {
+  height: 50%;
+}
+
 .carousel {
   margin: 0;
   padding: 0;

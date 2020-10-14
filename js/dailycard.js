@@ -112,59 +112,51 @@ function dailyCardDraw () {
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar21.jpg",
         },
         {
-          cardName: "Ace of Wands",
-           
-          cardMeaning: "It's full speed ahead on all fronts.",
+          cardName: "Ace of Wands", 
+          cardMeaning: "Symbolises creativity, invention, enterprise. Signifies the origin, source or beginning of something new & enterprising - suggests material benefit will follow. Can also indicate origin, birth, family.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/waac.jpg",
         },
         {
-          cardName: "Two of Wands",
-            
-          cardMeaning: "It isn't time - better you don't.",
+          cardName: "Two of Wands", 
+          cardMeaning: "Symbolises forward planning, progression, momentum, decisions to be made. Signifies broadening of horizons, leaving a comfort zone. Thirst for adventure, discovery & experience.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa02.jpg",
         },
         {
-          cardName: "Three of Wands",
-           
-          cardMeaning: "Why ask? You're going to anyway.",
+          cardName: "Three of Wands",  
+          cardMeaning: "Symbolises foresight, lookiing ahead, growth, expansion, confidence, Signifies putting considered plans into action can create a stable foundation for the future. It can also indcate the need to keep plans dynamic & be open to unforseen opportunities that may present themselves.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa03.jpg",
         },
         {
           cardName: "Four of Wands",
-           
-          cardMeaning:
-            "But only if everything else that needs to be done has been.",
+          cardMeaning: "Symbolises a happy & harmonious home life, with stability & security. Signifies a period of balance and suggests now is a good time to gather friends and family and enjoy a time of happiness & peace. Can also indicate the achievement of a significant milestone in a project or endeavour, giving cause for celelbration.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa04.jpg",
         },
         {
           cardName: "Five of Wands",
             
-          cardMeaning: "It's not your doing, someone else is holding you back.",
+          cardMeaning: "Symbolises conflict, tension, rivalry, competition, arguments, clashing of egos, winning at all costs. Can also signify a breakdown in communication, miscommunication leading to disagreements.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa05.jpg",
         },
         {
-          cardName: "Six of Wands",
-           
-          cardMeaning: "Success is yours!",
+          cardName: "Six of Wands",  
+          cardMeaning: "Symbolises public recognition for great success or achievement. Overcoming obstacles to fulfil an objective that others recognise for its difficulty.  The card can also be a reminder that pride comes before a fall - keeping ego in check is a way to keep the crowds cheering for you.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa06.jpg",
         },
         {
           cardName: "Seven of Wands",
-           
-          cardMeaning: "Don't go down without a fight.",
+          cardMeaning: "Symbolises standing up for yourself, protecting what's become yours through hard work & achievement, protecting your territory, self-defence. Signifies that others are looking to usurp your place / status / achievement and that you will need to battle to maintain what you've attained.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa07.jpg",
         },
         {
           cardName: "Eight of Wands",
-           
-          cardMeaning: "You will make it happen.",
+          cardMeaning: "Signifes rapid action, quick decisions, sudden change, progress, speed, momentum, Symbolises an eventful & exciting time - for those who embrace change. It can also indicate that time for being on the defensive is over and greater progress can now be made without having to look over your shoulder.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa08.jpg",
         },
         {
           cardName: "Nine of Wands",
             
           cardMeaning:
-            "Wait until you've got everything you need to make it happen.",
+            " ",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa09.jpg",
         },
         {
@@ -479,14 +471,15 @@ function dailyCardDraw () {
         <h6>Tarot Meditation</h6>
         <p>Note the card's meaning as the day begins. Later, notice the card's manifestation in your day.</p>
         </div> 
-           
+        <hr>   
             <div class="dailyCardImage mt-3 mb-3">
                 <img src="${drawnCardImage}">
             </div>
 
             <div class="dailyCardName">
             <h5>${drawnCardName}</h5>
-                </div>  
+                </div> 
+        <hr>         
                 <div class="dailyCardMessage mb-2 pt-2 pl-3 pr-3">
                     <p>${drawnCardMessage}</p>
                 </div>
