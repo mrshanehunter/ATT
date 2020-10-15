@@ -3,7 +3,7 @@ function dailyCardDraw () {
     const dailyTarot = [
         {
           cardName: "The Fool",  
-          cardMeaning: "The first card in the deck, it signifies infinite possibilities, new beginnings, innocence, originality & freedom. The card is also symbolic of free-spiritedness, spontaneity, adventure & idealism.",
+          cardMeaning: "The first card in the deck, it signifies infinite possibilities, new beginnings, innocence, originality & freedom.<br> The card is also symbolic of free-spiritedness, spontaneity, adventure & idealism.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/ar00.jpg",
         },
         {

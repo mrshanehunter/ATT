@@ -128,7 +128,7 @@ const focalChakraHTML = `
                     </div>
                     <div class="modal-body">
                         <image style="position:absolute; top:0%; left:10%; width:60%;">
-                            <img style="opacity:0.3;" src="${focalChakraImageSrc}"/>
+                            <img style="opacity:0.4;" src="${focalChakraImageSrc}"/>
                         </image>
                         <article style="position:absolute; top:1.5%; left:3.5%; margin-right:3.5%;">
                         <p><strong>Attributes: ${focalChakraAttributes}</strong></p>

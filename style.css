@@ -242,10 +242,10 @@ nav {
   margin-right: 10%;
 }
 
-#centralPanel h3 {
-  /* font-size: 18px; */
+/* #centralPanel h3 {
+  /* font-size: 18px; }*/
   
-}
+
 
 #centralPanel h4 {
   font-family: futura-pt, sans-serif;
@@ -364,7 +364,7 @@ nav {
 .modal {
   border: 5px solid black;
   background: none;
-  opacity: 0.8;
+  opacity: 1;
 }
 .modal-header {
   font-family: aviano-flare, sans-serif;
@@ -471,7 +471,7 @@ hr {
 }
 
 .yornCTA button {
-  height: 50%;
+  height: 60%;
   background: rgba(251, 201, 38, 0.25);
   border: thin solid rgb(65, 36, 86);
   border-radius: 10px 30px;
@@ -483,7 +483,7 @@ hr {
 }
 
 .yornCTA button img {
-  width: 30%;
+  width: 50%;
   
 }
 
