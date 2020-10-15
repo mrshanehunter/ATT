@@ -6,21 +6,22 @@
 }
 
 body {
+  margin: 0px;
+  padding: 0px;
   background-image: url("./assets/AdobeStock_99358557_Preview.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-
-  margin: 0;
-  padding: 0;
+ 
+  
 }
 
-.header {
-  width: 100vw;
-  margin: 0;
+header {
+  width: 100%;
+  
   padding: 0;
+  
 }
 
 nav {
@@ -32,7 +33,7 @@ nav {
 }
 
 .navbar {
-  width: 100vw;
+  min-width: 100vw;
   height: 50px;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -121,6 +122,7 @@ nav {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.2;
   font-size: 16px;
   margin-bottom: 5px;
   padding-left: 1.25%;
@@ -153,6 +155,7 @@ nav {
 
 .dailyCardMessage p {
   font-size: 16px;
+  line-height: 1.2;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -252,12 +255,13 @@ nav {
 }
 
 #testimonialCarousel {
-  margin-left: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
   
 }
 
 .carousel-inner {
-  width:80%;
+  width:100%;
   /* height: 100%; */
 }
 
@@ -367,6 +371,7 @@ article p {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  line-height: 1.2;
 }
 
 
@@ -393,6 +398,7 @@ article p {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  line-height: 1.2;
   padding-left: 1.25%;
   padding-right: 1.25%;
   color: rgb(65, 36, 86);
@@ -431,7 +437,7 @@ hr {
 }
 
 .yornCTA button {
-  height: 70%;
+  height: 50%;
   background: rgba(251, 201, 38, 0.25);
   border: thin solid rgb(65, 36, 86);
   border-radius: 10px 30px;
@@ -443,7 +449,7 @@ hr {
 }
 
 .yornCTA button img {
-  width: 50%;
+  width: 30%;
   
 }
 
@@ -461,11 +467,13 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  min-width: 100vw;
+  width: 100vw !important;
   position: relative;
-  bottom: 0;
+  bottom: 0 !important;
   left: 0;
-  height: 40px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
   margin-top: 3%;
   background-color: rgb(65, 36, 86);
   color: rgb(251, 201, 38, 0.5);
@@ -474,17 +482,21 @@ footer {
 
 #mandatories {
   min-width: 100%;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: baseline; 
   flex-wrap: nowrap;
 }
 
 .foot-col {
+  margin: 0px;
+  padding: 0px;
   padding-top: 10px;
   text-align: center;
+ 
 }
 
 #mandatories a {
