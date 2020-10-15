@@ -498,6 +498,8 @@ function tarotYesOrNo() {
     const theCardImage = theTarot[`${randomCard}`].cardImage;
   
     const cardNameContainer = document.querySelector("#cardDrawn");
+
+    
   
     console.log(theCardName);
   
@@ -526,6 +528,18 @@ function tarotYesOrNo() {
          `;
     cardNameContainer.innerHTML = cardHTML;
     cardNameContainer.appendChild(div);
+
+
+    //This is the card to decrement the token total for each function run
+    //Needs to update customer record with new token value
+    let tokenTotal = 25;  //balance needs to be retrieved from customer data file
+    const ppc = 3;
+
+
+    let tokensRemain = tokenTotal - ppc;
+    tokenTotal = tokensRemain;
+    console.log(tokensRemain);
+    return tokenTotal;  //balance needs to be returned to customer data file
   }
   
   document.getElementById("enterBtn").addEventListener("click", tarotYesOrNo);

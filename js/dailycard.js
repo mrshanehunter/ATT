@@ -154,40 +154,32 @@ function dailyCardDraw () {
         },
         {
           cardName: "Nine of Wands",
-            
-          cardMeaning:
-            " ",
+          cardMeaning:"This card is the symbol of one great last hope. When whatever life has put you through, and your energy & will have ebbed away to almost nothing, this card signifies that you need to go on, because while you still have trials to face, the biggest ones are now behind you. Symbolises hope, encouragement, & courage. ",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa09.jpg",
         },
         {
           cardName: "Ten of Wands",
-            
-          cardMeaning: "You've got too much going on already.",
+          cardMeaning: "Past struggles have left their mark, but the card ultimately signifies the success & achievement that hard work & dedication can bring.  But with that comes responsiblity.  Now is not the time to relax too much, as without your watchful eye, eveything you've worked for could be gone.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wa10.jpg",
         },
         {
           cardName: "Page of Wands",
-           
-          cardMeaning: "Look for the joy & wonder in it all.",
+          cardMeaning: "Symbolises the wonder & excitement of youthful discovery, adventure & anticipation.  Full of passion & ideals, but very little real experience.  This creates an inertia or a focus on the minutia of one particular curiosity or idea to the exclusion of all others - so that nothing is achieved & opportunities wasted.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wapa.jpg",
         },
         {
           cardName: "Knight of Wands",
-            
-          cardMeaning:
-            "You haven't quite got the energy & stamina required at present.",
+          cardMeaning: "Symbolises and adventurous spirit, full of life & energy, ambitious to get things done. Signifies a good time to travel, or move house. It can also mean to consider carefully the consequences of your actions if starting out on any new creative or endeavours, and be prepared for them",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/wakn.jpg",
         },
         {
-          cardName: "Queen of Wands",
-            
-          cardMeaning: "It will take a heavy toll on you mentally.",
+          cardName: "Queen of Wands",  
+          cardMeaning: "Generally depicats a person of extreme focus & firey passion. Completely individual, they are also courageous, but may at times appear to be self-centred.  They exude a positive & uplifting energy and they signify someone that will have your back & is will to stand by you & stand up for you.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/waqu.jpg",
         },
         {
           cardName: "King of Wands",
-           
-          cardMeaning: "You will grow a little more mature in the process.",
+          cardMeaning: "Symbolises pure energy. Less creatively focused than the rest of the suit, this card signifies an implementer, someone that is extremely capable & a natural born leader. Committed & focused, goals become achievements in this persons realm.",
           cardImage: "https://www.sacred-texts.com/tarot/pkt/img/waki.jpg",
         },
         {

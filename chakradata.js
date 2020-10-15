@@ -133,9 +133,11 @@ const focalChakraHTML = `
                         <article style="position:absolute; top:1.5%; left:3.5%; margin-right:3.5%;">
                         <p><strong>Attributes: ${focalChakraAttributes}</strong></p>
                         <p>${focalChakraDescPara}</p>
-                         <hr>
-                        <p><strong>Colour:</strong> ${focalChakraColor}<strong>Element: </strong> ${focalChakraElement}<strong>Astrology:</strong>${focalChakraAstrology}</p>   
-                        <p><strong>Physically Governs:</strong> ${focalChakraOrgans}</p>
+                        <hr>
+                      
+                        <p><strong>Colour:</strong> ${focalChakraColor}<strong> &emsp; Element: </strong>${focalChakraElement} &emsp; <strong>Astrology: </strong>${focalChakraAstrology}</p>   
+                      
+                      <p><strong>Physically Governs:</strong> ${focalChakraOrgans}</p>
                         <hr>
                         <p>Balanced Characteristics: ${focalChakraBalance}</p>
                         <p>Signs of Potential Imbalance: ${focalChakraImbalance}</p>
