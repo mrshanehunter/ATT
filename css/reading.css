@@ -14,23 +14,23 @@ body {
 }
 
 
-.general > .card-header {
+.General > .card-header {
     background: #412456;
 }
 
-.specific > .card-header {
+.Specific > .card-header {
     background: #632555;
 }
 
-.forecast > .card-header {
+.Forecast > .card-header {
     background: #64296e;
 }
 
-.bundle > .card-header {
+.Bundle > .card-header {
     background: #3e296e ;
 }
 
-.subs > .card-header {
+.Subscription > .card-header {
     background: #272563;
 }
 
