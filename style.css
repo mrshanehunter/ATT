@@ -377,6 +377,13 @@ nav {
 .modal-body {
   background-color: rgba(251, 201, 38, 0.3);
   color: rgba(65, 36, 86, 1);
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+.modal-open {
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .modal-footer {
@@ -493,6 +500,14 @@ hr {
 
 .yornCTA button:hover {
   box-shadow: 0px 0px 25px rgba(65, 36, 86, 0.95);
+}
+
+#termsBody {
+  font-size: 0.75em;
+}
+
+#privacyBody {
+  font-size: 0.75em;
 }
 
 
