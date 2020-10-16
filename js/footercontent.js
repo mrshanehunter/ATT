@@ -50,14 +50,14 @@ const footerContent = [
     name: `Terms`, 
     modalHeader: `Terms & Conditions`,
     modalBody: `     
-    <p>1. About The Website<br>
+    <p><strong>1. About The Website</strong><br>
         1.1 Welcome to www.askthetarot.com.au (the 'Website'). The Website provides you with an opportunity to browse and purchase various products that have been listed for sale through the Website (the 'Products'). The Website provides this service by way of granting you access to the content on the Website (the 'Purchase Services').<br>
         1.2 The Website is operated by Ask The Tarot (ABN 87526423395) . Access to and use of the Website, or any of its associated Products or Services, is provided by Ask The Tarot. Please read these terms and conditions (the 'Terms') carefully. By using, browsing and/or reading the Website, this signifies that you have read, understood and agree to be bound by the Terms. If you do not agree with the Terms, you must cease usage of the Website, or any of Services, immediately.<br>
         1.3 Ask The Tarot reserves the right to review and change any of the Terms by updating this page at its sole discretion. When Ask The Tarot updates the Terms, it will use reasonable endeavours to provide you with notice of updates to the Terms. Any changes to the Terms take immediate effect from the date of their publication. Before you continue, we recommend you keep a copy of the Terms for your records.<br>
         1.4 Ask The Tarot makes available the content for the Purchase Services and creates bespoke content for the Products offered for sale on the Website for the purposes of entertainment.  At no time should any of the content, whether purchased from, or made freely available by Ask The Tarot be considered as a substitute for the professional counsel, advice or opinion of a suitably qualified practitioner in the field of enquiry.</p>   
-    <p>2. Acceptance of Terms<br>
+    <p><strong>2. Acceptance of Terms</strong><br>
         You accept the Terms by remaining on the Website. You may also accept the Terms by clicking to accept or agree to the Terms where this option is made available to you by Ask The Tarot in the user interface.</p>    
-    <p>3. Registration to use the Purchase Services<br>
+    <p><strong>3. Registration to use the Purchase Services</strong><br>
         3.1 In order to access the Purchase Services, you must first register as a user of the Website. As part of the registration process, or as part of your continued use of the Purchase Services, you may be required to provide personal information about yourself (such as identification or contact details), including<br>
         (a)	Email address<br>
         (b)	Preferred username<br>
@@ -65,11 +65,11 @@ const footerContent = [
         (d)	Telephone number<br>
         (e)	Password<br>
         3.2 You warrant that any information you give to Ask The Tarot in the course of completing the registration process will always be accurate, correct and up to date.<br>
-        3.3 Once you have completed the registration process, you will be a registered member of the Website ('MMeemmbbeerr') and agree to be bound by the Terms. As a Member you will be granted immediate access to the Purchase Services.<br>
+        3.3 Once you have completed the registration process, you will be a registered member of the Website ('Member') and agree to be bound by the Terms. As a Member you will be granted immediate access to the Purchase Services.<br>
         3.4 You may not use the Purchase Services and may not accept the Terms if:<br>
         (a)	you are not of legal age to form a binding contract with Ask The Tarot; or<br>
         (b)	you are a person barred from receiving the Purchase Services under the laws of Australia or other countries including the country in which you are resident or from which you use the Purchase Services.<br></p>
-    <p>4. Your Obligations As A Member<br>
+    <p><strong>4. Your Obligations As A Member</strong><br>
         4.1 As a Member, you agree to comply with the following:<br>
         You will use the Purchase Services only for purposes that are permitted by:<br>
         (a)	the Terms;<br>
@@ -80,30 +80,30 @@ const footerContent = [
         (f)	you will not use the Purchase Services or Website for any illegal and/or unauthorised use which includes collecting email addresses of Members by electronic or other means for the purpose of sending unsolicited email or unauthorised framing of or linking to the Website;<br>
         (g)	you agree that commercial advertisements, affiliate links, and other forms of solicitation may be removed from the Website without notice and may result in termination of the Purchase Services. Appropriate legal action will be taken by Ask The Tarot for any illegal or unauthorised use of the Website; and<br>
         (h)	you acknowledge and agree that any automated use of the Website or its Purchase Services is prohibited.</p>
-    <p>5. Purchase of Products & Returns Policy<br>
+    <p><strong>5. Purchase of Products & Returns Policy</strong><br>
         5.1 In using the Purchase Services to purchase the Product through the Website, you will agree to the payment of the purchase price listed on the Website for the Product (the 'Purchase Price').<br>
         5.2 Payment of the Purchase Price may be made through PayPal (the 'Payment Gateway Provider')<br>
         In using the Purchase Services, you warrant that you have familiarised yourself with, and agree to be bound by, the applicable Terms and Conditions of Use, Privacy Policy and other relevant legal documentation provided by the Payment Gateway Providers.<br>
         5.3 Following payment of the Purchase Price being confirmed by Ask The Tarot you will be issued with a receipt to confirm that the payment has been received and Ask The Tarot may record your purchase details for future use.<br>
         5.4 Ask The Tarot may, at their sole discretion, provide a refund on the return of the Products within 7 days where the Product packaging is unopened. You acknowledge and agree that you are liable for any postage and shipping costs associated with any refund pursuant to this clause.</p>
-    <p>6. Warranty<br>
+    <p><strong>6. Warranty</strong><br>
         6.1 Ask The Tarot's Products come with guarantees that cannot be excluded under the Australian Consumer Law. You are entitled to a replacement or refund for a major failure of the Product and compensation for any other reasonably foreseeable loss or damage. You are also entitled to have the Products repaired or replaced if the Products fail to be of acceptable quality and the failure does not amount to a major failure (the 'Warranty').<br>
-        6.2 You may make a claim under this clause (the ' WWaarrrraannttyy  CCllaaiimm') for material defects and workmanship in the Products within 7 days from the date of purchase (the 'Warranty Period').<br>
+        6.2 You may make a claim under this clause (the ' Warranty Claim') for material defects and workmanship in the Products within 7 days from the date of purchase (the 'Warranty Period').<br>
         6.3 In order to make a Warranty Claim during the Warranty Period, you must provide proof of purchase to Ask The Tarot showing the date of purchase of the Products, provide a description of the Products and the price paid for the Products by sending written notice to Ask The Tarot at PO Box 6031, CAULFIELD SOUTH, Victoria, 3162 or by email at orders@askthetarot.com.au<br>
         6.4 Where the Warranty Claim is accepted then Ask The Tarot will, at its sole discretion, either repair or replace any defective Products or part thereof with a new or remanufactured equivalent during the Warranty Period at no charge to you for parts or labour. You acknowledge and agree that you will be solely liable for any postage or shipping costs incurred in facilitating the Warranty Claim.<br>
         6.5 The Warranty shall be the sole and exclusive warranty granted by Ask The Tarot and shall be the sole and exclusive remedy available to you in addition to other rights and under a law in relation to the Products to which this warranty relates.<br>
         6.6 All implied warranties including the warranties of merchantability and fitness for use are limited to the Warranty Period.<br>
         6.7 The Warranty does not apply to any appearance of the supplied Products nor to the additional excluded items set forth below nor to any supplied Products where the exterior of which has been damaged or defaced, which has been subjected to misuse, abnormal service or handling, or which has been altered or modified in design or construction.<br></p>    
-    <p>7. Copyright & Intellectual Property<br>
+    <p><strong>7. Copyright & Intellectual Property</strong><br>
         7.1 The Website, the Purchase Services and all of the related products, and their content, of Ask The Tarot are subject to copyright. The material on the Website is protected by copyright under the laws of Australia and through international treaties. Unless otherwise indicated, all rights (including copyright) in the site content and compilation of the website (including text, graphics, logos, button icons, video images, audio clips and software) (the 'CCoonntteenntt') are owned or controlled for these purposes, and are reserved by Ask The Tarot or its contributors.<br>
         7.2 Ask The Tarot retains all rights, title and interest in and to the Website and all related content. Nothing you do on or in relation to the Website will transfer to you:<br>
         (a)	the business name, trading name, domain name, trade mark, industrial design, patent, registered design or copyright of Ask The Tarot; or<br>
         (b)	the right to use or exploit a business name, trading name, domain name, trade mark or industrial design; or<br>
         (c)	a system or process that is the subject of a patent, registered design or copyright (or an adaptation or modification of such a system or process)<br>
         7.3 You may not, without the prior written permission of Ask The Tarot and the permission of any other relevant rights owners: broadcast, republish, up-load to a third party, transmit, post, distribute, show or play in public, adapt or change in any way the Content or third party content for any purpose. This prohibition does not extend to materials on the Website, which are freely available for re-use or are in the public domain.</p>    
-    <p>8. Privacy<br>
+    <p><strong>8. Privacy</strong><br>
         Ask The Tarot takes your privacy seriously and any information provided through your use of the Website and/or the Purchase Services are subject to Ask The Tarot's Privacy Policy, which is available on the Website.</p>
-        <p>9. General Disclaimer<br>
+        <p><strong>9. General Disclaime</strong>r<br>
             9.1 You acknowledge that Ask The Tarot does not make any terms, guarantees, warranties, representations or conditions whatsoever regarding the Products other than provided for pursuant to these Terms.<br>
             9.2 Ask The Tarot will make every effort to ensure a Product is accurately depicted on the Website, however, you acknowledge that sizes, colours and packaging may differ from what is displayed on the Website.<br>
             9.3 Nothing in these Terms limits or excludes any guarantees, warranties, representations or conditions implied or imposed by law, including the Australian Consumer Law (or any liability under them) which by law may not be limited or excluded.<br>
@@ -119,12 +119,12 @@ const footerContent = [
             (e)	any failure to complete a transaction, or any loss arising from e-commerce transacted on the Website; or<br>
             (f)	any defamatory, threatening, offensive or unlawful conduct of third parties or publication of any materials relating to or constituting such conduct.
         </p>
-    <p>10. Limitation of Liability<br>
+    <p><strong>10. Limitation of Liability</strong><br>
         10.1 Ask The Tarot's total liability arising out of or in connection with the Purchase Services or these Terms, however arising, including under contract, tort
         (including negligence), in equity, under statute or otherwise, will not exceed the most recent Purchase Price paid by you under these Terms or where you have not paid the Purchase Price, then the total liability of Ask The Tarot is the resupply of information or Purchase Services to you.<br>
         10.2 You expressly understand and agree that Ask The Tarot, its affiliates employees, agents, contributors, third party content providers and licensors shall not be liable to you for any direct, indirect, incidental, special consequential or exemplary damages which may be incurred by you, however caused and under any theory of liability. This shall include, but is not limited to, any loss of profit (whether incurred directly or indirectly), any loss of goodwill or business reputation and any other intangible loss.<br>
         10.3 Ask The Tarot is not responsible or liable in any manner for any site content (including the Content and Third Party Content) posted on the Website or in connection with the Purchase Services, whether posted or caused by users of the website of Ask The Tarot, by third parties or by any of the Purchase Services offered by Ask The Tarot.</p>    
-    <p>11. Termination of Contract<br>
+    <p><strong>11. Termination of Contract</strong><br>
         11.1 The Terms will continue to apply until terminated by either you or by Ask The Tarot as set out below.<br>
         11.2 If you want to terminate the Terms, you may do so by:<br>
         (a)	notifying Ask The Tarot at any time; and <br>
@@ -138,28 +138,28 @@ const footerContent = [
         (e)	the provision of the Purchase Services to you by Ask The Tarot is, in the opinion of Ask The Tarot, no longer commercially viable.<br>
         11.4 Subject to local applicable laws, Ask The Tarot reserves the right to discontinue or cancel your membership to the Website at any time and may suspend or deny, in its sole discretion, your access to all or any portion of the Website or the Purchase Services without notice if you breach any provision of the Terms or any applicable law or if your conduct impacts Ask The Tarot's name or reputation or violates the rights of those of another party.<br>
         11.5 When the Terms come to an end, all of the legal rights, obligations and liabilities that you and Ask The Tarot have benefited from, been subject to (or which have accrued over time whilst the Terms have been in force) or which are expressed to continue indefinitely, shall be unaffected by this cessation, and the provisions of this clause shall continue to apply to such rights, obligations and liabilities indefinitely.<br></p>    
-    <p>12. Indemnity<br>
+    <p><strong>12. Indemnity</strong><br>
         12.1 You agree to indemnify Ask The Tarot, its affiliates, employees, agents, contributors, third party content providers and licensors from and against:<br>
         (a)	all actions, suits, claims, demands, liabilities, costs, expenses, loss and damage (including legal fees on a full indemnity basis) incurred, suffered or arising out of or in connection with any Content you post through the Website;<br>
         (b)	any direct or indirect consequences of you accessing, using or transacting on the Website or attempts to do so and any breach by you or your agents of these Terms; and/or<br>
         (c)	any breach of the Terms.</p>    
-    <p>13. Dispute Resolution<br>
+    <p><strong>13. Dispute Resolution</strong><br>
         13.1 Compulsory: If a dispute arises out of or relates to the Terms, either party may not commence any Tribunal or Court proceedings in relation to the dispute, unless the following clauses have been complied with (except where urgent interlocutory relief is sought).<br>
         13.2 Notice: A party to the Terms claiming a dispute ('DDiissppuuttee') has arisen under the Terms, must give written notice to the other party detailing the nature of the dispute, the desired outcome and the action required to settle the Dispute.<br>
-        13.3 Resolution: On receipt of that notice ('NNoottiiccee') by that other party, the parties to the Terms ('PPaarrttiieess') must:<br>
+        13.3 Resolution: On receipt of that notice ('Notice') by that other party, the parties to the Terms ('Parties') must:<br>
         (a)	Within 7 days of the Notice endeavour in good faith to resolve the Dispute expeditiously by negotiation or such other means upon which they may mutually agree;<br>
         (b)	If for any reason whatsoever, 14 days after the date of the Notice, the Dispute has not been resolved, the Parties must either agree upon selection of a mediator or request that an appropriate mediator be appointed by the President of the Australian Mediation Association or his or her nominee;<br>
         (c)	The Parties are equally liable for the fees and reasonable expenses of a mediator and the cost of the venue of the mediation and without limiting the foregoing undertake to pay any amounts requested by the mediator as a pre-condition to the mediation commencing. The Parties must each pay their own costs associated with the mediation;<br>
         (d)	The mediation will be held in Melbourne, Victoria, Australia.<br>
         13.4 Confidential: All communications concerning negotiations made by the Parties arising out of and in connection with this dispute resolution clause are confidential and to the extent possible, must be treated as "without prejudice" negotiations for the purpose of applicable laws of evidence.<br>
         13.5 Termination of Mediation: If 21 days have elapsed after the start of a mediation of the Dispute and the Dispute has not been resolved, either Party may ask the mediator to terminate the mediation and the mediator must do so.</p>
-    <p>14. Venue and Jurisdiction<br>
+    <p><strong>14. Venue and Jurisdiction</strong><br>
         The Purchase Services offered by Ask The Tarot is intended to be viewed by residents of Australia. In the event of any dispute arising out of or in relation to the Website, you agree that the exclusive venue for resolving any dispute shall be in the courts of Victoria, Australia.</p>    
-    <p>15. Governing Law<br>
+    <p><strong>15. Governing Law</strong><br>
         The Terms are governed by the laws of Victoria, Australia. Any dispute, controversy, proceeding or claim of whatever nature arising out of or in any way relating to the Terms and the rights created hereby shall be governed, interpreted and construed by, under and pursuant to the laws of Victoria, Australia, without reference to conflict of law principles, notwithstanding mandatory rules. The validity of this governing law clause is not contested. The Terms shall be binding to the benefit of the parties hereto and their successors and assigns.</p>
-    <p>16. Independent Legal advice<br>
+    <p><strong>16. Independent Legal advice</strong><br>
         Both parties confirm and declare that the provisions of the Terms are fair and reasonable and both parties having taken the opportunity to obtain independent legal advice and declare the Terms are not against public policy on the grounds of inequality or bargaining power or general grounds of restraint of trade.</p>    
-    <p>17. Severance<br>
+    <p><strong>17. Severance</strong><br>
         If any part of these Terms is found to be void or unenforceable by a Court of competent jurisdiction, that part shall be severed and the rest of the Terms shall remain in force.</p>    
      `,
 },

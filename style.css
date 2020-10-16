@@ -502,11 +502,9 @@ hr {
   box-shadow: 0px 0px 25px rgba(65, 36, 86, 0.95);
 }
 
-#termsBody {
-  font-size: 0.75em;
-}
 
-#privacyBody {
+
+.modal-body p {
   font-size: 0.75em;
 }
 
@@ -554,7 +552,11 @@ footer {
 
 }
 
-
+#mandatories .btn {
+  font-size: 14px;
+  padding-top: 3px;
+  color: rgba(251, 201, 38, 0.5);
+}
 
 #mandatories p {
   font-size: 14px;
