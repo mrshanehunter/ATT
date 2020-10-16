@@ -6,13 +6,15 @@
 }
 
 body {
+  max-width: 100vw;
   margin: 0px;
   padding: 0px;
-  background-image: url("./assets/AdobeStock_99358557_Preview.jpg");
+  background-image: url("./assets/attLPBkgrd.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  
  
   
 }
@@ -362,7 +364,7 @@ nav {
 
 
 .modal {
-  border: 5px solid black;
+  border: 5px solid rgb(255, 255, 255);
   background: none;
   opacity: 1;
 }
