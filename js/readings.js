@@ -7,7 +7,7 @@ const readingCard = `
         ${type}
     </div>
 <div class="card-body">
-    <img src="../assets/readingImages/Revelation.jpg" ${imageSrc} class="image">
+    <img src="../assets/readingImages/${imageSrc}" class="image">
     <div class="overlay">
     <h5 class="card-title">${title}</h5>
     <h6 class="card-subtitle mb-2 text-muted">${spread}</h6>
@@ -23,7 +23,7 @@ const readingCard = `
        data-item-price="${price}"
        data-item-url="../html/readings.html"
        data-item-name="${invoicename}"
-       data-item-image="../assets/readingImages/Revelation.jpg${imageSrc}"
+       data-item-image="../assets/readingImages/${imageSrc}"
        data-item-custom${no}-name="${textAreaHeader}"
        data-item-custom${no}-type="${textAreaElement}"
        data-item-custom${no}-type="${textAreaRequired}"
