@@ -7,8 +7,8 @@
 
 body {
   max-width: 100vw;
-  margin: 0px;
-  padding: 0px;
+  margin: 0%;
+  padding: 0%;
   background-image: url("./assets/attLPBkgrd.jpg");
   background-attachment: fixed;
   background-position: center center;
@@ -36,9 +36,9 @@ nav {
 
 .navbar {
   min-width: 100vw;
-  height: 50px;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  /* height: 50px; */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
@@ -47,7 +47,7 @@ nav {
 }
 
 .navbar-nav {
-  margin-right: 5%;
+  margin-right: 10%;
 }
 .navbar-nav a {
   font-family: aviano-flare, sans-serif;
@@ -61,7 +61,13 @@ nav {
 }
 
 .navbar-brand img {
-  margin-left: 20%;
+  margin-left: 5%;
+  width: 40%;
+  height: 40%;
+}
+
+.navbar-brand {
+  font-size: 1.15em;
 }
 
 .navbar-brand:hover {
@@ -69,6 +75,7 @@ nav {
 }
 
 .navbar-brand {
+  width: 50%;
   font-family: aviano-flare, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -90,22 +97,23 @@ nav {
 }
 
 #landingPanel {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   min-width: 100%;
   margin-right: 2%;
   margin-left: 2%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 #lhsPanel {
-  min-height: 80vh;
-  border: thin solid rgb(65, 36, 86);
-  width: 20%;
+padding-bottom: 10%;
 }
 
 #lhsCardTop {
-  height: 70%;
-  width: 100%;
+  /* height: 70%; */
+  min-width: 100%;
   background-color: rgba(251, 201, 38, 0.3);
+
 }
 
 .dailyCardHeader {
@@ -165,9 +173,17 @@ nav {
 }
 
 #lhsCardBtm {
-  height: 30%;
+  /* height: 20%; */
   width: 100%;
-  background-color: rgba(65, 36, 86, 0.3);
+  /* background-color: rgba(65, 36, 86, 0.3); */
+  /* border: thin solid rgb(65, 36, 86); */
+  display: flex;
+  flex-direction: column;
+  
+  }
+
+#lhsCardTop {
+  display: none;
 }
 
 
@@ -184,7 +200,7 @@ nav {
 
 .hdiwHeading h6 {
   color: rgba(251, 201, 38, 0.5);
-  font-size: 16px;
+  font-size: 1em;
   align-self: center;
 }
 
@@ -193,14 +209,16 @@ nav {
   display: flex;
   justify-content: center;
   align-content: center;
+  padding-bottom: 5%;
   
 }
 
 
 
 .hdiwImage > button{
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 6em; 
+  padding-bottom: 4%;
   border: thin solid rgba(251, 201, 38, 0.5);
   border-radius: 35px 15px;
   background: rgba(65, 36, 86, 0.25);
@@ -211,12 +229,12 @@ nav {
 }
 
 .hdiw {
-  height: 90%;
+  height: 6em;
 }
 
 #centralPanel {
-  min-height: 80vh;
-  width: 50%;
+  min-height: 40vh;
+  width: 100%;
   font-family: aviano-flare, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -224,59 +242,74 @@ nav {
   flex-direction: column;
   text-align: center;
   color: rgb(65, 36, 86);
+  background-color: rgba(251, 201, 38, 0.2);
 }
 
 #centralPanel hr {
-  background-color: rgba(251, 201, 38, 0.5);
+  background-color: rgba(65, 36, 86,1);
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #centralPanel h1 {
-  margin-top: 10%;
-  /* font-size: 24px; */
+  margin-top: 2%;
+  font-size: 1.25rem;
 }
 
 #centralPanel h2 {
-  /* font-size: 20px; */
   font-family: futura-pt, sans-serif;
-  font-weight: 700;
+  font-weight: 200;
   font-style: bold;
+  font-size: 1.15em;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-/* #centralPanel h3 {
-  /* font-size: 18px; }*/
+#centralPanel h3 {
+ font-size: 1.15em; 
+ margin-left: 5%;
+ margin-right: 5%;
+}
   
 
 
 #centralPanel h4 {
   font-family: futura-pt, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
+  font-size: 1.25em;
+  margin-left: 5%;
+  margin-right:5%;
 }
 
 #centralPanel h5 {
   font-family: futura-pt, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
+  font-size: 1.15em;
+  margin-left: 5%;
+  margin-right:5%;
 }
 
 #centralPanel p {
   font-family: futura-pt, sans-serif;
   font-style: bold;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 1.2;
   color: #412456;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .centerCopy {
   margin-bottom: 10%;
 }
 
-#headlineUSP {
-  height: 60%;
-}
+/* #headlineUSP {
+  height: %;
+  
+} */
 
 .carousel {
   margin: 0;
@@ -294,6 +327,7 @@ nav {
 #testimonialCarousel h6 {
   text-align: start;
   color: #412456;
+  font-size: 0.75em;
 } 
  
 .carousel-inner {
@@ -306,24 +340,24 @@ nav {
 }
 
 
-#rhsPanel {
-  min-height: 80vh;
-  width: 20%;
-  border: thin solid rgb(65, 36, 86);
-  
-}
+/* #rhsPanel {
+
+} */
 
 #rhsCardTop {
-  height: 25%;
+  /* height: 25%; */
   width: 100%;
-  background-color: rgba(65, 36, 86, 0.3);
+  padding-top: 5%;
+  
+  /* background-color: rgba(65, 36, 86, 0.3);
+  border: thin solid rgb(65, 36, 86); */
 }
 
 .focalChakraHeading {
-  height: 15%;
+  /* height: 20%; */
   display: flex;
   justify-content: center;
-  padding-top: 2%;
+  padding-top: 3.5%;
   font-family: aviano-flare, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -332,26 +366,27 @@ nav {
 
 .focalChakraHeading h6 {
   color: rgba(251, 201, 38, 0.5);
-  font-size: 16px;
+  font-size: 1em;
   align-self: center;
 }
 
 .focalChakraImage {
-  height: 85%;
+  /* height: 85%; */
   display: flex;
   justify-content: center;
   align-content: center;
-  
+  padding-bottom: 3.5%;
 }
 
 
 
 .focalChakraImage > button{
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 6em;
   border: thin solid rgba(251, 201, 38, 0.5);
   border-radius: 15px 35px;
   background: rgba(65, 36, 86, 0.25);
+  
 }
 
 .focalChakraImage > button:hover {
@@ -359,7 +394,7 @@ nav {
 }
 
 .chakra {
-  height: 90%;
+  height: 5em;
 }
 
 
@@ -405,23 +440,24 @@ nav {
   color: rgb(251, 201, 38);
 }
 
-
-
-
-
 article p {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.2;
 }
 
 
 #rhsCardBtm {
-  height: 75%;
+  /* height: 75%; */
   width: 100%;
+  margin-top: 15%;
+  
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: rgba(251, 201, 38, 0.3);
+  /* border: thin solid rgb(65, 36, 86); */
 }
 
 .yornHeader {
@@ -430,10 +466,11 @@ article p {
   font-style: normal;
   color: rgb(65, 36, 86);
   text-align: center;
+  padding-top: 5%;
 }
 
 .yornHeader h6 {
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .yornBody p {
@@ -442,14 +479,15 @@ article p {
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
+  margin-left: 5%;
+  margin-right: 5%;
   color: rgb(65, 36, 86);
 }
 
 hr {
   background-color: rgb(65, 36, 86);
-   
+  margin-left: 5%;
+  margin-right: 5%; 
 }
 
 #sampleYorN {
@@ -463,7 +501,7 @@ hr {
 }
 
 #sampleYorNImg {
-   width: 55%;
+   width: 45%;
    
 }
 
@@ -479,20 +517,27 @@ hr {
   padding-top: 2%;
 }
 
+.yornCTA {
+  width: 100%;
+  padding-top: 01%;
+  padding-bottom: 5%;
+
+}
+
 .yornCTA button {
-  height: 60%;
+  /* height: 60%; */
+  max-width: 70%;
   background: rgba(251, 201, 38, 0.25);
   border: thin solid rgb(65, 36, 86);
   border-radius: 10px 30px;
   font-family: aviano-flare, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
   padding: 3px;
 }
 
 .yornCTA button img {
-  width: 50%;
+  width: 40%;
   
 }
 
@@ -513,12 +558,12 @@ footer {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: .9em;
   width: 100vw !important;
   position: relative;
   bottom: 0 !important;
   left: 0;
-  height: 50px;
+  /* height: 50px; */
   margin: 0px;
   padding: 0px;
   margin-top: 3%;
