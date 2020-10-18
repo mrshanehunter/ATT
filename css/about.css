@@ -17,7 +17,7 @@ body {
     font-family: aviano-flare, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.25em;
     text-align: center;
     color: rgba(251,201,38,0.5);
     background-color: rgb(65, 36, 86)
@@ -27,7 +27,7 @@ body {
     background-color: rgba(65,36,86,0.6);
     color: rgba(251,201,38,1);
     margin-bottom: 0%;
-    padding-bottom: 0%;
+    padding-bottom: 2%;
     }
 
 
@@ -36,7 +36,7 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 1.2;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 #sign {
