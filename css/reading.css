@@ -9,6 +9,10 @@ body {
     background: radial-gradient(circle, rgba(251,201,38,1) 0%, rgba(65,36,86,1) 75%);
 }
 
+#readingCards {
+    margin-bottom: 5%;
+}
+
 .card {
     border-color: rgba(251,201,38,1);
 }

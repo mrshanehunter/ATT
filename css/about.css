@@ -5,6 +5,10 @@ body {
     background: radial-gradient(circle, rgba(251,201,38,1) 0%, rgba(65,36,86,1) 75%);
 }
 
+.container-fluid {
+    margin-bottom: 5%;
+}
+
 .card {
     margin: 1.5%;
     min-height: 80%;

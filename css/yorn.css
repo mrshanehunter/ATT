@@ -72,7 +72,7 @@ hr {
 
 .tokens {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-family: futura-pt, sans-serif;
     font-weight: 400;
@@ -80,11 +80,14 @@ hr {
 }
 
 .tokens button {  
-    height: 3em ;
+
+    height: 4em ;
+    width: 4em;
     border-radius: 75%;
     border: medium solid #412456;
     background-color: rgba(65, 36, 86, 0.5);
     color: rgba(251, 201, 38,0.5);
+    font-size: 1em;
 }
 
 .tokens button:hover {
