@@ -513,7 +513,7 @@ function tarotYesOrNo() {
             </div>   
 
             <div class="d-flex justify-content-center m-0 p-0 cardDrawnImage">
-                <img class="m-0 p-0" src="${theCardImage}" height="275" width="auto">
+                <img class="img-fluid m-0 p-0" src="${theCardImage}" height="auto" width="60%">
             </div>
 
             <div class="cardResponse d-flex m-0 p-0 justify-content-center">
