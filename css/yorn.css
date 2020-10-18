@@ -42,6 +42,10 @@ body {
     background-color: rgba(65, 36, 86,.75);  
 }
 
+.card-header a {
+    color: rgba(251, 201, 38,0.5);
+}
+
 .card-header h6 {
     padding-top: 0.25em;
 }
@@ -207,17 +211,17 @@ hr {
 
   @media screen and (min-width: 768px) {
 
-    #instructions {
+    #cardContainer {
         margin-top: 2em;
         display: flex;
         justify-content: space-around;
     }
 
-    #hiw {
+    #instructions {
         width: 45%;
     }
     
-    #atc {
+    #tokenCont {
         width: 45%;
     } 
 
