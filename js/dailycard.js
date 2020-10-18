@@ -458,21 +458,21 @@ function dailyCardDraw () {
       const div = document.createElement("div");
       drawnCardContainer.classList.add("lhsCardTop");
       const drawnHTML = `
-      <div class="container-fluid p-2">
-        <div class="dailyCardHeader mt-2 mb-2">
+      <div class="container-fluid">
+        <div class="dailyCardHeader">
         <h6>Tarot Meditation</h6>
-        <p>Note the card's meaning as the day begins. Later, notice the card's manifestation in your day.</p>
+        <p>Note the card's meaning & notice how it manifests during your day.</p>
         </div> 
-        <hr>   
-            <div class="dailyCardImage mt-3 mb-3">
-                <img src="${drawnCardImage}">
+        <hr> 
+            <div class="dailyCardImage">
+                <img src="${drawnCardImage}" height="auto" width="50%">
             </div>
-
+        
             <div class="dailyCardName">
             <h5>${drawnCardName}</h5>
                 </div> 
-        <hr>         
-                <div class="dailyCardMessage mb-2 pt-2 pl-3 pr-3">
+                
+                <div class="dailyCardMessage">
                     <p>${drawnCardMessage}</p>
                 </div>
      </div>`;
