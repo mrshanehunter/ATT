@@ -2,7 +2,7 @@ const createReadingCards = (no, id, type, title, spread, price, para1, para2, pa
 
 const readingCard = `
 
-<div class="card ${type} m-2" style="width: 16rem;">
+<div class="card ${type} m-2" style="width: 25rem;">
     <div class="card-header">
         ${type}
     </div>
