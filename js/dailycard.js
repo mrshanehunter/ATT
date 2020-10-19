@@ -460,7 +460,7 @@ function dailyCardDraw () {
       const drawnHTML = `
       <div class="container-fluid">
         <div class="dailyCardHeader">
-        <h6>Tarot Meditation</h6>
+        <h4>Tarot Meditation</h4>
         <p>Note the card's meaning & notice how it manifests during your day.</p>
         </div> 
         <hr> 
