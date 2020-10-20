@@ -172,4 +172,36 @@ const footerContent = [
     <hr>   
     <p>ABN: 87526423395</p>
     `,
-}];
+},
+{
+    name: `hdiw`,
+    modalHeader: `How Does It Work`,
+    modalBody: `
+    <p><strong>Selecting A Reading</strong></p>
+ <p>All the readings currently available can be found on the Readings page.  Each reading card contains all the specific information you’ll need.</p>
+<p>Each reading is done personally – using a Rider Waite deck – no computer generated results are employed, because a computer can’t “read” a tarot spread or interpret a chakra card.</p>
+<p>General readings are just that – a spread laid out based on the topic you selected, with the reading based on the cards that turn up. You can make it more specific by entering a question to put to the cards during the checkout process.</p>
+<p>Specific readings are designed for situations where you’d like some insight or guidance on a particular problem or issue facing you. They aren’t confined to any particular topic or theme.</p>
+<p>Once you’ve decided on a reading, simply hit the “Ask Now” button and you’ll be guided through the checkout process</p>
+<p><strong>Pricing & Payments</strong></p>
+<p>All prices are quoted in $AUD & incl. GST.  No foreign taxes are imposed on purchases. </p>
+<p> Paypal manage all payments. A Paypal account is not needed, you can still use a credit or debit card of your choice on Paypal’s site. 
+<p>You can elect to pay in any of the following currencies once you’re on the Paypal site. To get an indicative exchange of the $AUD price to your chosen currency, simply divide by the number attached to each below: </p>
+<ul>
+<li>$USD (1.4)</li>
+<li>£GBP (1.8)</li>
+<li>€EUR (1.6)</li>
+</ul>
+
+<p><strong>How Long Does It Take?</strong></p>
+<p>Once you’ve successfully checked out, your reading request is added to the queue</p>
+<p>In normal circumstances, your spreads will be interpreted & photographed, and your reading recorded within 48 hours. Both an mp4 & jpg will be emailed to you as soon as the reading is completed.</p>
+<p> In the event it will take longer than 48 hours, you’ll be notified by email shortly after making your request with an estimated delivery date.</p>
+
+<p><strong>Special Requests & Face to Face Readings</strong></p>
+<p>If you have a preference for a specific spread to be used, or would prefer a face to face reading, simply email info@askthetarot.com.au with the details of your request.</p>
+
+
+    `
+}    
+];
