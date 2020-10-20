@@ -227,6 +227,8 @@ hr {
   color: #412456;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 } 
  
 .carousel-inner {
@@ -625,7 +627,7 @@ footer hr {
   }
 
   #testimonialCarousel h6 {
-    padding: 5% 7.5% 5% 7.5%;
+    padding: 2.5% 7.5% 2.5% 7.5%;
   } 
    
   .carousel-inner {
@@ -672,7 +674,7 @@ footer hr {
     display: flex;
     justify-content:center;
     align-content: stretch;
-    min-height: 20vh;
+    /* min-height: 20vh; */
   }
    
   .focalChakraImage > button{
@@ -913,6 +915,7 @@ footer hr {
 display: flex;
 justify-content: center;
 align-content: center;
+min-height: 0;
 }
 
 #focalChakraBtn {
@@ -986,8 +989,48 @@ align-content: center;
   padding-left: 10%;
   padding-right: 10%;
 }
-
-
-
 }
 
+@media screen and (min-width: 1366px) {
+  
+  #landingPanel {
+    display: flex;
+    min-height: 82.5vh;
+  } 
+
+  
+  .navbar-brand img {
+    width: 15%;
+    height: 15%
+  }
+
+  .dailyCardImage {
+    min-width: 90%;
+  }
+
+  #headlineUSP h4 {
+    line-height: 1.5;
+  }
+
+  #headlineUSP h5 {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  html {
+    font-size: 14px;
+  }
+
+  .navbar-brand img {
+    width: 10%;
+    height: 10%;
+    }
+
+  .navbar-nav {
+    margin-right: 5%;
+    justify-content: flex-end;
+  }
+
+}
