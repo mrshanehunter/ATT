@@ -59,7 +59,7 @@ nav {
   font-style: normal;
   font-size: 1.4rem;
   color: rgba(251, 201, 38, 0.5);
-  margin-left: 5%;
+  margin-left: 2.5%;
 }
 
 .navbar-nav a:hover {
@@ -450,7 +450,7 @@ footer {
 
 footer hr {
   background-color: rgba(251, 201, 38, 0.5);
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom:0.75rem;
 }
 
@@ -473,7 +473,7 @@ footer hr {
   align-items: baseline;
   padding-top: 0px;
   padding-bottom: 0px;
-  /* font-size: 1.2rem; */
+  font-size: 1.2rem;
   line-height: 0.4;
 
 }
@@ -773,7 +773,7 @@ footer hr {
   }
   
   footer hr {
-    margin-top: 0;
+    margin-top: 0%;
   }
 }
 

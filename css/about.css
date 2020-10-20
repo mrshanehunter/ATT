@@ -1,12 +1,15 @@
 
 
 body {
+    height: 100vh;
     background: rgb(251,201,38);
     background: radial-gradient(circle, rgba(251,201,38,1) 0%, rgba(65,36,86,1) 75%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container-fluid {
-    margin-bottom: 5%;
+#main {
+    margin-bottom: 2.5%;
 }
 
 .card {
@@ -89,6 +92,11 @@ figcaption {
     padding-right: 10%;
 
 }
+
+footer {
+    position: absolute;
+}
+
 
 @media screen and (min-width: 1200px) {
     
