@@ -12,9 +12,9 @@ const readingCard = `
     <h5 class="card-title">${title}</h5>
     <h6 class="card-subtitle mb-2 text-muted">${spread}</h6>
     <h5 class="card-price">$${price}</h5>
-    <p class="card-text">${para1}</p>
-    <p class="card-text">${para2}</p>
-    <p class="card-text">${para3}</p>
+    <p class="card-text p1">${para1}</p>
+    <p class="card-text p2">${para2}</p>
+    <p class="card-text p3">${para3}</p>
     </div>
 </div>
 <div class="card-footer text-muted">

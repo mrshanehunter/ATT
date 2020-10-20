@@ -110,13 +110,35 @@ body {
 }
 
 
-.card-text {
+.p1 {
     color: rgb(251,201,38);
     position: absolute;
+    line-height: 1;
     top: 35%;
     left: 5%;
+    padding-right: 1rem;
     /* transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); */
+}
+
+.p2 {
+    color: rgb(251,201,38);
+    position: absolute;
+    line-height: 1;
+    top: 55%;
+    left: 5%;
+    padding-right: 1rem;
+
+}
+
+.p3 {
+    color: rgb(251,201,38);
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    line-height: 1;
+    padding-right: 1rem;
+
 }
 
 
