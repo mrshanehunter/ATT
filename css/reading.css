@@ -144,3 +144,11 @@ body {
     color: #412456;
 }
 
+@media screen and (min-width: 1200px){
+
+#readingCards {
+    margin-top: 4rem;
+}    
+
+}
+

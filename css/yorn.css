@@ -256,3 +256,40 @@ hr {
     }
 
   }
+
+  @media screen and (min-width: 1200px) {
+    
+    #mainContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 2rem;
+    }
+    
+    #cardContainer {
+          min-width: 55%;
+          padding-left: 1rem;
+          padding-right: 1rem;
+      }
+
+    #instructions {
+        width: 47.5%;
+        padding-left: 0;
+        padding-right: 0;
+    }  
+
+    #tokenCont {
+        width: 47.5%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+      #game-board {
+          min-width: 30%;
+      }
+
+      #game-reveal {
+          min-width: 50%;
+      }
+
+  }

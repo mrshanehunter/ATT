@@ -823,3 +823,171 @@ footer hr {
 }
 }
 
+@media screen and (min-width: 1200px) {
+
+.navbar {
+  margin-top: 3rem;
+  height: 5rem;
+}
+
+.navbar-nav {
+ width: 70%;
+}
+
+.navbar-nav a {
+  font-size: 1.6rem;
+}
+
+#landingPanel {
+  min-width: 100%;
+  min-height: 100vh;
+  display: block;
+  /* flex-direction: column;
+  flex-wrap: nowrap; */
+}
+
+#lhsPanel {
+
+  display: block;
+  
+  width: 20%;
+  margin-left: 0;
+}
+
+#lhsCardTop {
+  width: 100%;
+}
+
+.dailyCardHeader {
+  padding-top: 5%;
+}
+
+.dailyCardImage img {
+  width: 75%;
+}
+
+#lhsCardBtm {
+
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hdiwHeading {
+  margin: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.hdiwImage {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.hdiwImage > button {
+  width: 90%;
+  height: 50%;
+  border-radius: 3rem 1rem;
+}
+
+
+
+#centralPanel {
+  min-height: 70vh;  
+  width: 55%;
+}
+
+#rhsPanel {
+  width: 20%;
+  display: block;
+  
+
+}
+
+#rhsCardTop {
+  width: 100%;
+
+}
+
+#focalChakraImage {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+#focalChakraBtn {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.img-fluid.chakra {
+  width: 60%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+
+#rhsCardBtm {
+  min-width: 100%;
+  display: block;
+  flex-direction: row;
+  border-top: thin solid rgb(65,36,86);
+  }
+
+.yornBody h4 {
+  display: none;
+}
+
+.yornHeader {
+  display: block;
+  min-width: 100%;
+}
+
+.yornBody {
+  min-width: 100%;
+  border: none;
+}
+
+.yornBody p {
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.2;
+}
+
+
+
+#_768sampleYorN {
+  display: none;
+}
+
+#sampleYorN {
+  display: block;
+}
+
+#yornCTA {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+#yornCTA button {
+  margin-top: 0.25rem;
+  width: 90%;  
+  }
+
+#yornCTA button img {
+  width: 40%;
+}
+
+#sampleYorNText {
+  font-size: 1.2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+}
+
