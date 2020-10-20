@@ -48,9 +48,18 @@ nav {
 }
 
 .navbar-nav {
- width: 80%; 
+ margin-left: 5;
  padding-right:1rem;
  padding-left: 1rem;
+}
+
+.navbar-toggler {
+margin-right: 4rem;
+}
+
+.navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
 }
 
 .navbar-nav a {
@@ -779,6 +788,11 @@ footer hr {
 
 @media screen and (min-width: 992px) {
 
+.navbar-brand img {
+  margin-left: 2.5%;
+
+}  
+
 .dailyCardHeader p {
   font-size: 1.6rem;
 }
@@ -832,8 +846,13 @@ footer hr {
   height: 5rem;
 }
 
+.navbar-brand img {
+  width: 15%;
+  height: 15%;
+}
+
 .navbar-nav {
- width: 70%;
+ margin-left: 30%;
 }
 
 .navbar-nav a {
@@ -998,10 +1017,15 @@ min-height: 0;
     min-height: 82.5vh;
   } 
 
+  .navbar-nav {
+    margin-left: 40%;
+  }
+
   
   .navbar-brand img {
     width: 15%;
-    height: 15%
+    height: 15%;
+    margin-left: 3.5%;
   }
 
   .dailyCardImage {
@@ -1029,8 +1053,7 @@ min-height: 0;
     }
 
   .navbar-nav {
-    margin-right: 5%;
-    justify-content: flex-end;
+     margin-left: 37.5%;   
   }
 
 }
