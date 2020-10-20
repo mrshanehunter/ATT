@@ -58,6 +58,7 @@ body {
 .card-body h6 {
     color: rgb(65, 36, 86);
     padding-top: 0.25em;
+    font-size: 1.4rem;
 }
 
 .card-text {
@@ -226,7 +227,7 @@ hr {
         width: 45%;
     } 
 
-    .cardDrawnName p {
+     .cardDrawnName p {
         font-size: 1.5em;
     }
 
@@ -240,6 +241,18 @@ hr {
 
     #gameBtn {
         margin-top: 5%;
+    }
+
+  }
+
+  @media screen and (min-width: 992px) {
+
+    .card-header h6 {
+        font-size: 1.6rem;
+    } 
+
+    .card-text p {
+        font-size: 1.4rem;
     }
 
   }
