@@ -37,7 +37,7 @@ const productRange = [
             title: `Health & Well-Being`,
             spread: `Spread: 5 - 7 tarot cards + 1 chakra`,
             price: `35`,
-            para1: `Designed identify & resolve issues impacting your general health & well-being.  Insights can relate to your physical, mental or spiritual self.`,
+            para1: `Designed to identify & resolve issues impacting your general health & well-being.  Insights can relate to your physical, mental or spiritual self.`,
             para2: `Concerned a particular issue or situation is negatively impacting other areas of your life? Provide the details or questions at checkout to focus the reading specifically.`,
             para3: `The chakra is significant in this reading. Any energy imbalances or blockages are highlighted & ways to restore & clear them are offered.`,
             invoicename: `General: Health & Well-Being reading`,
