@@ -147,6 +147,8 @@ hr {
     outline-color: rgba(251, 201, 38, 0.5);
     border: medium solid rgb(65,36,86);
     box-shadow: 0 0 2.5rem rgba(204, 159, 236, 0.5);
+    width: 80%;
+    height: 50%;
 }
 .cardResponse {
     width: 100%;
@@ -212,7 +214,7 @@ hr {
   }
 
   footer {
-      position: absolute;
+      position: relative;
   }
 
   @media screen and (min-width: 768px) {
@@ -251,12 +253,20 @@ hr {
 
   @media screen and (min-width: 992px) {
 
+    body {
+        min-height: 100vh;
+    }
+
     .card-header h6 {
         font-size: 1.6rem;
     } 
 
     .card-text p {
         font-size: 1.4rem;
+    }
+
+    footer {
+        position: absolute;
     }
 
   }

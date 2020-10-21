@@ -465,7 +465,7 @@ function dailyCardDraw () {
         </div> 
         <hr> 
             <div class="dailyCardImage">
-                <img src="${drawnCardImage}" height="auto" width="50%">
+                <img src="${drawnCardImage}"  height="240" width="140">
             </div>
         
             <div class="dailyCardName">

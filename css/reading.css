@@ -166,7 +166,16 @@ body {
     color: #412456;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px){
+
+body {
+    min-height: 100vh;
+}
+
+footer {
+    position: relative;
+}
+
 
 #readingCards {
     margin-top: 4rem;
