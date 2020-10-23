@@ -45,9 +45,12 @@ body {
     font-weight: 400;
     font-style: normal;
     color: rgba(251,201,38,0.8);
-    
+    border: none;
 }
 
+.card-body {
+    border: none;
+}
 
 .card h5 {
     font-size: 1.6rem;

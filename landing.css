@@ -1,0 +1,12 @@
+body {
+    background-image: url('./assets/attLPBkgrd.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 699px) {
+    body {
+        min-height: 100vh;
+    }
+}
