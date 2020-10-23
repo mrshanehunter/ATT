@@ -453,21 +453,21 @@ function dailyCardDraw () {
       const drawnCardMessage = dailyTarot[`${drawnCard}`].cardMeaning;
       
     
-      const drawnCardContainer = document.querySelector("#lhsCardTop");  
+      const drawnCardContainer = document.querySelector("#dTm");  
 
       const div = document.createElement("div");
-      drawnCardContainer.classList.add("lhsCardTop");
+      drawnCardContainer.classList.add("dTm");
       const drawnHTML = `
       <div class="container-fluid">
         <div class="dailyCardHeader">
         <h4>Tarot Meditation</h4>
-        <p>Note the card's meaning & notice how it manifests during your day.</p>
+        <p>Take note the card's meaning. Then, for a day, or even a week, keep track of your day to day life. At the end of that time, see how much of that tarot card has manifested itself.</p>
         </div> 
         <hr> 
             <div class="dailyCardImage">
                 <img src="${drawnCardImage}"  height="240" width="140">
             </div>
-        
+        <hr>
             <div class="dailyCardName">
             <h5>${drawnCardName}</h5>
                 </div> 
