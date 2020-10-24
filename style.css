@@ -45,8 +45,11 @@ header {
 
 .navbar-brand img {
   width: 20%;
-  height: 20%;
+  height: 20%
+}
 
+.navbar-toggler {
+  margin-right: 1.5rem;
 }
 
 main {
@@ -208,7 +211,7 @@ main {
   }
 
   .hdiwImage > button:hover {
-    box-shadow: 0 0 2rem rgba(251, 201, 38, 0.5);
+    box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
   }
 
   .hdiwImage > button > img {
@@ -266,7 +269,7 @@ main {
   }
 
   .focalChakraImage > button:hover {
-    box-shadow: 0 0 2rem rgba(251, 201, 38, 0.5);
+    box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
   }
 
   .focalChakraImage > button > img {
@@ -309,6 +312,10 @@ main {
   border: thin solid #412456;
   background-color: rgba(65,36,86,0.3);
   border-radius: 1rem 3rem;
+}
+
+.yOrNCta > button:hover {
+  box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
 }
 
 .yOrNCta > button > img {
@@ -424,6 +431,8 @@ footer {
 
   .modal {
     border-color: rgba(251, 201, 38, 0.5);
+    margin-top: 2rem;
+    align-self: center;
      
   }
 
@@ -439,9 +448,7 @@ footer {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     max-height: 50vh;
-    overflow-y: auto;
-    
-    
+    overflow-y: auto;  
   }
 
   .modal-footer {
