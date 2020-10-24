@@ -39,6 +39,11 @@ header {
   color: rgba(251, 201, 38, 0.5);
 }
 
+.nav-item > a:hover {
+  color:rgba(169,95,223,0.3);
+  box-shadow: 0 0 1rem rgba(251, 201, 38, 0.5);
+}
+
 .navbar-brand {
   width: 50%;
 }
@@ -46,6 +51,11 @@ header {
 .navbar-brand img {
   width: 20%;
   height: 20%
+}
+
+.navbar-brand > img:hover {
+  color:rgba(169, 95, 223, 0.3);
+  box-shadow: 0 0 1rem rgba(251, 201, 38, 0.5);
 }
 
 .navbar-toggler {
