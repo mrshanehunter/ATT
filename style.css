@@ -243,6 +243,13 @@ main {
     padding-bottom: 0;
 }
 
+.centreCopy h2 ,h3{
+  font-family: aviano-flare, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
 /*Testimonial Carousel*/
 
 #carousel {
@@ -485,13 +492,18 @@ footer {
     main {
       min-height: 82vh;
     }
+
+
+    .navbar-brand > img {
+      width: 15%;
+      height: 15%;
+    }
    
     #lhsPanel{
      width: 100%;
      display: flex;
      flex-direction: column;
      align-content: center;
-        
    }
     
     #lhsCardTop {
@@ -505,14 +517,19 @@ footer {
     
     #centralPanel{
         width: 100%;
-        /* height: 60vh; */
-    }
+  }
     
     #headlineUSP{
         width: 100%;
         height:100%;
     }
-    
+
+    .centreCopy {
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 2%;
+    }
+
     #testimonialCarousel{
         width: 100%;
            
@@ -527,19 +544,66 @@ footer {
     
     #rhsCardTop{
         width: 100%;
-        /* height:100%; */
-      
     }
     
     #rhsCardBtm {
         width: 100%;
-       
-        /* height: 100%;     */
     }
 
-    /* footer {
-      position: sticky;
-    } */
+   
+    #dailyTarot {
+      margin-left: 10%;
+    }
+
+    #hdiw {
+      margin-left: 10%;
+    }
+
+    .hdiwImage > button {
+      width: 25%;
+      height: 25%;
+    }
+
+    #carousel {
+      margin-left: 10%;
+    }
+
+    #chakra {
+      margin-left: 10%;
+    }
+
+    .focalChakraImage > button {
+      width: 25%;
+      height: 25%;
+    }
+
+    #lpYesOrNo {
+      margin-left: 10%;
+    }
+
+    .yOrNtext {
+      width: 50%;
+    }
+
+    .yOrNtext p {
+      padding-right: 1.5rem;
+    }
+
+    .yOrNCta {
+      width: 25%;
+      padding-top: 7.5%;
+    }
+
+    .yOrNCta > button {
+      width: 90%;
+      height: 40%;
+      
+    }
+
+    .yOrNSample {
+      width: 25%;
+      height: 75%;
+    }
 }
 /*
 @media only screen and (min-width: 960px) {

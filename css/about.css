@@ -99,13 +99,21 @@ footer {
     position: relative;
 }
 
+@media screen and (min-width: 699px){
+    .row {
+        padding-top: 2rem;
+    }
+
+    
+}
+
 @media screen and (min-width: 992px){
     body {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     footer {
-        position: absolute;
+        position: sticky;
     }
 }
 
