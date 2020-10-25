@@ -49,7 +49,7 @@ imagesrc: `./assets/chakra/solar.svg`,
 {
 name: `Heart`,
 attributes: `Love, Compassion, Universal Consciousness, Emotional balance, Forgiveness, Relationships`,
-descpara: `With an electromagnetic field many times greater than the brain's, the heart has an intelligence & wisdom that sees beyond the surface and finds & connects with the energy in each moment. Located midway between the neck & abdomen, with the actual heart, it is at its best when open to both giving & receiving equally.`,
+descpara: `With an electromagnetic field many times greater than the brain, the heart has an intelligence & wisdom that sees beyond the surface and finds & connects with the energy in each moment. Located midway between the neck & abdomen, with the actual heart, it is at its best when open to both giving & receiving equally.`,
 color: `Green`,
 element: `Air`,
 astrology: `Libra, Taurus`,
