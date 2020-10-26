@@ -161,8 +161,8 @@
                                         <img class="img-fluid chakra" src="./assets/chakra/chakraHenna.svg">
                                     </button>
                                     </div>    
-                                    <div id="focalModal">
-                                    </div>
+                                    <!-- <div id="focalModal">
+                                    </div> -->
                                 </div>
                             </div>    
                     </div> <!--End rhsCardTop-->
@@ -210,6 +210,8 @@
                     </div> <!--End rhsCardBtm-->
                 </div><!--End rhsPanel -->
             </div> <!--End landingPanel container-->
+
+            <div id="focalModal"></div>
 
             <div class="modal fade" id="hdiwModal" tabindex="-1" role="dialog" aria-labelledby="hdiw-label" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -273,6 +275,18 @@
         <script src="./js/hoverWatch.js"></script>        
         <script src="./js/dailycard.js"></script>        
         <script src="./js/chakradata.js"></script>
-      
+            
+        <script>
+
+            $('.card-header').on('mouseenter', (event) => {
+                $(event.currentTarget).siblings().toggleClass('show')
+            });
+            
+            $('.card-body').on('mouseleave', (event) => {
+                $(event.currentTarget).parent().toggleClass('show')
+            });
+        </script>    
+
+
     </body>
 </html>

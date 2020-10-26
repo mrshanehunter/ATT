@@ -63,9 +63,9 @@
           <div id="hiw" class="card">
                 <div class="card-header">
                     <a href="#hiwCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="hiwCollapse">
-                    <h6>How It Works:</h6>
+                    <h6>How It Works:</h6></a>
                 </div>
-                <div class="collapse multi-collapse" id="hiwCollapse">
+                <div class="collapse" id="hiwCollapse">
                 <div class="card-body">
                     
                     <p class="card-text">Simply put the tarot isn’t designed for straight “yes” or “no” questions. But sometimes they're the type of question you need answered, and fast. That’s how “Ask The Tarot Yes or No” came to be.</p>
@@ -85,7 +85,7 @@
                     <a href="#atcCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="atcCollapse">
                    <h6>  Add To Cart: </h6></a>
                 </div>
-                <div class="collapse multi-collapse" id="atcCollapse">
+                <div class="collapse" id="atcCollapse">
     
                 <div class="card-body tks">
                       <div class="tokens" id="25">
@@ -171,6 +171,15 @@
         <script src="../js/hoverWatch.js"></script>
         <script src="../js/yorn.js"></script>
         <!-- <script src="../js/yorntokencounter.js"></script> -->
-    
+        <script>
+
+            $('.card-header').on('mouseenter', (event) => {
+                $(event.currentTarget).siblings().toggleClass('show')
+            });
+            
+            $('.card-body').on('mouseleave', (event) => {
+                $(event.currentTarget).parent().toggleClass('show')
+            });
+        </script>  
     </body>
 </html>
