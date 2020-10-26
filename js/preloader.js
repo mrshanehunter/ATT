@@ -46,3 +46,4 @@ function preloadImages(e) {
         tempImage.src = imageArray[i];
     }
 }
+

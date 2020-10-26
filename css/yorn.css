@@ -93,10 +93,10 @@ hr {
     border: medium solid #412456;
     background-color: rgba(65, 36, 86, 0.5);
     color: rgba(251, 201, 38,0.5);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
-.tokens button:hover {
+body.hasHover .tokens button:hover {
     box-shadow: 0px 0px 2.5rem rgba(251,201,38, 0.5);
     color: rgb(111, 50, 155);
 }
@@ -207,7 +207,7 @@ hr {
   
  
   
-  #gameBtn button:hover {
+body.hasHover  #gameBtn button:hover {
     box-shadow: 0px 0px 2.5rem rgba(251, 201, 38, 0.8);
     color: rgb(111, 50, 155);
   }

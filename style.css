@@ -39,7 +39,7 @@ header {
   color: rgba(251, 201, 38, 0.5);
 }
 
-.nav-item > a:hover {
+body.hasHover .nav-item > a:hover {
   color:rgba(169,95,223,0.3);
   box-shadow: 0 0 1rem rgba(251, 201, 38, 0.5);
 }
@@ -53,7 +53,7 @@ header {
   height: 20%
 }
 
-.navbar-brand > img:hover {
+body.hasHover .navbar-brand > img:hover {
   color:rgba(169, 95, 223, 0.3);
   box-shadow: 0 0 1rem rgba(251, 201, 38, 0.5);
 }
@@ -220,7 +220,7 @@ main {
     background-color: rgba(65,36,86,0.3);
   }
 
-  .hdiwImage > button:hover {
+  body.hasHover .hdiwImage > button:hover {
     box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
   }
 
@@ -285,7 +285,7 @@ main {
     background-color: rgba(65,36,86,0.3);
   }
 
-  .focalChakraImage > button:hover {
+  body.hasHover .focalChakraImage > button:hover {
     box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
   }
 
@@ -331,7 +331,7 @@ main {
   border-radius: 1rem 3rem;
 }
 
-.yOrNCta > button:hover {
+body.hasHover .yOrNCta > button:hover {
   box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
 }
 
@@ -440,6 +440,7 @@ footer {
     font-size: 1.2rem;
     padding-top: 0.3rem;
     color: rgba(251, 201, 38, 0.5);
+    text-decoration: underline;
   }
   
   #mandatories p {
