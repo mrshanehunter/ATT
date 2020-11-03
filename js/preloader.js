@@ -1,4 +1,4 @@
-this.addEventListener("DOMContentLoaded", preloadImages, true);
+
  
 function preloadImages(e) {
     var imageArray = new Array(
@@ -47,3 +47,4 @@ function preloadImages(e) {
     }
 }
 
+this.addEventListener("DOMContentLoaded", preloadImages, true);
