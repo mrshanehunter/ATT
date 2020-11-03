@@ -57,7 +57,7 @@ function render() {
         );
         readingHtmlList.push(readingHtml);
     }
-    const cardsHtml = readingHtmlList.join();
+    const cardsHtml = readingHtmlList.join(' ');
     const readingCards = document.querySelector('#readingCards');
     readingCards.innerHTML = cardsHtml;    
 }

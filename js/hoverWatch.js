@@ -22,4 +22,4 @@ function watchForHover() {
     enableHover()
   }
   
-  watchForHover()
+  watchForHover();

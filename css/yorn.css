@@ -216,7 +216,12 @@ body.hasHover  #gameBtn button:hover {
       position: relative;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 699px) {
+
+    html {
+        font-size: 70%;
+    }
+
 
     #cardContainer {
         margin-top: 2em;
@@ -241,7 +246,7 @@ body.hasHover  #gameBtn button:hover {
     }
 
     .cardMessage p {
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
 
     #gameBtn {
