@@ -190,6 +190,7 @@ body.hasHover .tokens button:hover {
     align-content: center;
     width: 90%;
     margin-top: 7.5%;
+    visibility: hidden;
 
 }
 

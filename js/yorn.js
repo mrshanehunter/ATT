@@ -542,5 +542,38 @@ function tarotYesOrNo() {
     return tokenTotal;  //balance needs to be returned to customer data file
   }
   
-  document.getElementById("enterBtn").addEventListener("click", tarotYesOrNo);
+  // function to check if the user is logged in before they YORN
+
+ 
+
+ 
+  
+  
+
+  //recommended all snipcart related events, subscribers & API Calls are contained in the ready event below
+
+  document.addEventListener('snipcart.ready', () => {
+   
+    const enterBtn = document.getElementById("enterBtn");
+
+    Snipcart.events.on('customer.signedin', (customer) => {
+       emailID = `${customer.email}`;
+       console.log(`Customer ${customer.email} just signed in. Value is:`, customer.signedin);
+       console.log(emailID);
+        enterBtn.style.visibility = "visible";
+      
+    
+
+    enterBtn.addEventListener("click", tarotYesOrNo);
+  });
+
+    Snipcart.events.on('customer.signedout', () => {
+      enterBtn.style.visibility = "hidden";
+    })
+
+ 
+  
+  })
+
+
   
