@@ -247,9 +247,23 @@ main {
 .centreCopy h2 ,h3{
   font-family: aviano-flare, sans-serif;
   font-weight: 400;
-  font-style: normal;
-
+  font-style: normal;  
 }
+
+.centreCopy h4 ,h5{
+ 
+  font-weight: 600;
+  
+}
+
+.centreCopy h5 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  
+  font-size: 1.4rem;
+}
+
+
 
 /*Testimonial Carousel*/
 
@@ -627,8 +641,17 @@ footer {
    width: 100%;
    padding-left: 65%;
  }
- }
+ 
+ .centreCopy h4 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+} 
 
+ .centreCopy h5 {
+   padding-left: 6rem;
+   padding-right: 6rem;
+ }
+}
   /*
     #landing {
         display: flex;
