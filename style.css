@@ -11,7 +11,7 @@ body {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgba(251, 201, 38, 0.5);
+   
 }
 
 body p {
@@ -456,6 +456,7 @@ footer {
   }
 
   .modal-header {
+    color: rgba(251, 201, 38, 0.5);
     background-color: #412456;
     font-family: aviano-flare, sans-serif;
     font-weight: 400;
