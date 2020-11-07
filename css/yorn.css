@@ -262,6 +262,11 @@ body.hasHover  #gameBtn button:hover {
         min-height: 100vh;
     }
 
+    .navbar-nav {
+        width: 100%;
+        padding-left: 35%;
+      }
+
     .card-header h6 {
         font-size: 1.6rem;
     } 
