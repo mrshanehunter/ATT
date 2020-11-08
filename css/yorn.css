@@ -2,6 +2,52 @@ body {
     background: #412456;
 }
 
+
+header {
+    min-width: 100vw;
+    background-color: #412456;
+    box-shadow: 0px 0px 2rem rgba(251, 201, 38, 0.5);
+  }
+  
+  .nav-link {
+    font-family: aviano-flare, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(251, 201, 38, 0.5);
+  }
+  
+  .navbar a {
+    font-family: aviano-flare, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(251, 201, 38, 0.5);
+  }
+  
+  body.hasHover .nav-link:hover {
+    color:rgba(188, 131, 228, 0.3);
+    
+  }
+  
+  body.hasHover .navbar a:hover{
+    color:rgba(188, 131, 228, 0.3);
+  }
+  
+  .navbar-brand {
+    width: 50%;
+  }
+  
+  .navbar-brand img {
+    width: 20%;
+    height: 20%
+  }
+  
+  
+  
+  .navbar-toggler {
+    margin-right: 1.5rem;
+  }
+  
+
 #mainContainer {
     display: flex;
     flex-direction: column;
@@ -213,14 +259,147 @@ body.hasHover  #gameBtn button:hover {
     color: rgb(111, 50, 155);
   }
 
-  footer {
-      position: relative;
+ 
+footer {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    min-width: 100vw !important;
+    position: relative;
+    bottom: 0 !important;
+    left: 0;
+    /* height: 50px; */
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 1rem;
+    margin-top: 0%;
+    background-color: rgb(65, 36, 86);
+    color: rgb(251, 201, 38, 0.5);
+    box-shadow: 0px 0px 2rem rgba(251, 201, 38, 0.5);
   }
+  
+  footer hr {
+    background-color: rgba(251, 201, 38, 0.5);
+    margin-top: 0px;
+    margin-bottom:0.75rem;
+  }
+  
+  #mandatories {
+    min-width: 100vw;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 0.2rem; 
+    display: flex;
+    flex-direction:row;
+    align-items: center; 
+    flex-wrap: nowrap;
+  }
+  
+  #copyRight {
+    min-width: 100vw;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  #siteCreds {
+    min-width: 100vw;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .foot-col {
+    flex-grow: 1;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .foot-col p {
+    color: rgba(251, 201, 38, 0.5);
+    line-height: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .foot-col a {
+    color: rgba(251, 201, 38, 0.5);
+    text-decoration: underline;
+    line-height: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  #mandatories a {
+    font-size: 0.9rem;
+    text-decoration: underline;
+  }
+  
+  #mandatories .btn {
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+    color: rgba(251, 201, 38, 0.5);
+    text-decoration: underline;
+  }
+  
+  #mandatories p {
+    font-size: 0.9rem;
+  }
+
+  .modal {
+    border-color: rgba(251, 201, 38, 0.5);
+    margin-top: 2rem;
+    align-self: center;
+     
+  }
+
+  .modal-header {
+    color: rgba(251, 201, 38, 0.5);
+    background-color: #412456;
+    font-family: aviano-flare, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .modal-body {
+    background-color: rgba(65,36,86,0.3);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-height: 50vh;
+    overflow-y: auto;  
+  }
+
+  .modal-footer {
+    background-color: #412456;
+  }
+
+  .modal-footer > button {
+    border: thin solid rgba(251, 201, 38, 0.5);
+    border-radius: 1rem 3rem;
+    width: 30%;
+    color: rgba(251, 201, 38, 0.5);
+    background-color: rgba(65,36,86,0.3);
+  }
+  
+.modal-footer > button:hover {
+    box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
+}
+
+
 
   @media screen and (min-width: 699px) {
 
     html {
         font-size: 70%;
+    }
+
+    .navbar-brand > img {
+        width: 15%;
+        height: 15;
     }
 
 
@@ -256,7 +435,7 @@ body.hasHover  #gameBtn button:hover {
 
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1024px) {
 
     body {
         min-height: 100vh;
@@ -281,7 +460,25 @@ body.hasHover  #gameBtn button:hover {
 
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
+
+    .navbar-brand img {
+        width: 15%;
+        height: 15%;
+        padding-left: 2.5%;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav {
+        padding-left: 20%;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
     
     #mainContainer {
         display: flex;
