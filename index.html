@@ -272,6 +272,34 @@
             
         <script>
 
+
+           
+
+       let showCard = window.matchMedia('(min-width: 992px)');
+
+        function showCardContent(e) {
+            if (e.matches) {
+                $('.collapse').collapse('show')
+            } else {
+                $('.colapse').collapse({
+  toggle: false
+})
+            }
+        }
+
+        showCard.addListener(showCardContent);
+
+        showCardContent(showCard);
+
+    </script> <!--
+
+        window.addEventListener('resize', () => {
+
+            if(window.innerWidth > 991) {
+                $('.collapse').collapse('show')
+
+            } else {
+
             $('.card-header').on('mouseenter', (event) => {
                 $(event.currentTarget).siblings().toggleClass('show')
             });
@@ -279,9 +307,11 @@
             $('.card-body').on('mouseleave', (event) => {
                 $(event.currentTarget).parent().toggleClass('show')
             });
+        }
+        });
 
           
-        </script>    
+        </script>     -->
 
 
     </body>

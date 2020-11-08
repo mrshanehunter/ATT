@@ -641,6 +641,8 @@ footer {
    width: 100%;
    padding-left: 65%;
  }
+
+ 
  
  .centreCopy h4 {
   padding-left: 6rem;
@@ -651,8 +653,8 @@ footer {
    padding-left: 6rem;
    padding-right: 6rem;
  }
-}
-  /*
+
+  
     #landing {
         display: flex;
         flex-direction: row;
@@ -710,4 +712,4 @@ footer {
     
 
 
-} */
+} 
