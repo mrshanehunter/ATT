@@ -557,11 +557,10 @@ footer {
     }
     
     #rhsPanel{
-        width: 10%;
-        margin-bottom: 0;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin-right: 0;
+       
     }
     
     #rhsCardTop{
