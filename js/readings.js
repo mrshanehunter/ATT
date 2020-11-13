@@ -21,7 +21,7 @@ const readingCard = `
    <button class="snipcart-add-item w-75"
        data-item-id="${id}"
        data-item-price="${price}"
-       data-item-url="../html/readings.html"
+       data-item-url="https://mrshanehunter.github.io/ATT/readings.html"
        data-item-name="${invoicename}"
        data-item-image="../assets/readingImages/${imageSrc}"
        data-item-custom${no}-name="${textAreaHeader}"
@@ -65,4 +65,3 @@ function render() {
 render();
 
 
-    
