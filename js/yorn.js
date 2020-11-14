@@ -555,25 +555,59 @@ function tarotYesOrNo() {
   document.addEventListener('snipcart.ready', () => {
    
     const enterBtn = document.getElementById("enterBtn");
+ 
 
     Snipcart.events.on('customer.signedin', (customer) => {
        emailID = `${customer.email}`;
        console.log(`Customer ${customer.email} just signed in. Value is:`, customer.signedin);
        console.log(emailID);
         enterBtn.style.visibility = "visible";
-      
-    
-
+  
     enterBtn.addEventListener("click", tarotYesOrNo);
-  });
+  })
 
     Snipcart.events.on('customer.signedout', () => {
       enterBtn.style.visibility = "hidden";
     })
 
- 
+  Snipcart.events.on('cart.confirmed', (cartConfirmResponse) => {
+      
+  console.log(cartConfirmResponse);
   
-  })
+  let email = cartConfirmResponse.email;
+  let invoice = cartConfirmResponse.invoiceNumber;
+  let count = cartConfirmResponse.items.count;
+  let paid = cartConfirmResponse.paymentDetails.status;
+  let tokens = 0;
+  let tokens25 = 0;
+  let tokens50 = 0;
+  let tokens100 = 0; 
+  console.log(count, paid, tokens);
+
+  if (count >= 1 && paid === 5) {
+    for (let i = 0; i < cartConfirmResponse.items.items.length; i++) {
+      if (cartConfirmResponse.items.items[i].id === "T-25") {
+       tokens25 = cartConfirmResponse.items.items[i].quantity * 25; console.log("tokens 25 =", tokens25);
+      } else if (cartConfirmResponse.items.items[i].id === "T-50") {
+       tokens50 = cartConfirmResponse.items.items[i].quantity * 50; console.log("tokens 50=", tokens50);
+      } else if (cartConfirmResponse.items.items[i].id === "T-100") {
+      tokens100 = cartConfirmResponse.items.items[i].quantity * 100; console.log("tokens 100 =", tokens100)
+      } tokens = (tokens25 + tokens50 + tokens100);
+     }
+    }
+
+  
+  const record = {
+    "id": email,
+    "inv": invoice,
+    "tkn": tokens,
+  }
+
+  console.log(record);
+}) 
+
+  
+  });
 
 
   
