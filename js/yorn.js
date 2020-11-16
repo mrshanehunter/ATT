@@ -582,6 +582,7 @@ function tarotYesOrNo() {
   let tokens25 = 0;
   let tokens50 = 0;
   let tokens100 = 0; 
+  let date = Date.now();
   console.log(count, paid, tokens);
 
   if (count >= 1 && paid === 5) {
@@ -600,6 +601,7 @@ function tarotYesOrNo() {
   const record = {
     "id": email,
     "inv": invoice,
+    "date": date,
     "tkn": tokens,
   }
 

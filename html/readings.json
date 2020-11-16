@@ -1,0 +1,77 @@
+[
+  {
+    "id": "G1",
+    "price": 35.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "G2",
+    "price": 35.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "G3",
+    "price": 35.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "G4",
+    "price": 35.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "G5",
+    "price": 35.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "Q1",
+    "price": 35.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "Q2",
+    "price": 60.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "F1",
+    "price": 120.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "B1",
+    "price": 60.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "B2",
+    "price": 60.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "B3",
+    "price": 60.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "B4",
+    "price": 100.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "S1",
+    "price": 45.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "S2",
+    "price": 40.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  },
+  {
+    "id": "S3",
+    "price": 13.0,
+    "url": "https://askthetarot.com.au/html/readings.json"
+  }
+]

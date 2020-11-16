@@ -435,14 +435,14 @@ footer {
 
   .foot-col p {
     color: rgba(251, 201, 38, 0.5);
-    line-height: 0.5rem;
+    line-height: 0.75rem;
     font-size: 1.2rem;
   }
 
   .foot-col a {
     color: rgba(251, 201, 38, 0.5);
     text-decoration: underline;
-    line-height: 0.5rem;
+    line-height: 0.75rem;
     font-size: 1.2rem;
   }
   
