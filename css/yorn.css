@@ -324,14 +324,14 @@ footer {
   .foot-col p {
     color: rgba(251, 201, 38, 0.5);
     line-height: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   .foot-col a {
     color: rgba(251, 201, 38, 0.5);
     text-decoration: underline;
     line-height: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   
   #mandatories a {
@@ -340,7 +340,7 @@ footer {
   }
   
   #mandatories .btn {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     padding-top: 0.3rem;
     color: rgba(251, 201, 38, 0.5);
     text-decoration: underline;
