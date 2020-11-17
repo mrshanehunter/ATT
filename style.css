@@ -198,7 +198,11 @@ main {
   justify-content: center;
 }
 
+/*Heading for How Does It Work Online & Chakra Buttons on desktops*/
 
+.desktop {
+  display: none;
+}
 /*How Does It Work*/
 
 #hdiw {
@@ -697,6 +701,18 @@ footer {
   .card-body {
     border: none;
     background: transparent;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .desktop h4 {
+    font-family: aviano-flare, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(65, 36, 86);
+    text-align: center;
   }
 
   #lhsPanel{
