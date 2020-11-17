@@ -48,14 +48,43 @@
                                 <a href="#dailyTarotCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="dailyTarotCollapse">
                                 <h5>Get a feel for the tarot </h5></a>
                             </div>
+                            <div class="desktop">
+                                <h4>Get A Feel For The Tarot</h4>
+                            </div>
                             <div class="collapse" id="dailyTarotCollapse">
-                            <div id="dTm" class="card-body">
-                                
+                            <div class="dTmImage card-body">
+                                <button id="dailyTarotBtn" type="button" class="button" data-toggle="modal" data-target="#test1">
+                                    <img class="img-fluid tarotMed" src="./assets/dTmThirdEye.svg">
+                                </button>
                                 
                                 </div>
                             </div>    
                         </div> <!--End Daily Tarot Meditation Card-->     
                     </div> <!--End lhsCardTop-->
+
+                    <div id="lhsCardMid" class="container-fluid m-0 p-0">
+                        <div id="chakra" class="card">
+                            <div class="card-header">    
+                                <a href="#chakraCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="chakraCollapse">    
+                                 <h5>Harness your energy</h5>
+                                </a>    
+                            </div>
+                            <div class="desktop">
+                                <h4>Understanding the Chakras</h4>
+                            </div>
+                            <div class="collapse" id="chakraCollapse">
+                                <div class="focalChakraImage card-body">
+                                    <button id="focalChakraBtn" type="button" class="button" data-toggle="modal" data-target="#test">
+                                        <img class="img-fluid chakra" src="./assets/chakra/chakraHenna.svg">
+                                    </button>
+                                    </div>    
+                                    <!-- <div id="focalModal">
+                                    </div> -->
+                                </div>
+                            </div>    
+                    </div> <!--End lhsCardMidp-->
+
+
 
                     <div id="lhsCardBtm" class="container-fluid m-0 p-0">
                        <div id="hdiw" class="card">
@@ -146,28 +175,8 @@
                </div> <!--End centralPanel container-->
 
                <div id="rhsPanel" class="container-fluid m-0 p-0">
-                    <div id="rhsCardTop" class="container-fluid m-0 p-0">
-                        <div id="chakra" class="card">
-                            <div class="card-header">    
-                                <a href="#chakraCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="chakraCollapse">    
-                                 <h5>Harness your energy</h5>
-                                </a>    
-                            </div>
-                            <div class="desktop">
-                                <h4>Understanding the Chakras</h4>
-                            </div>
-                            <div class="collapse" id="chakraCollapse">
-                                <div class="focalChakraImage card-body">
-                                    <button id="focalChakraBtn" type="button" class="button" data-toggle="modal" data-target="#test">
-                                        <img class="img-fluid chakra" src="./assets/chakra/chakraHenna.svg">
-                                    </button>
-                                    </div>    
-                                    <!-- <div id="focalModal">
-                                    </div> -->
-                                </div>
-                            </div>    
-                    </div> <!--End rhsCardTop-->
-                    <div id="rhsCardBtm" class="container-fluid m-0 p-0">
+                    
+                    <div id="rhsCard" class="container-fluid m-0 p-0">
                         <div id="lpYesOrNo" class="card">
                             <div class="card-header">
                                 <a href="#lpYesOrNoCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="hiwCollapse">
@@ -216,6 +225,7 @@
             </div> <!--End landingPanel container-->
 
             <div id="focalModal"></div>
+            <div id="dTmModal"></div>
 
             <div class="modal fade" id="hdiwModal" tabindex="-1" role="dialog" aria-labelledby="hdiw-label" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable" role="document">

@@ -1,3 +1,10 @@
+
+const displayDailyTarot = document.getElementById('dailyTarotBtn');
+
+
+
+
+
 function dailyCardDraw () {
 
     const dailyTarot = [
@@ -453,43 +460,70 @@ function dailyCardDraw () {
       const drawnCardMessage = dailyTarot[`${drawnCard}`].cardMeaning;
       
     
-      const drawnCardContainer = document.querySelector("#dTm");  
+      const drawnCardContainer = document.getElementById("dTmModal");  
 
-      const div = document.createElement("div");
-      drawnCardContainer.classList.add("dTm");
+     
       const drawnHTML = `
-      <div class="container-fluid">
-        <div class="dailyCardHeader">
-        <h4>Tarot Meditation</h4>
-        <p>Take note the card's meaning. Then, for a day, or even a week, keep track of your day to day life. At the end of that time, see how much of that tarot card has manifested itself.</p>
-        </div> 
-        <hr> 
-            <div class="dailyCardImage">
-                <img src="${drawnCardImage}"  height="240" width="140">
+      <div class="modal fade" id="test1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+
+            <div class="modal-header">
+             <h5 class="modal-title">Tarot Meditation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+               </button>
             </div>
-        <hr>
-            <div class="dailyCardName">
-            <h5>${drawnCardName}</h5>
-                </div> 
-                
-                <div class="dailyCardMessage">
-                    <p>${drawnCardMessage}</p>
+
+             <div class="modal-body">
+               <p>Take note the card's meaning. Then, for a day, or even a week, keep track of your day to day life. At the end of that time, see how much of that tarot card has manifested itself.</p>
+               <hr> 
+                 <div class="dailyCardImage">
+                   <img src="${drawnCardImage}"  height="240" width="140">
                 </div>
-     </div>`;
+                <hr>
+                   <div class="dailyCardName">
+                      <h5>${drawnCardName}</h5>
+                   </div> 
+                
+                      <div class="dailyCardMessage">
+                         <p>${drawnCardMessage}</p>
+                      </div>
+              </div>
+              
+                  <div class="modal-footer">
+                      <button type="button" class="button" id="modalBtn" data-dismiss="modal">Close</button>
+                  </div>
+              
+          </div>    
+        </div>      
+      </div> `;
       
      drawnCardContainer.innerHTML = drawnHTML;
-     drawnCardContainer.appendChild(div);
-};
+    
 
-function dailyCardChange(time, func){
-    let currentTime = new Date().getTime();
-    if(currentTime>time){
-        return false;
-    }
-    setTimeout(func, time-currentTime);
-    return true;
+
+const reset = document.querySelector(".modal");
+
+reset.addEventListener("click", function() {
+
+  $('.modal').on('hidden.bs.modal', function () {
+    drawnHTML.remove;
+  })
+})
 }
 
-$(document).ready(function() {
-    dailyCardChange(new Date().setTime(new Date().getTime+2000), dailyCardDraw)
-});
+displayDailyTarot.addEventListener("click", dailyCardDraw);
+
+// function dailyCardChange(time, func){
+//     let currentTime = new Date().getTime();
+//     if(currentTime>time){
+//         return false;
+//     }
+//     setTimeout(func, time-currentTime);
+//     return true;
+// }
+
+// $(document).ready(function() {
+//     dailyCardChange(new Date().setTime(new Date().getTime+2000), dailyCardDraw)
+// });

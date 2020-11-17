@@ -1,7 +1,7 @@
 
 const displayChakra = document.getElementById('focalChakraBtn');
 
-displayChakra.addEventListener("click", focalChakra);
+
 
 
 
@@ -167,3 +167,5 @@ $('.modal').on('hidden.bs.modal', function () {
 })
 
 }
+
+displayChakra.addEventListener("click", focalChakra);
