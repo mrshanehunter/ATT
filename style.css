@@ -70,6 +70,7 @@ main {
     margin-right: auto;
     margin-left: auto;
     padding-top: 1rem;
+    padding-bottom: 1rem;
  }
 /*Collapsed Card Styling*/
 
@@ -101,26 +102,28 @@ main {
 
 #lhsPanel{
     width: 100%;
+    
 }
 
 #lhsCardTop {
     /* background-color: magenta; */
     width: 100%;
-    min-height: 30%;
+    /* height: 33.33%; */
 }
 
 
 #lhsCardMid{
   /* background-color: mediumspringgreen; */
   width: 100%;
-  min-height:30%;
+  /* height:33.330%; */
 
 }
 
 #lhsCardBtm {
     /* background-color: palevioletred; */
     width: 100%;
-    min-height: 30%;    
+    /* height: 33.33%;     */
+   
 }
 
 #centralPanel{
@@ -152,7 +155,8 @@ main {
 #rhsCard {
     /* background-color:goldenrod; */
     width: 100%;
-    height: 100%;    
+    /* height: 100%;    
+    margin-bottom: 2%; */
 }
 
 /*LHS Panel Elements Styling*/
@@ -178,9 +182,10 @@ main {
 .dTmImage > button {
   width: 50%;
   height: 50%;
+  border: thin solid #412456;
   border-radius: 3rem 1rem;
-  border-color: #412456;
   background-color: rgba(65,36,86,0.3);
+  padding: 1rem;
 }
 
 body.hasHover .dTmImage > button:hover {
@@ -237,6 +242,7 @@ body.hasHover .dTmImage > button:hover {
     border-radius: 3rem 1rem;
     border-color: #412456;
     background-color: rgba(65,36,86,0.3);
+    padding: 1rem;
   }
 
   body.hasHover .hdiwImage > button:hover {
@@ -313,9 +319,10 @@ body.hasHover .dTmImage > button:hover {
   .focalChakraImage > button {
     width: 50%;
     height: 50%;
-    border-radius: 3rem 1rem;
     border: thin solid #412456;
+    border-radius: 3rem 1rem;
     background-color: rgba(65,36,86,0.3);
+    padding: 1rem;
   }
 
   body.hasHover .focalChakraImage > button:hover {
@@ -353,15 +360,19 @@ body.hasHover .dTmImage > button:hover {
 
 .yOrNCta {
     width: 50%;
-    height: 30%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
 }
 
 .yOrNCta > button {
   width: 90%;
-  height: 90%;
+  height: 80%;
   border: thin solid #412456;
   background-color: rgba(65,36,86,0.3);
   border-radius: 1rem 3rem;
+  
 }
 
 body.hasHover .yOrNCta > button:hover {
@@ -369,8 +380,10 @@ body.hasHover .yOrNCta > button:hover {
 }
 
 .yOrNCta > button > img {
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
+  
+  
 }
 
 .yOrNSample {
@@ -378,14 +391,23 @@ body.hasHover .yOrNCta > button:hover {
     height: 100%;
 }
 
+#sampleYorN {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #sampleYorN img {
-  width: 90%;
+  width: 100%;
   height: 80%;
 }
 
-figcaption {
+#sampleYorNText {
   color: #412456;
   font-size: 1.2rem;
+  line-height: 1rem;
+  padding-top: 0.75rem;
+  text-align: center;
 }
 
 /*Footer*/
@@ -606,7 +628,7 @@ footer {
        
     }
     
-    #rhsCardTop{
+    #lhsCardMid{
         width: 100%;
     }
     
@@ -727,7 +749,7 @@ footer {
     font-style: normal;
     color: rgb(65, 36, 86);
     text-align: center;
-  
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
@@ -739,19 +761,33 @@ footer {
     }
     
     #lhsCardTop {
-        width: 100%;
-        height: auto;
-        flex: 1 1 0;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        /* flex: 1 1 0; */
     }
 
     #dailyTarot {
-      margin-left: 5%;
+      margin: 0;
+      padding: 0;
     }
 
   
 
     #dailyTarot .card-header {
       visibility: hidden;
+      height: 0;
+      padding: 0;
+    }
+
+    .dTmImage {
+      margin: 0;
+      padding: 0;
+    }
+
+    .dTmImage > button {
+      width: 60%;
+      background-color: rgba(65, 36, 86, 0.5);
     }
 
     .dailyCardHeader p {
@@ -770,15 +806,16 @@ footer {
     }
     
     #lhsCardBtm {
-        width: 100%;
-        height: auto;
-        flex: 1 2 0;
+        max-width: 100%;
+        /* height: auto; */
+        /* flex: 1 2 0; */
        
         
     }
 
     #hdiw {
-      margin-left: 5%;
+      margin: 0;
+      padding: 0;
     }
 
     #hdiw .card-header {
@@ -787,14 +824,11 @@ footer {
       height: 0;
     }
 
-    #hdiw .desktop h4 {
-      padding-top: 1rem;
-      border-top: thin solid rgb(65, 36, 86);
-    }
+   
 
     .hdiwImage {
-      padding-top: 0;
-      padding-bottom: 15%;
+      margin: 0;
+      padding: 0;
     }
 
     .hdiwImage > button {
@@ -877,23 +911,25 @@ footer {
     #rhsCardTop{
         width: 100%;
        height: auto;
-        flex: 1 1 0;
+       
       
     }
 
     #chakra {
       width: 100%;
-      margin-right: 5%;
-      margin-left: 0;
+      margin: 0;
+      padding: 0;
     }
 
     #chakra .card-header {
       visibility: hidden;
+      height: 0;
+      padding: 0;
     }
 
     .focalChakraImage {
-      padding-top: 0;
-      padding-bottom: 0;
+      margin: 0;
+      padding: 0;
     }
     .focalChakraImage > button {
       width: 60%;
@@ -902,20 +938,19 @@ footer {
     }
 
     .focalChakraImage > button > img {
-      width: 70%;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      width: 90%;
+     
     }
 
-    #rhsCardBtm {
+    #rhsCard {
         width: 100%;
         height: auto;
-        flex: 3 0 0;
+        /* flex: 3 0 0; */
     }
 
     #lpYesOrNo {
       width: 100%;
-      margin-right: 5%;
+      margin-right: 0;
       margin-left: 0;
     }
     #lpYesOrNo .card-header {
@@ -927,7 +962,7 @@ footer {
     #lpYesOrNo .desktop h4 {
       padding-bottom: 0;
       padding-top: 1rem;
-      border-top: thin solid rgb(65,36,86)
+     
     }
 
     #YorNCard {
@@ -954,12 +989,14 @@ footer {
     }
 
     .yOrNCta > button {
-      width: 50%;
+      width: 60%;
+      height: auto;
+      padding: 1rem;
     }
 
     .yOrNCta > button > img {
-      max-height: 10%;
-      max-width: 10%;
+    width: 90%;
+    height: 80%;
     
     }
 
@@ -967,21 +1004,24 @@ footer {
       width: 100%;
       padding-top: 2rem;
       display: flex;
-    
-     
+      align-items: center;
       
     }
 
-    #sampleYorN img {
-     margin-left: 25%;
-      width: 50%;
+    #sampleYorN a {
+      width: 100%;
+      height: auto;
+      align-content: center;
     }
 
-   #sampleYorN figcaption {
+    #sampleYorN img {
+     /* margin-left: 25%; */
+      width: 90%;
+    }
+
+   #sampleYorNText {
       font-weight: 700;
-      padding-top: 1rem;
-   text-align: center;
-    
+      /* padding-top: 1rem;     */
     }
 
 
@@ -1000,13 +1040,13 @@ footer {
 
   
 
-  #lhsCardTop {
+  /* #lhsCardTop {
     flex: 3 1 0;
   }
 
   #lhsCardBtm {
     flex: 1 2 0;
-  }
+  } */
 
   .dailyCardImage img {
     width: 70%;
@@ -1078,12 +1118,12 @@ html {
 
 #sampleYorN img {
   width: 60%;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
 }
 
-#sampleYorN figcaption {
+/* #sampleYorNText {
   padding-left: 5rem;
-}
+} */
 
 }
 
@@ -1106,13 +1146,13 @@ html {
     padding-top: 2rem;
   }
 
-  #sampleYorN img {
+  /* #sampleYorN img {
   padding-left: 4rem;
   }
 
-  #sampleYorN > figcaption {
+  #sampleYorNText {
   text-align: center;
-  }
+  } */
 }
 
 @media only screen and (min-width: 2304px) {
@@ -1123,12 +1163,12 @@ html {
 
   #sampleYorN img {
     width: 65%;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
   }
 
-  #sampleYorN > figcaption {
+  /* #sampleYorNText {
     padding-left: 7rem;
-  }
+  } */
 
   
 }
