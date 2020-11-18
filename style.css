@@ -773,7 +773,9 @@ footer {
   #lhsPanel{
         
         width: 25%;
-        min-height: 100%;   
+        height: 95vh;  
+        display: flex;
+        justify-content: space-between;
         /* flex: 3 1 auto;     */
     }
     
@@ -802,7 +804,7 @@ footer {
       padding: 0;
     }
 
-    .dTmImage > button {
+    #dailyTarotBtn {
       width: 60%;
       background-color: rgba(65, 36, 86, 0.5);
     }
@@ -920,18 +922,12 @@ footer {
     
     #rhsPanel{
      width: 25%;
-     height: auto;
+    min-height: 100%;
         /* display: flex;
         flex-direction: column; */
     }
     
-    #rhsCardTop{
-        width: 100%;
-       height: auto;
-       
-      
-    }
-
+ 
     #chakra {
       width: 100%;
       margin: 0;
@@ -976,9 +972,15 @@ footer {
       padding: 0;
     }
 
+    #lpYesOrNo .card-header h5 {
+      padding: 0;
+      margin: 0;
+      height: 0;
+    }
+
     #lpYesOrNo .desktop h4 {
       padding-bottom: 0;
-      padding-top: 1rem;
+      /* padding-top: 1rem; */
      
     }
 
@@ -996,7 +998,10 @@ footer {
     .yOrNtext p {
       font-weight: 700;
       margin: 0;
-      padding: 0;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-bottom: 1rem;
+      text-align: center;
     }  
 
     .yOrNCta {
@@ -1009,6 +1014,7 @@ footer {
       width: 60%;
       height: auto;
       padding: 1rem;
+      background-color: rgba(65, 36, 86, 0.5);
     }
 
     .yOrNCta > button > img {
@@ -1019,33 +1025,43 @@ footer {
 
     .yOrNSample {
       width: 100%;
-      padding-top: 2rem;
+      padding-top: 4rem;
       display: flex;
       align-items: center;
       
     }
 
-    #sampleYorN a {
+    #sampleYorN {
       width: 100%;
-      height: auto;
-      align-content: center;
     }
 
-    #sampleYorN img {
+    #sampleYorN > a > img {
      /* margin-left: 25%; */
-      width: 90%;
+      width: 60%;
+      height: auto;
+      margin-left: 6rem;
     }
 
    #sampleYorNText {
       font-weight: 700;
-      /* padding-top: 1rem;     */
     }
 
 
 } 
 
+@media only screen and (min-width: 1366px) {
+  #sampleYorN > a > img {
+    width: 45%;
+    margin-left: 10rem;
+  }
+
+}
+
 @media only screen and (min-width: 1440px) {
 
+  html {
+    font-size: 80%;
+  }
 
   .navbar-brand {
     font-size: 1.5rem;
@@ -1055,15 +1071,6 @@ footer {
     font-size: 1.5rem;
   }
 
-  
-
-  /* #lhsCardTop {
-    flex: 3 1 0;
-  }
-
-  #lhsCardBtm {
-    flex: 1 2 0;
-  } */
 
   .dailyCardImage img {
     width: 70%;
@@ -1101,18 +1108,22 @@ footer {
     padding-bottom: 1rem;
   }
 
- 
-
-  #rhsCardTop {
-    flex: 1 2 0;
+  .desktop h4 {
+    font-size: 1.8rem;
   }
 
-  #rhsCardBtm {
-    flex: 3 0 0;
+   #sampleYorN > a > img {
+    width: 50%;
+    
   }
 
-  #sampleYorN img {
-    width: 60%;
+  .yOrNtext {
+    font-size: 1.6rem;
+  }
+
+  #sampleYorN > a > p {
+    padding-top: 2rem;
+    font-size: 1.6rem;
   }
 
 }
@@ -1133,14 +1144,12 @@ html {
 }
 
 
-#sampleYorN img {
-  width: 60%;
-  /* padding-left: 2rem; */
+#sampleYorN > a > img {
+  width: 50%;
+
 }
 
-/* #sampleYorNText {
-  padding-left: 5rem;
-} */
+
 
 }
 
@@ -1150,26 +1159,6 @@ html {
     width: 60%;
     height: auto;
   }
-
-  #hdiw .desktop h4 {
-    padding-top: 2rem;
-  }
-
-  #chakra {
-    padding-bottom: 1rem;
-  }
-
-  #lpYesOrNo .desktop h4 {
-    padding-top: 2rem;
-  }
-
-  /* #sampleYorN img {
-  padding-left: 4rem;
-  }
-
-  #sampleYorNText {
-  text-align: center;
-  } */
 }
 
 @media only screen and (min-width: 2304px) {
@@ -1178,14 +1167,48 @@ html {
     font-size: 100%;
   }
 
-  #sampleYorN img {
-    width: 65%;
-    /* padding-left: 3rem; */
+  .navbar-brand {
+    font-size: 3rem;
   }
 
-  /* #sampleYorNText {
-    padding-left: 7rem;
-  } */
+  .nav-link {
+    font-size: 2.5rem;
+  }
+
+  .centreCopy {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .centreCopy h2 {
+    font-size: 3.5rem;
+  }
+
+  .centreCopy h3 {
+    font-size: 2.8rem;
+  }
+
+  .centreCopy h4 {
+    font-size: 2.5rem;
+  }
+
+  .centreCopy h5 {
+    font-size: 2.2rem;
+  }
+
+  .carousel p {
+    font-size: 2.5rem;
+  }
+
+  .yOrNtext p {
+    font-size: 1.8rem;
+  }
+
+  #sampleYorN > a > img {
+    width: 60%;
+
+  }
+
 
   
 }
