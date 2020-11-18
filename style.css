@@ -718,7 +718,7 @@ footer {
 
 
  @media only screen and (min-width: 1200px) 
- and (min-height: 800px)
+ 
  {
 
   .navbar-brand > img {
@@ -738,7 +738,7 @@ footer {
         flex-direction: row;
         flex-wrap: nowrap;
         max-width: 100vw;
-      min-height: 100%;
+      min-height: 100vh;
       
   }
 
@@ -778,7 +778,7 @@ footer {
         height: 95vh;  
         display: flex;
         justify-content: space-between;
-        /* flex: 3 1 auto;     */
+     
     }
     
     #lhsCardTop {
@@ -807,7 +807,7 @@ footer {
     }
 
     #dailyTarotBtn {
-      width: 60%;
+      width: 50%;
       background-color: rgba(65, 36, 86, 0.5);
     }
 
@@ -853,7 +853,7 @@ footer {
     }
 
     .hdiwImage > button {
-      width: 60%;
+      width: 50%;
       background-color: rgba(65, 36, 86, 0.5) ;
     }
     
@@ -862,6 +862,7 @@ footer {
        height: auto;
         display: flex;
         flex-direction: column;
+        align-items: space-between;
     }
     
     #headlineUSP{
@@ -910,6 +911,8 @@ footer {
 
     #carousel .card-header {
       visibility: hidden;
+      height: 0;
+      padding: 0;
     }
 
     .carousel {
@@ -925,9 +928,10 @@ footer {
     #rhsPanel{
      width: 25%;
     height: 95vh;
-        /* display: flex;
-        flex-direction: column; */
-    }
+    
+        flex-direction: column; 
+    
+      }
     
  
     #chakra {
@@ -947,7 +951,7 @@ footer {
       padding: 0;
     }
     .focalChakraImage > button {
-      width: 60%;
+      width: 50%;
       background-color: rgba(65, 36, 86, 0.5);
       border-radius: 1rem 3rem;
     }
@@ -1013,7 +1017,7 @@ footer {
     }
 
     .yOrNCta > button {
-      width: 60%;
+      width: 50%;
       height: auto;
       padding: 1rem;
       background-color: rgba(65, 36, 86, 0.5);
@@ -1062,9 +1066,9 @@ footer {
 
 @media only screen and (min-width: 1440px) {
 
-  html {
+  /* html {
     font-size: 80%;
-  }
+  } */
 
   .navbar-brand {
     font-size: 1.5rem;
@@ -1112,12 +1116,29 @@ footer {
   }
 
   .desktop h4 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+  }
+
+  .focalChakraImage > button {
+    width: 50%;
+  }
+
+  #dailyTarotBtn {
+    width: 50%;
+  }
+
+  .hdiwImage > button {
+    width: 50%;
+  }
+
+  .yOrNCta > button {
+    width: 50%;
   }
 
    #sampleYorN > a > img {
-    width: 50%;
-    
+    width: 35%;
+    padding: 0;
+     
   }
 
   .yOrNtext {
@@ -1146,10 +1167,35 @@ html {
   height: auto;
 }
 
+.focalChakraImage > button {
+  width: 40%;
+}
+
+#dailyTarotBtn {
+  width: 40%;
+}
+
+.hdiwImage > button {
+  width: 40%;
+}
+
+.yOrNCta > button {
+  width: 40%;
+}
+
 
 #sampleYorN > a > img {
-  width: 50%;
+  width: 35%;
 
+}
+
+#headlineUSP {
+  flex: 1 1 0;
+}
+
+
+#testimonialCarousel {
+flex: 1 1 0;
 }
 
 
