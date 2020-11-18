@@ -179,8 +179,8 @@ main {
   justify-content: center;
 }
 
-.dTmImage > button {
-  width: 50%;
+#dailyTarotBtn {
+  width: 25%;
   height: 50%;
   border: thin solid #412456;
   border-radius: 3rem 1rem;
@@ -192,9 +192,9 @@ body.hasHover .dTmImage > button:hover {
   box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
 }
 
-.tarotMed{
+#dailyTarotBtn img {
     width: 90%;
-    height: 80%;
+    height: 40%;
 }  
 
 .dailyCardHeader h4 {
@@ -367,8 +367,8 @@ body.hasHover .dTmImage > button:hover {
 }
 
 .yOrNCta > button {
-  width: 90%;
-  height: 80%;
+  /* width: 100%;
+  height: 90%; */
   border: thin solid #412456;
   background-color: rgba(65,36,86,0.3);
   border-radius: 1rem 3rem;
@@ -379,12 +379,10 @@ body.hasHover .yOrNCta > button:hover {
   box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
 }
 
-.yOrNCta > button > img {
-  width: 70%;
-  height: 70%;
-  
-  
-}
+/* .yOrNCta > button > img {
+  width: 20%;
+  height: 20%;  
+} */
 
 .yOrNSample {
     width: 50%;
