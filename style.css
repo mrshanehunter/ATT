@@ -180,7 +180,7 @@ main {
 }
 
 #dailyTarotBtn {
-  width: 25%;
+  width: 50%;
   height: 50%;
   border: thin solid #412456;
   border-radius: 3rem 1rem;
@@ -194,7 +194,7 @@ body.hasHover .dTmImage > button:hover {
 
 #dailyTarotBtn img {
     width: 90%;
-    height: 40%;
+    height: 80%;
 }  
 
 .dailyCardHeader h4 {
@@ -367,8 +367,8 @@ body.hasHover .dTmImage > button:hover {
 }
 
 .yOrNCta > button {
-  /* width: 100%;
-  height: 90%; */
+  width: 80%;
+  height: 40%;
   border: thin solid #412456;
   background-color: rgba(65,36,86,0.3);
   border-radius: 1rem 3rem;
@@ -575,14 +575,16 @@ footer {
     }
   
     main {
-      min-height: 85vh;
+      height: 100vh;
     }
 
     .navbar-brand > img {
       width: 15%;
       height: 15%;
+    margin-left: 15%;
     }
-   
+
+    
     #lhsPanel{
      width: 100%;
      display: flex;
@@ -601,7 +603,7 @@ footer {
     
     #centralPanel{
         width: 100%;
-  }
+   }
     
     #headlineUSP{
         width: 100%;
@@ -616,10 +618,13 @@ footer {
 
     #testimonialCarousel{
         width: 100%;
-           
     }
-    
+
+   
+
+
     #rhsPanel{
+        
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -637,6 +642,11 @@ footer {
    
     #dailyTarot {
       margin-left: 10%;
+    }
+
+    #dailyTarotBtn {
+      width: 25%;
+      height: 25%;
     }
 
     #hdiw {
@@ -675,12 +685,12 @@ footer {
 
     .yOrNCta {
       width: 25%;
-      padding-top: 7.5%;
+      
     }
 
     .yOrNCta > button {
       width: 90%;
-      height: 40%;
+      height: 50%;
       
     }
 
@@ -695,6 +705,15 @@ footer {
   .navbar-nav {
     padding-left: 50%;
   }
+
+  .card {
+    margin-bottom: 10%;
+  }
+
+  #lpYesOrNo {
+    margin-bottom: 10%;
+  }
+
 }
 
 
