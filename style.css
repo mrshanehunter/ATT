@@ -11,6 +11,7 @@ body {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
+    display: block;
    
 }
 
@@ -20,7 +21,7 @@ body p {
 }
 
 header {
-  min-width: 100vw;
+  max-width: 100vw;
   background-color: #412456;
   box-shadow: 0px 0px 2rem rgba(251, 201, 38, 0.5);
 }
@@ -74,7 +75,7 @@ main {
  }
 /*Collapsed Card Styling*/
 
-.card-header {
+/* .card-header {
   background-color: #412456;
   border-color: rgba(251, 201, 38, 0.5);
   border-style: outset;
@@ -92,110 +93,10 @@ main {
   border-color: rgba(251, 201, 38, 0.5);
   border-style: outset;
   background-color: rgba(65,36,86,0.3);
-}
+} */
 
 
-
-#landing {
-    max-width: 100vw;
-}
-
-#lhsPanel{
-    width: 100%;
-    
-}
-
-#lhsCardTop {
-    /* background-color: magenta; */
-    width: 100%;
-    /* height: 33.33%; */
-}
-
-
-#lhsCardMid{
-  /* background-color: mediumspringgreen; */
-  width: 100%;
-  /* height:33.330%; */
-
-}
-
-#lhsCardBtm {
-    /* background-color: palevioletred; */
-    width: 100%;
-    /* height: 33.33%;     */
-   
-}
-
-#centralPanel{
-    /* background-color: yellow; */
-    width: 100%;
-    /* height: 50vh; */
-}
-
-#headlineUSP{
-    /* background-color: skyblue; */
-    width: 100%;
-    height:50%;
   
-}
-
-#testimonialCarousel{
-    /* background-color:white; */
-    width: 100%;
-    height: 50%;    
-}
-
-#rhsPanel{
-    /* background-color: black; */
-    width:  100%;
-    /* height: 20vh; */
-}
-
-
-#rhsCard {
-    /* background-color:goldenrod; */
-    width: 100%;
-    /* height: 100%;    
-    margin-bottom: 2%; */
-}
-
-/*LHS Panel Elements Styling*/
-/*Daily Tarot Meditation*/
-.card {
-    margin-top: 1rem;
-    
-}
-
-#dailyTarot {
-    max-width: 80vw;
-    margin-left: 7.5%;
-    margin-top: 0rem;
-}
-
-.dTmImage {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-#dailyTarotBtn {
-  width: 50%;
-  height: 50%;
-  border: thin solid #412456;
-  border-radius: 3rem 1rem;
-  background-color: rgba(65,36,86,0.3);
-  padding: 1rem;
-}
-
-body.hasHover .dTmImage > button:hover {
-  box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
-}
-
-#dailyTarotBtn img {
-    width: 90%;
-    height: 80%;
-}  
 
 .dailyCardHeader h4 {
    font-family: aviano-flare, sans-serif;
@@ -224,48 +125,20 @@ body.hasHover .dTmImage > button:hover {
 }
 /*How Does It Work*/
 
-#hdiw {
-    max-width: 80vw;
-    margin-left: 7.5%;
-}
-
-  .hdiwImage {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .hdiwImage > button {
-    width: 50%;
-    height: 50%;
-    border-radius: 3rem 1rem;
-    border-color: #412456;
-    background-color: rgba(65,36,86,0.3);
-    padding: 1rem;
-  }
-
-  body.hasHover .hdiwImage > button:hover {
-    box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
-  }
-
-  .hdiwImage > button > img {
-      width: 90%;
-      height: 80%;
-  }  
-
-  /*Central Panel Elements Styling*/
-/*Headline Copy*/
 
 .centreCopy {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     text-align: center;
     color: #412456;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 0;
+    border: none;
+    border-style: none;
+    border-width: 0px;
+    background-color: transparent;
 }
 
 .centreCopy h2 ,h3{
@@ -304,51 +177,7 @@ body.hasHover .dTmImage > button:hover {
 /*rhs Panel Elements Styling*/
 /*Focal Chakra*/
 
-#chakra {
-    max-width: 80vw;
-    margin-left: 7.5%;
-}
- 
-  .focalChakraImage {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .focalChakraImage > button {
-    width: 50%;
-    height: 50%;
-    border: thin solid #412456;
-    border-radius: 3rem 1rem;
-    background-color: rgba(65,36,86,0.3);
-    padding: 1rem;
-  }
 
-  body.hasHover .focalChakraImage > button:hover {
-    box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
-  }
-
-  .focalChakraImage > button > img {
-      width: 90%;
-      height: 80%;
-  }  
-
-/*Yes Or No */
-
-#lpYesOrNo {
-    max-width: 80vw;
-    margin-left: 7.5%;
-    margin-bottom: 1rem;
-}
-
-#yOrNCard {
-    max-width: 80vw;
-    /* height: 80vh; */
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-}
 
 .yOrNtext {
     
@@ -358,31 +187,6 @@ body.hasHover .dTmImage > button:hover {
     padding-bottom: 1rem;
 }
 
-.yOrNCta {
-    width: 50%;
-    min-height: 100%;
-    display: flex;
-    align-items: center;
-    padding-top: 0;
-}
-
-.yOrNCta > button {
-  width: 80%;
-  height: 40%;
-  border: thin solid #412456;
-  background-color: rgba(65,36,86,0.3);
-  border-radius: 1rem 3rem;
-  
-}
-
-body.hasHover .yOrNCta > button:hover {
-  box-shadow: 0 0 2.5rem rgba(251, 201, 38, 0.5);
-}
-
-/* .yOrNCta > button > img {
-  width: 20%;
-  height: 20%;  
-} */
 
 .yOrNSample {
     width: 50%;
@@ -566,7 +370,7 @@ footer {
 
 
 
-
+/* 
 @media only screen and (min-width: 699px)   {
 
     
@@ -785,7 +589,7 @@ footer {
         max-width: 100%;
         margin: 0;
         padding: 0;
-        /* flex: 1 1 0; */
+        /* flex: 1 1 0; 
     }
 
     #dailyTarot {
@@ -829,7 +633,7 @@ footer {
     #lhsCardBtm {
         max-width: 100%;
         /* height: auto; */
-        /* flex: 1 2 0; */
+        /* flex: 1 2 0; 
        
         
     }
@@ -868,7 +672,7 @@ footer {
     #headlineUSP{
         width: 100%;
        height: auto;
-        /* flex: 3 0 0; */
+        /* flex: 3 0 0; 
     }
 
     .centreCopy {
@@ -901,7 +705,7 @@ footer {
     #testimonialCarousel{
         width: 100%;
         height: auto;
-        /* flex: 2 1 0; */
+        /* flex: 2 1 0; 
     }
 
     #carousel {
@@ -964,7 +768,7 @@ footer {
     #rhsCard {
         width: 100%;
         height: auto;
-        /* flex: 3 0 0; */
+        /* flex: 3 0 0; 
     }
 
     #lpYesOrNo {
@@ -986,7 +790,7 @@ footer {
 
     #lpYesOrNo .desktop h4 {
       padding-bottom: 0;
-      /* padding-top: 1rem; */
+      /* padding-top: 1rem; 
      
     }
 
@@ -1042,7 +846,7 @@ footer {
     }
 
     #sampleYorN > a > img {
-     /* margin-left: 25%; */
+     /* margin-left: 25%; 
       width: 50%;
       height: auto;
       margin-left: 6rem;
@@ -1068,7 +872,7 @@ footer {
 
   /* html {
     font-size: 80%;
-  } */
+  } 
 
   .navbar-brand {
     font-size: 1.5rem;
@@ -1260,4 +1064,4 @@ flex: 1 1 0;
 
 
   
-}
+} */
