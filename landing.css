@@ -1,3 +1,5 @@
+/*Small Phones*/
+
 body {
     background-image: url('./assets/attLPBkgrd.jpg');
     background-position: center;
@@ -24,30 +26,49 @@ body {
     }
     
     #headline {
-        height: 30vh;
+        width: 100vw;
+        height: 60vh;
     }
     
     #carousel {
-        height: 20vh;
+        width: 100vw;
+        height: 22vh;
     }
     
     .launch {
         width: 48vw;
        height: 25vh;
     }
+
+      .card-title {
+        color: rgba(65,36,86);
+        text-align: center;
+    }
+
+    .lpcard {
+        display: flex;
+        flex-direction: column;
+        
+    }
     
     .btn-card {
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
         border: thin solid #412456;
-        border-radius: 3rem 1rem;
+        border-radius: 2rem 1rem;
         background-color: rgba(65,36,86,0.3);
-        padding: 1rem;
+        padding: 0.25rem;
+        align-self: center;
     }
     
     .btn-card img {
         width: 90%;
         height: 90%;
+    }
+
+    @media only screen and (device-width: 360px)
+    and (device-height: 640px) and (orientation: portrait) {
+
     }
 
     @media only screen and (min-width: 768px) {
