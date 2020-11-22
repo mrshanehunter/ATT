@@ -205,7 +205,7 @@ main {
 
 @media only screen and (min-width: 1280px) and (min-height: 800px) {
   #navbarContent {
-    padding-left: 40%;
+    padding-left: 45%;
   }
 
   .nav-link {
@@ -218,6 +218,7 @@ main {
 
   .navbar-brand img {
     min-width: 17.5%;
+    margin-left: 2.5%;
   }
 
 }

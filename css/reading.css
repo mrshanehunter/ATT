@@ -15,6 +15,8 @@ body {
 
 .card {
     border-color: rgba(251,201,38,1);
+    width: 30rem;
+    height: 40rem;
 }
 
 
@@ -63,7 +65,7 @@ body {
 }
 
 .card p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .card-body {
@@ -73,8 +75,8 @@ body {
 
 .image {
     display: block;
+    height: 100%;
     width: 100%;
-    height: auto;
 }
 
 .overlay {
@@ -83,8 +85,8 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    height: 82.75%;
-    width: 100;
+    height: 87.5%;
+    width: 100%;
     opacity: 0;
     transition: 0.5s ease;
     background-color: rgb(65,36,86);
@@ -187,6 +189,24 @@ footer {
     position: relative;
 }
 
+.card {
+    width: 35rem;
+}
+
+.card h5 {
+    font-size: 1.8rem;
+}
+
+.card h6 {
+    font-size: 1.6rem;
+}
+
+.card p {
+    font-size: 1.6rem;
+}
+.overlay {
+    height: 87.5%;
+}
 
 #readingCards {
     margin-top: 2rem;
