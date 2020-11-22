@@ -12,6 +12,7 @@ body {
     font-weight: 400;
     font-style: normal;
     display: block;
+    max-width: 100vw;
    
 }
 
@@ -121,70 +122,96 @@ main {
 /*How Does It Work*/
 
 
-.centreCopy {
-    /* display: flex;
-    flex-direction: column; */
-    text-align: center;
-    color: #412456;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 0;
-    border: none;
-    border-style: none;
-    border-width: 0px;
-    background-color: transparent;
-}
+@media only screen and (min-device-width: 500px)
+ and (orientation: landscape) {
 
-.centreCopy h2 ,h3{
-  font-family: aviano-flare, sans-serif;
-  font-weight: 400;
-  font-style: normal;  
-}
-
-.centreCopy h2 {
-  font-size: 1.6rem;
-}
-
-.centreCopy h3 {
-  font-size: 1.4rem;
-}
-
-.centreCopy h4 {
-  font-size: 1.2rem;
-}
-
-.centreCopy h4 ,h5{
- 
-  font-weight: 600;
+  .navbar {
+    width: 100vw;
+  }
   
+  header {
+    width: 100vw;
+  }
+
+  .navbar-brand {
+    
+    width: 35%;
+  }
+
+  .navbar-brand img {
+    max-width: 15%;
+    max-height: 15%;
+  }
 }
 
-.centreCopy h5 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  
-  font-size: 1.1rem;
+@media only screen and (min-device-width: 992px) {
+  #navbarContent {
+   padding-left: 45%;
+   }
+  }
+
+  @media only screen and (min-device-width: 1024px) and
+  (max-device-width: 1366px) and (orientation: portrait) {
+
+    .navbar-brand {
+      margin-left: 5%;
+      font-size: 1.8rem;
+    }
+
+    .navbar-brand img {
+      min-width: 20%;
+    }
+
+    #navbarContent {
+      padding-left: 15%;
+    }
+
+    .nav-link {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (min-device-width: 1024px) and
+  (max-device-width: 1366px) and (orientation: landscape) {
+
+    .navbar-brand {
+      margin-left: 5%;
+      font-size: 1.8rem;
+    }
+
+    .navbar-brand img {
+      min-width: 20%;
+    }
+
+    #navbarContent {
+      padding-left: 35%;
+    }
+
+    .nav-link {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (device-width: 1024px) and (device-height: 600px) and
+(orientation: landscape) {
+  .nav-link {
+    font-size: 1.4rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
 }
 
 
 
-/*Testimonial Carousel*/
 
-#carousel {
-    /* max-width: 80vw; */
-    /* margin-left: 7.5%; */
-}
 
-.carousel-inner {
-    width: 90%;
-    margin-left: 5%;
-}
 
-.carousel p {
-  font-weight: bold;
-  text-align: center;
-}
+
+
+
+
 
 /*rhs Panel Elements Styling*/
 /*Focal Chakra*/
