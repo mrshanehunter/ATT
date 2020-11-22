@@ -203,7 +203,43 @@ main {
   }
 }
 
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+  #navbarContent {
+    padding-left: 40%;
+  }
 
+  .nav-link {
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand img {
+    min-width: 17.5%;
+  }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+
+  #navbarContent {
+    padding-left: 45%;
+  }
+
+  .navbar-brand img {
+    margin-left: 5%;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
 
 
 
