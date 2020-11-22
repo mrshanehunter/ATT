@@ -122,125 +122,6 @@ main {
 /*How Does It Work*/
 
 
-@media only screen and (min-device-width: 500px)
- and (orientation: landscape) {
-
-  .navbar {
-    width: 100vw;
-  }
-  
-  header {
-    width: 100vw;
-  }
-
-  .navbar-brand {
-    
-    width: 35%;
-  }
-
-  .navbar-brand img {
-    max-width: 15%;
-    max-height: 15%;
-  }
-}
-
-@media only screen and (min-device-width: 992px) {
-  #navbarContent {
-   padding-left: 45%;
-   }
-  }
-
-  @media only screen and (min-device-width: 1024px) and
-  (max-device-width: 1366px) and (orientation: portrait) {
-
-    .navbar-brand {
-      margin-left: 5%;
-      font-size: 1.8rem;
-    }
-
-    .navbar-brand img {
-      min-width: 20%;
-    }
-
-    #navbarContent {
-      padding-left: 15%;
-    }
-
-    .nav-link {
-      font-size: 1.8rem;
-    }
-  }
-
-  @media only screen and (min-device-width: 1024px) and
-  (max-device-width: 1366px) and (orientation: landscape) {
-
-    .navbar-brand {
-      margin-left: 5%;
-      font-size: 1.8rem;
-    }
-
-    .navbar-brand img {
-      min-width: 20%;
-    }
-
-    #navbarContent {
-      padding-left: 35%;
-    }
-
-    .nav-link {
-      font-size: 1.8rem;
-    }
-  }
-
-  @media only screen and (device-width: 1024px) and (device-height: 600px) and
-(orientation: landscape) {
-  .nav-link {
-    font-size: 1.4rem;
-  }
-
-  .navbar-brand {
-    font-size: 1.4rem;
-  }
-}
-
-@media only screen and (min-width: 1280px) and (min-height: 800px) {
-  #navbarContent {
-    padding-left: 45%;
-  }
-
-  .nav-link {
-    font-size: 1.8rem;
-  }
-
-  .navbar-brand {
-    font-size: 1.8rem;
-  }
-
-  .navbar-brand img {
-    min-width: 17.5%;
-    margin-left: 2.5%;
-  }
-
-}
-
-@media only screen and (min-width: 1920px) and (min-height: 1080px) {
-
-  #navbarContent {
-    padding-left: 45%;
-  }
-
-  .navbar-brand img {
-    margin-left: 5%;
-  }
-
-  .nav-link {
-    font-size: 2rem;
-  }
-
-  .navbar-brand {
-    font-size: 2rem;
-  }
-}
 
 
 
@@ -452,6 +333,125 @@ footer {
 
 
 
+@media only screen and (min-device-width: 500px)
+ and (orientation: landscape) {
+
+  .navbar {
+    width: 100vw;
+  }
+  
+  header {
+    width: 100vw;
+  }
+
+  .navbar-brand {
+    
+    width: 35%;
+  }
+
+  .navbar-brand img {
+    max-width: 15%;
+    max-height: 15%;
+  }
+}
+
+@media only screen and (min-device-width: 992px) {
+  #navbarContent {
+   padding-left: 45%;
+   }
+  }
+
+  @media only screen and (min-device-width: 1024px) and
+  (max-device-width: 1366px) and (orientation: portrait) {
+
+    .navbar-brand {
+      margin-left: 5%;
+      font-size: 1.8rem;
+    }
+
+    .navbar-brand img {
+      min-width: 20%;
+    }
+
+    #navbarContent {
+      padding-left: 15%;
+    }
+
+    .nav-link {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (min-device-width: 1024px) and
+  (max-device-width: 1366px) and (orientation: landscape) {
+
+    .navbar-brand {
+      margin-left: 5%;
+      font-size: 1.8rem;
+    }
+
+    .navbar-brand img {
+      min-width: 20%;
+    }
+
+    #navbarContent {
+      padding-left: 35%;
+    }
+
+    .nav-link {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (device-width: 1024px) and (device-height: 600px) and
+(orientation: landscape) {
+  .nav-link {
+    font-size: 1.4rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+  #navbarContent {
+    padding-left: 45%;
+  }
+
+  .nav-link {
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand img {
+    min-width: 17.5%;
+    margin-left: 2.5%;
+  }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+
+  #navbarContent {
+    padding-left: 45%;
+  }
+
+  .navbar-brand img {
+    margin-left: 5%;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
 
 
 /* 
