@@ -699,8 +699,8 @@ and (device-width: 1366px) and (orientation: landscape)
 }
 
 
-@media only screen and (min-width: 1024px) and 
-(min-height: 768px) {
+@media only screen and (min-width: 1025px) and 
+(min-height: 769px) {
 
 
     #landing {
