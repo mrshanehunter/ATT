@@ -70,9 +70,9 @@ body {
        
         text-align: center;
         color: #412456;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        padding-top: 1.5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
         padding-bottom: 0;
     }
     
@@ -99,10 +99,15 @@ body {
       font-weight: 600;
       
     }
+
+    .centreCopy h4 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
     
     .centreCopy h5 {
-      padding-top: 1vh;
-      padding-bottom: 1vh;
+      padding-top: 2%;
+      padding-bottom: 2%;
       
       font-size: clamp(1.1rem, 1.8vw, 2.2rem);
     }
@@ -350,22 +355,6 @@ body {
             height: 22.5vh;
         }
 
-        .centreCopy {
-            padding-top: 3.5vh;
-            padding-bottom: 0;
-        }
-        
-        .centreCopy h4 {
-          padding-left: 8vw;
-          padding-right: 8vw;
-        }
-        
-             
-        .centreCopy h5 {
-          padding-left: 10vw;
-          padding-right: 10vw;
-        }
-        
         .carousel-inner {
             width: 70%;
             margin-left: 15%;
@@ -389,17 +378,6 @@ body {
          max-width: 60vw;
          height: 55vh;
      }
-
-     .centreCopy {
-         padding-top: 0.1vh;
-     }
-
-    .centreCopy h4, h5 {
-         padding-left: 1vw;
-         padding-right: 1vw;
-         padding-top: 0.5vh;
-         padding-bottom: 0.5vh;
-    }
 
      #carousel {
         padding-top: 1vh;
@@ -451,24 +429,6 @@ and (device-height: 1366px) and (orientation: portrait)
     height: 50vh;
 }
 
-    .centreCopy {
-        padding-top: 3vh;
-    }
-  
-    .centreCopy h4 {
-        padding-left: 10vw;
-        padding-right: 10vw;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-    }
-
-    .centreCopy h5 {
-        padding-left: 15vw;
-        padding-right: 15vw;
-        padding-top: 1.5vh;
-        padding-bottom: 1.5vh;
-    }
-
     .carousel-inner {
         width: 65%;
         margin-left: 17.5%;
@@ -496,11 +456,6 @@ and (device-width: 1366px) and (orientation: landscape)
  #headline {
      max-width: 60vw;
      height: 65vh;
- }
-
- .centreCopy h4, h5 {
-     padding-top: 1vh;
-     padding-bottom: 1vh;
  }
 
  #carousel {
@@ -631,10 +586,6 @@ and (device-width: 1366px) and (orientation: landscape)
 
     #headline {
         height: 65vh;
-    }
-
-    .centreCopy {
-        padding-top: 5vh;
     }
 
     #carousel {
