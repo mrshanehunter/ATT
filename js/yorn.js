@@ -1,3 +1,91 @@
+//This is a sample of YorN to be displayed while users are not logged in
+
+const tryIt = document.getElementById('tryIt');
+
+
+
+function sampleYorN() {
+  const sampleTarot = [
+    {
+      cdName: "The Fool",
+      cdResponse: "Yes",
+      cdMeaning: "The Universe is behind you 100%.",
+      cdImage: "https://www.sacred-texts.com/tarot/pkt/img/ar00.jpg",
+    },
+    {
+      cdName: "The Hermit",
+      cdResponse: "No",
+      cdMeaning: "Don't make the same mistake again. Think twice.",
+      cdImage: "https://www.sacred-texts.com/tarot/pkt/img/ar09.jpg",
+    },
+    {
+      cdName: "Two of Swords",
+      cdResponse: "No",
+      cdMeaning: "If you proceed, you'll be blindsided.",
+      cdImage: "https://www.sacred-texts.com/tarot/pkt/img/sw02.jpg",
+    },
+    {
+      cdName: "Six of Pentacles",
+      cdResponse: "Yes",
+      cdMeaning: "But don't be scared to ask for help.",
+      cdImage: "https://www.sacred-texts.com/tarot/pkt/img/pe06.jpg",
+    },
+  ]
+
+  const randomSample = Math.ceil(Math.random() * 4);
+  
+  const sampleName = sampleTarot[`${randomSample}`].cdName;
+  const sampleResponse = sampleTarot[`${randomSample}`].cdResponse;
+  const sampleMessage = sampleTarot[`${randomSample}`].cdMeaning;
+  const sampleImage = sampleTarot[`${randomSample}`].cdImage;
+
+  const sampleNameContainer = document.querySelector("#pracDrawn");
+
+  const div = document.createElement("div");
+  sampleNameContainer.classList.add("pracDrawn");
+  const sampleHTML = `
+       <div class="admin m-0 p-0" data-name="${sampleName}">
+
+           <div class="d-flex justify-content-center m-0 p-0 cardDrawnName">
+              <p>${sampleName}</p>
+          </div>   
+
+          <div class="d-flex justify-content-center m-0 p-0 cardDrawnImage">
+              <img class="img-fluid m-0 p-0" src="${sampleImage}" height="20%" width="auto">
+          </div>
+
+          <div class="cardResponse d-flex m-0 p-0 justify-content-center">
+             <p><strong>${sampleResponse}</strong></p>
+          </div>
+
+          <div class="cardMessage d-flex m-0 p-0 justify-content-center">
+              <p><strong>${sampleMessage}</strong></p>
+          </div>
+
+          <div class="sampleMessage d-flex m-0 p-0 justify-content-center">
+          <p> The tarot will answer either Yes or No, but always with some advice to consider.
+          Try another question and see if you get a different answer.</p>
+        </div>  
+
+      </div>
+       `;
+  sampleNameContainer.innerHTML = sampleHTML;
+  sampleNameContainer.appendChild(div);
+
+}
+
+tryIt.addEventListener("click", sampleYorN);
+
+
+
+
+
+
+
+// All code below is displayed when users are logged into the app
+
+
+
 function tarotYesOrNo() {
     const theTarot = [
       {
@@ -555,19 +643,22 @@ function tarotYesOrNo() {
   document.addEventListener('snipcart.ready', () => {
    
     const enterBtn = document.getElementById("enterBtn");
- 
+    const practice = document.getElementById("practice");
+    const liveApp = document.getElementById("liveApp");
 
     Snipcart.events.on('customer.signedin', (customer) => {
        emailID = `${customer.email}`;
        console.log(`Customer ${customer.email} just signed in. Value is:`, customer.signedin);
        console.log(emailID);
-        enterBtn.style.visibility = "visible";
+        practice.style.display = "none";
+        liveApp.style.display = "flex";
   
     enterBtn.addEventListener("click", tarotYesOrNo);
   })
 
     Snipcart.events.on('customer.signedout', () => {
-      enterBtn.style.visibility = "hidden";
+      liveApp.style.display = "none";
+      practice.style.display = "flex";
     })
 
   Snipcart.events.on('cart.confirmed', (cartConfirmResponse) => {

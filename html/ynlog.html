@@ -19,7 +19,7 @@
             <nav class="navbar navbar-expand-lg">
               
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/LogoNoBkgd-1.png" class="d-inline-block align-center" width="90" height="90" alt="...">
+                    <img src="../assets/LogoNoBkgd-1.png" class="d-inline-block align-center">
                 Ask The Tarot</a>
                 <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
     <div id="mainContainer" class="container-fluid">
 
         <div id="cardContainer" class="container-fluid">
-        <div id="instructions" class="container-fluid">
+       
             
           <!--How To Card-->  
           <div id="hiw" class="card">
@@ -77,13 +77,13 @@
                     </div>
                 </div>    
           </div> <!--End How To Card-->     
-        </div> <!--End Instuctions Container-->
-        <div id="tokenCont" class="container-fluid">  
+       
+    
 
          <div id="atc" class="card">
                 <div class="card-header">
                     <a href="#atcCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="atcCollapse">
-                   <h6>  Add To Cart: </h6></a>
+                   <h6>  Get Started Now: </h6></a>
                 </div>
                 <div class="collapse" id="atcCollapse">
     
@@ -121,25 +121,42 @@
             </div> <!--End Collapse Toggle-->   
          </div> <!--end Token Card-->   
      
-    </div><!--End ATC Container Fluid-->
-    </div><!--End CardContatiner-->
+ 
 
-        <div id="gameBoard" class="container-fluid mt-3">
-          
-
-            <div id="gameReveal" class="container-fluid d-flex justify-content-center">
-                
-                <div id="cardDrawn" class="div">
-
-                </div>
-
+            <div id="gameBoard" class="card">
             
+                    <div class="card-header">
+                        <a href="#gameBoardCollapse" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="atcCollapse">
+                    <h6>  Are You Ready For the Answer? </h6></a>
+                    </div>
+                    <div class="collapse" id="gameBoardCollapse">
 
-            </div> <!--end gamereveal div-->
-            <div id="gameBtn">
-                <button id="enterBtn" type="button" class="button">Ask The Tarot Yes Or No</button>
-            </div>
-        </div>  <!--end gameboard div-->       
+                            <div id="gameReveal" class="card-body d-flex justify-content-center">
+                                <!--This is displayed when the user is not logged in-->
+                                <div id="practice" class="container-fluid">
+                                    <div id="pracDrawn" class="div">
+
+
+                                    </div>
+                                    <div id="pracBtn">
+                                        <button id="tryIt" type="button" class="button">See How The Tarot Responds</button>   
+                                    </div>
+
+                                </div>
+                                <!--This is where the app displays cards when user is logged in-->
+                                <div id="liveApp" class="container-fluid">
+                                <div id="cardDrawn" class="div">
+
+                                </div>
+                        
+                                <div id="gameBtn">
+                                    <button id="enterBtn" type="button" class="button">Ask The Tarot Yes Or No</button>
+                                </div> 
+                                </div>
+                            </div> <!--end gamereveal div-->
+                    </div> <!--End gameBoard Collapse-->     
+            </div>  <!--end gameboard card-->     
+        </div> <!--End of Card Containter-->  
     </div> <!--End of Main Container-->
      
     <footer>
