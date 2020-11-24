@@ -72,7 +72,7 @@
       font-size: clamp(1.4rem, 2.2vw, 3.4rem);
     }
     .centreCopy h4 {
-      font-size: clamp(1.2rem, 2vw, 3rem);
+      font-size: clamp(1.4rem, 2vw, 3rem);
     }
     .centreCopy h4 ,h5{
        font-weight: 600;
