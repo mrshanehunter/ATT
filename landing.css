@@ -1,57 +1,45 @@
 /*Small Phones*/
 
-body {
+    body {
     background-image: url('./assets/attLPBkgrd.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#landing {
-
+    }
+    #landing {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
     }
-    
     .card {
         background-color: transparent;
         border: none;
         border-style: none;
     }
-    
     .info {
         width: 100vw;
     }
-    
     #headline {
         width: 100vw;
-        height: 60vh;
+        height: 63%;
     }
-    
     #carousel {
         width: 100vw;
-        height: 22vh;
+        height: 22%;
     }
-    
     .launch {
         width: 48vw;
-       height: 25vh;
+       height: 25%;
     }
-
-      .card-title {
+    .card-title {
         color: rgba(65,36,86);
         text-align: center;
     }
-
     .lpcard {
         display: flex;
         flex-direction: column;
-        
     }
-    
-    .btn-card {
+     .btn-card {
         width: 60%;
         height: 60%;
         border: thin solid #412456;
@@ -60,14 +48,11 @@ body {
         padding: 1vw;
         align-self: center;
     }
-    
     .btn-card img {
         width: 90%;
         height: 90%;
     }
-
     .centreCopy {
-       
         text-align: center;
         color: #412456;
         padding-left: 5%;
@@ -75,468 +60,108 @@ body {
         padding-top: 2%;
         padding-bottom: 0;
     }
-    
     .centreCopy h2 ,h3{
       font-family: aviano-flare, sans-serif;
       font-weight: 400;
       font-style: normal;  
     }
-    
     .centreCopy h2 {
-      font-size: clamp(1.6rem, 2.4vw, 3.2rem);
+      font-size: clamp(1.6rem, 2.4vw, 3.8rem);
     }
-    
     .centreCopy h3 {
-      font-size: clamp(1.4rem, 2.2vw, 2.8rem);
+      font-size: clamp(1.4rem, 2.2vw, 3.4rem);
     }
-    
     .centreCopy h4 {
-      font-size: clamp(1.2rem, 2vw, 2.4rem);
+      font-size: clamp(1.2rem, 2vw, 3rem);
     }
-    
     .centreCopy h4 ,h5{
-     
-      font-weight: 600;
-      
+       font-weight: 600;
     }
-
     .centreCopy h4 {
         padding-top: 2%;
         padding-bottom: 2%;
     }
-    
     .centreCopy h5 {
       padding-top: 2%;
       padding-bottom: 2%;
-      
-      font-size: clamp(1.1rem, 1.8vw, 2.2rem);
+      font-size: clamp(1.4rem, 1.85vw, 2.8rem);
     }
-    
     .carousel-inner {
         width: 80%;
         margin-left: 10%;
     }
-    
     .carousel p {
       font-weight: bold;
       text-align: center;
-      font-size: clamp(1.4rem, 1.8vw, 2.8rem);
+      font-size: clamp(1.4rem, 1.85vw, 2.8rem);
     }
-
     .card-title {
         font-size: clamp(1.4rem, 1.8vw, 2.8rem);
-    }
-
-    @media only screen and (device-width: 360px)
-    and (device-height: 640px) and (orientation: portrait) {
-
-        #headline {
-            height: 50vh;
-        }
-    }
-
-    @media only screen and (device-width: 640px)
-    and (device-height: 360px) and (orientation: landscape) {
-
-        #landing {
-         flex-flow: column wrap;
-         max-width: 100vw;
-         height: 100vh;
-        }
-        
-        footer {
-            visibility: hidden;
-        }
-        
-        #headline {
-           max-width: 60vw;
-           height: 90vh;
-        }
-
-        #carousel {
-            max-width: 60vw;
-            max-height: 15vh;
-        }
-
-        /* .carousel-inner {
-            width: 70%;
-            margin-left: 15%;
-        } */
-
-        .launch {
-            max-width: 38vw;
-            height: 25vh;
-        }
-    }
-
-    @media only screen and (device-width: 360px)
-    and (device-height: 740px) and (orientation: portrait) {
-
-        #headline {
-            height: 42.5vh;
-        }
-
-    }
-
-    @media only screen and (device-width: 740px)
-    and (device-height: 360px) and (orientation: landscape) {
-
-        #landing {
-         flex-flow: column wrap;
-         max-width: 100vw;
-         height: 100vh;
-        }
-        
-        footer {
-            visibility: hidden;
-        }
-        
-        #headline {
-           max-width: 60vw;
-           height: 80vh;
-        }
-
-        #carousel {
-            max-width: 60vw;
-            height: 20vh;
-        }
-
-        .launch {
-            max-width: 38vw;
-            height: 25vh;
-        }
-    }
-
-    @media only screen and (device-width: 375px)
-    and (device-height: 667px) and (orientation: portrait) {
-         #headline {
-             min-height: 50vh;
-         }
-    }
-
-    @media only screen and (device-height: 375px)
-    and (device-width: 667px) and (orientation: landscape) {
-
-        #landing {
-            flex-flow: column wrap;
-            max-width: 100vw;
-            height: 100vh;
-        } 
-        
-         #headline {
-             max-width: 60vw;
-             height: 75vh;
-         }
-
-         #carousel {
-             max-width: 60vw;
-             height: 25vh;
-         }
-
-         footer {
-             visibility: hidden;
-         }
-    }
-
-
-    @media only screen and (device-width: 375px)
-    and (device-height: 812px) and (orientation: portrait) {
-         #headline {
-             height: 40vh;
-         }
-
-         #carousel {
-             height: 20vh;
-         }
-
-         .launch {
-             height: 20vh;
-         }
-    }
-
-    @media only screen and (device-height: 375px)
-    and (device-width: 812px) and (orientation: landscape) {
-
-        #landing {
-            flex-flow: column wrap;
-            max-width: 100vw;
-            height: 130vh;
-        } 
-        
-         #headline {
-             max-width: 60vw;
-             height: 105vh;
-         }
-          
-
-         #carousel {
-             max-width: 60vw;
-             height: 25vh;
-         }
-
-         /* .carousel-inner {
-             width: 70%;
-             margin-left: 15%;
-         } */
-
-         .launch {
-             max-width: 39vw;
-         }
-
-         .btn-card {
-             width: 40%;
-             height: 70%;
-         }
-
-         footer {
-             visibility: hidden;
-         }
-    }
-
-    @media only screen and (device-width: 412px) 
-    and (device-height: 736px) and (orientation: portrait) {
-        #headline {
-            height: 45vh;
-        }
-    }
-
-    @media only screen and (device-height: 412px) 
-    and (device-width: 736px) and (orientation: landscape) {
-        #landing {
-          
-            flex-flow: column wrap;
-            max-width: 100vw;
-            height: 135vh;
-        }
-
-        #headline {
-            max-width: 60vw;
-            height: 85vh;
-        }
-
-        #carousel {
-            max-width: 60vw;
-            height: 35vh;
-        }
-
-        /* .carousel-inner {
-            width: 70%;
-            margin-left: 15%;
-        } */
-
-        .launch {
-            max-width: 35vw;
-            height: 25vh;
-        }
-
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
 
     @media only screen and (device-width: 768px)
-    and (device-height: 1024px) and (orientation: portrait)
-
     {
-    
         #landing {
             justify-content: space-between;
         }
-    
         #headline {
             width: 100vw;
-            height: 40vh;
         }
-    
-        #carousel {
+         #carousel {
             width: 100vw;
-            height: 25vh;
         }
-    
         .launch {
             width: 25vw;
-            height: 22.5vh;
         }
-
-        /* .carousel-inner {
-            width: 70%;
-            margin-left: 15%;
-        } */
-        
         .btn-card {
             border-radius: 3vw 1.5vw;
         }
     }
-
-    @media only screen and (device-height: 768px)
-    and (device-width: 1024px) and (orientation: landscape)
-
-    {  #landing {
-        flex-flow: column wrap;
-        max-width: 100vw;
-        height: 100vh;
-    } 
-    
-     #headline {
-         max-width: 60vw;
-         height: 55vh;
-     }
-
-     #carousel {
-        padding-top: 1vh;
-        max-width: 60vw;
-         height: 25vh;
-     }
-
-    .launch {
-         max-width: 39vw;
-     }
-
-    .btn-card {
-         border-radius: 3vw 1.5vw;
-     }
-
-    }
-
-    @media only screen and (device-width: 1024px) and (device-height: 600px) and
-    (orientation: landscape) {
-        
-          #landing {
-            flex-flow: column wrap;
-            max-width: 100vw;
-            height: 130vh;
-        } 
-        
-        
-        #headline {
-            max-width: 55vw;
-            height: 75vh;
-            }
-    
-      .carousel {
-          height: 45vh;
-          max-width: 55vw;
-      }  
-
-      .launch {
-          max-width: 40vw;
-          height: 30vh;
-      }
-    }
-
+   
     @media only screen and (device-width: 1024px)
-and (device-height: 1366px) and (orientation: portrait)
 {
-    
-#headline {
-    height: 50vh;
-}
-
-    /* .carousel-inner {
-        width: 65%;
-        margin-left: 17.5%;
-    } */
-      
     .card-title {
         padding-bottom: 0.5vh;
     }
-
     .btn-card {
-        border-radius: 3vw 1.5vw;
+        border-radius: 4vw 2vw;
     }
 }
 
-
-@media only screen and (device-height: 1024px)
-and (device-width: 1366px) and (orientation: landscape)
-
-{  #landing {
-    flex-flow: column wrap;
-    max-width: 100vw;
-    height: 120vh;
-} 
-
- #headline {
-     max-width: 60vw;
-     height: 65vh;
- }
-
- #carousel {
-     max-width: 60vw;
-     height: 30vh;
- }
-
- /* .carousel-inner {
-     width: 70%;
-     margin-left: 15%;
- } */
-
- .launch {
-     max-width: 39vw;
-     height: 50vh;
- }
-}
-
-
-
-
-
-@media only screen and (min-device-width: 1112px) and
-(max-device-width: 1112px) and (orientation: landscape) {
-
-   #heading {
-       height: 85vh;
-   } 
-
-   .carousel {
-       height: 15vh;
-       align-self: flex-end;
-   }
-}
-
-
-@media only screen and (min-width: 1025px) and 
-(min-height: 769px) {
-
-
+@media only screen and (min-width: 1025px) 
+ {
     #landing {
             
         max-width: 100vw;
         height: 100vh;
         flex-flow: column wrap;
-      
-       
     }
-
     #headline {
         order: 3;
         align-self: center;
-        flex: 3 2 auto;
+        flex: 1.25 1 auto;
         width: 50vw;
     }
-
     #carousel {
         order: 4;
         align-self: center;
-        flex: 2 2 auto;
+        flex: 1 0 auto;
         width: 50vw;
     }
-
-   
-
     #tarot {
         order:1;
         align-self: flex-start;
        width: 25vw;
        flex: 1 2 auto;
-      
     }
-
     #yesorno {
         order: 2;
         justify-self: flex-end;
         width: 25vw;
         flex: 1 2 auto;
-       
     }
-
     #chakra {
         order: 5;
         align-self: flex-end;
@@ -544,53 +169,25 @@ and (device-width: 1366px) and (orientation: landscape)
         flex: 1 2 auto;
         width: 25vw;
     }
-
     #hdiw {
         order: 6;
         align-self: flex-end;
         flex: 1 2 auto;
         width: 25vw;
     }
-
-    .centreCopy {
-        padding-top: 2vh;
-    }
-
-    /* .carousel-inner {
-        width: 80%;
-        margin-left: 10%;
-    } */
-
     .card-title {
         padding-left: 5vw;
         padding-right: 5vw;
         padding-top: 2vh;
-        padding-bottom: 0.75rem;
+        padding-bottom: 0.5vh;
     }
-
     .btn-card {
         height: 40%;
     }
-
     #tarot .card-body {
         justify-content: flex-end;
     }
-
     #chakra .card-body {
     justify-content: flex-end;
     }
 }
-
-
-@media only screen and (min-width: 1920px) and (min-height: 1080px) {
-
-    #headline {
-        height: 65vh;
-    }
-
-    #carousel {
-        height: 35vh;
-    }
-    
-       
-    }
