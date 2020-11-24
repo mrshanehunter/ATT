@@ -55,9 +55,9 @@ body {
         width: 60%;
         height: 60%;
         border: thin solid #412456;
-        border-radius: 2rem 1rem;
+        border-radius: 2vw 1vw;
         background-color: rgba(65,36,86,0.3);
-        padding: 0.25rem;
+        padding: 1vw;
         align-self: center;
     }
     
@@ -70,9 +70,9 @@ body {
        
         text-align: center;
         color: #412456;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 1rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 1.5vh;
         padding-bottom: 0;
     }
     
@@ -83,15 +83,15 @@ body {
     }
     
     .centreCopy h2 {
-      font-size: 1.6rem;
+      font-size: clamp(1.6rem, 2.4vw, 3.2rem);
     }
     
     .centreCopy h3 {
-      font-size: 1.4rem;
+      font-size: clamp(1.4rem, 2.2vw, 2.8rem);
     }
     
     .centreCopy h4 {
-      font-size: 1.2rem;
+      font-size: clamp(1.2rem, 2vw, 2.4rem);
     }
     
     .centreCopy h4 ,h5{
@@ -101,10 +101,10 @@ body {
     }
     
     .centreCopy h5 {
-      padding-top: 0.25rem;
-      padding-bottom: 0.25rem;
+      padding-top: 1vh;
+      padding-bottom: 1vh;
       
-      font-size: 1.1rem;
+      font-size: clamp(1.1rem, 1.8vw, 2.2rem);
     }
     
     .carousel-inner {
@@ -115,6 +115,11 @@ body {
     .carousel p {
       font-weight: bold;
       text-align: center;
+      font-size: clamp(1.4rem, 1.8vw, 2.8rem);
+    }
+
+    .card-title {
+        font-size: clamp(1.4rem, 1.8vw, 2.8rem);
     }
 
     @media only screen and (device-width: 360px)
@@ -239,12 +244,6 @@ body {
              height: 20vh;
          }
 
-         .centreCopy {
-             padding-top: 1.5rem;
-             padding-left: 2rem;
-             padding-right: 2rem;
-         }
-
          .launch {
              height: 20vh;
          }
@@ -256,25 +255,18 @@ body {
         #landing {
             flex-flow: column wrap;
             max-width: 100vw;
-            height: 100vh;
+            height: 130vh;
         } 
         
          #headline {
              max-width: 60vw;
-             height: 70vh;
+             height: 105vh;
          }
-
-         .centreCopy {
-             padding-top: 0.25rem;
-        }
-
-        .centreCopy h4 {
-            padding-left: 0;
-        }
+          
 
          #carousel {
              max-width: 60vw;
-             height: 30vh;
+             height: 25vh;
          }
 
          .carousel-inner {
@@ -299,8 +291,7 @@ body {
     @media only screen and (device-width: 412px) 
     and (device-height: 736px) and (orientation: portrait) {
         #headline {
-            padding-top: 0.5rem;
-            height: 50vh;
+            height: 45vh;
         }
     }
 
@@ -310,17 +301,17 @@ body {
           
             flex-flow: column wrap;
             max-width: 100vw;
-            height: 100vh;
+            height: 135vh;
         }
 
         #headline {
             max-width: 60vw;
-            height: 70vh;
+            height: 85vh;
         }
 
         #carousel {
             max-width: 60vw;
-            height: 30vh;
+            height: 35vh;
         }
 
         .carousel-inner {
@@ -334,27 +325,6 @@ body {
         }
 
     }
-
-    /* @media only screen and (device-width: 480px) 
-     and (orientation: portrait) {
-        #landing {
-            max-width: 100vw;
-            margin-left: 10vw;
-            margin-right: 10vw;
-        } 
-
-         #headline {
-            height: 35vh;
-        } 
-
-        .card-title {
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
-        }
-
-    } */
-
-
 
     @media only screen and (device-width: 768px)
     and (device-height: 1024px) and (orientation: portrait)
@@ -381,51 +351,28 @@ body {
         }
 
         .centreCopy {
-       
-            padding-left: 1rem;
-            padding-right: 1rem;
-            padding-top: 2rem;
+            padding-top: 3.5vh;
             padding-bottom: 0;
         }
         
-        .centreCopy h2 {
-          font-size: 2.4rem;
-        }
-        
-        .centreCopy h3 {
-          font-size: 2rem;
-        }
-        
         .centreCopy h4 {
-          font-size: 1.8rem;
-          padding-left: 8rem;
-          padding-right: 8rem;
+          padding-left: 8vw;
+          padding-right: 8vw;
         }
         
              
         .centreCopy h5 {
-          padding-top: 1rem;
-          padding-bottom: 1rem;
-          padding-left: 10rem;
-          padding-right: 10rem;
-          font-size: 1.4rem;
+          padding-left: 10vw;
+          padding-right: 10vw;
         }
         
         .carousel-inner {
-            width: 75%;
-            margin-left: 12.5%;
+            width: 70%;
+            margin-left: 15%;
         }
         
-        .carousel p {
-          font-size: 1.6rem;  
-        }
-
-        .card-title {
-            font-size: 1.4rem;
-        }
-
         .btn-card {
-            border-radius: 3rem 1rem;
+            border-radius: 3vw 1.5vw;
         }
     }
 
@@ -444,100 +391,57 @@ body {
      }
 
      .centreCopy {
-         padding-top: 1rem;
-         padding-left: 3rem;
+         padding-top: 0.1vh;
      }
 
-     .centreCopy h2 {
-         font-size: 2.4rem;
-     }
-
-     .centreCopy h3 {
-        font-size: 2rem;
-      }
-
-      .centreCopy h4 {
-        font-size: 1.8rem;
-      }
-
-      .centreCopy h5 {
-        font-size: 1.6rem;
-      }
-
-     .centreCopy h4, h5 {
-         padding-left: 6rem;
-         padding-right: 6rem;
-         padding-top: 0.25rem;
-         padding-bottom: 0.25rem;
-     }
+    .centreCopy h4, h5 {
+         padding-left: 1vw;
+         padding-right: 1vw;
+         padding-top: 0.5vh;
+         padding-bottom: 0.5vh;
+    }
 
      #carousel {
-         max-width: 60vw;
+        padding-top: 1vh;
+        max-width: 60vw;
          height: 25vh;
      }
 
-     .carousel p {
-         font-size: 1.6rem;
-     }
-
-     .launch {
+    .launch {
          max-width: 39vw;
      }
 
-     .card-title {
-         font-size: 1.6rem;
-     }
-
-     .btn-card {
-         border-radius: 3rem 1rem;
+    .btn-card {
+         border-radius: 3vw 1.5vw;
      }
 
     }
 
     @media only screen and (device-width: 1024px) and (device-height: 600px) and
     (orientation: landscape) {
+        
+          #landing {
+            flex-flow: column wrap;
+            max-width: 100vw;
+            height: 130vh;
+        } 
+        
+        
         #headline {
-            width: 55vw;
-            height: 55vh;
+            max-width: 55vw;
+            height: 75vh;
             }
     
       .carousel {
           height: 45vh;
+          max-width: 55vw;
       }  
-    
-      .centreCopy h2 {
-          font-size: 1.6rem;
+
+      .launch {
+          max-width: 40vw;
+          height: 30vh;
       }
-    
-      .centreCopy h3 {
-          font-size: 1.4rem;
-      }
-    
-      .centreCopy h4 {
-          font-size: 1.4rem;
-          padding-top: 0.2rem;
-          padding-bottom: 0.2rem;     
-          padding-left: 3rem;
-          padding-right: 3rem;
-      }
-    
-      .centreCopy h5 {
-          font-size: 1.2rem;
-          padding-left: 3rem;
-          padding-right: 3rem;
-      }
-    
-      .carousel p {
-          font-size: 1.4rem;
-      }
-    
-      .card-title {
-          font-size: 1.4rem;
-          padding-left: 0;
-          padding-right: 0;
-      }
-          
-      }
+    }
 
     @media only screen and (device-width: 1024px)
 and (device-height: 1366px) and (orientation: portrait)
@@ -548,50 +452,34 @@ and (device-height: 1366px) and (orientation: portrait)
 }
 
     .centreCopy {
-        padding-top: 6rem;
+        padding-top: 3vh;
     }
   
-    
-    .centreCopy h2 {
-        font-size: 3rem;
-    }
-
-    .centreCopy h3 {
-        font-size: 2.8rem;
-    }
-
     .centreCopy h4 {
-        font-size: 2.4rem;
-        padding-left: 12rem;
-        padding-right: 12rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
 
     .centreCopy h5 {
-        font-size: 2rem;
-        padding-left: 15rem;
-        padding-right: 15rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
-
-    .carousel p {
-        font-size: 2rem;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
     }
 
     .carousel-inner {
-        width: 60%;
-        margin-left: 20%;
+        width: 65%;
+        margin-left: 17.5%;
     }
       
     .card-title {
-        font-size: 1.8rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.5vh;
     }
 
     .btn-card {
-        border-radius: 3rem 1rem;
+        border-radius: 3vw 1.5vw;
     }
 }
 
@@ -602,40 +490,17 @@ and (device-width: 1366px) and (orientation: landscape)
 {  #landing {
     flex-flow: column wrap;
     max-width: 100vw;
-    height: 100vh;
+    height: 120vh;
 } 
 
  #headline {
      max-width: 60vw;
-     height: 50vh;
+     height: 65vh;
  }
-
- .centreCopy {
-     padding-top: 1rem;
-     padding-left: 3rem;
- }
-
- .centreCopy h2 {
-     font-size: 2.6rem;
- }
-
- .centreCopy h3 {
-    font-size: 2.4rem;
-  }
-
-  .centreCopy h4 {
-    font-size: 2rem;
-  }
-
-  .centreCopy h5 {
-    font-size: 1.8rem;
-  }
 
  .centreCopy h4, h5 {
-     padding-left: 10rem;
-     padding-right: 10rem;
-     padding-top: 1rem;
-     padding-bottom: 1rem;
+     padding-top: 1vh;
+     padding-bottom: 1vh;
  }
 
  #carousel {
@@ -648,22 +513,10 @@ and (device-width: 1366px) and (orientation: landscape)
      margin-left: 15%;
  }
 
- .carousel p {
-     font-size: 2rem;
- }
-
  .launch {
      max-width: 39vw;
+     height: 50vh;
  }
-
- .card-title {
-     font-size: 1.8rem;
- }
-
- .btn-card {
-     border-radius: 3rem 1rem;
- }
-
 }
 
 
@@ -681,21 +534,6 @@ and (device-width: 1366px) and (orientation: landscape)
        height: 15vh;
        align-self: flex-end;
    }
-
-   .centreCopy h2 {
-       font-size: 2rem;
-   }
-
-   .centreCopy h3 {
-       font-size: 1.8rem;
-    }
-
-    .centreCopy h4 {
-        font-size: 1.6rem;
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-
 }
 
 
@@ -717,8 +555,6 @@ and (device-width: 1366px) and (orientation: landscape)
         align-self: center;
         flex: 3 2 auto;
         width: 50vw;
-       /* height: 70vh; */
-        
     }
 
     #carousel {
@@ -726,7 +562,6 @@ and (device-width: 1366px) and (orientation: landscape)
         align-self: center;
         flex: 2 2 auto;
         width: 50vw;
-        /*height:30vh; */
     }
 
    
@@ -735,8 +570,7 @@ and (device-width: 1366px) and (orientation: landscape)
         order:1;
         align-self: flex-start;
        width: 25vw;
-       /*height: 50vh; */
-        flex: 1 2 auto;
+       flex: 1 2 auto;
       
     }
 
@@ -744,7 +578,6 @@ and (device-width: 1366px) and (orientation: landscape)
         order: 2;
         justify-self: flex-end;
         width: 25vw;
-      /*  height: 50vh; */
         flex: 1 2 auto;
        
     }
@@ -755,8 +588,6 @@ and (device-width: 1366px) and (orientation: landscape)
         justify-self: start;
         flex: 1 2 auto;
         width: 25vw;
-       /* height: 50vh; */
-       
     }
 
     #hdiw {
@@ -764,45 +595,21 @@ and (device-width: 1366px) and (orientation: landscape)
         align-self: flex-end;
         flex: 1 2 auto;
         width: 25vw;
-      /*  height: 50vh; */
     }
 
     .centreCopy {
-        padding-top: 2rem;
-       
+        padding-top: 2vh;
     }
 
-    .centreCopy h2 {
-        font-size: 3rem;
-    }
-
-    .centreCopy h3 {
-        font-size: 2.6rem;
-    }
-
-    .centreCopy h4 {
-        font-size: 2.4rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .centreCopy h5 {
-        font-size: 2rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-    }
-
-    .carousel p {
-        font-size: 2.4rem;
+    .carousel-inner {
+        width: 80%;
+        margin-left: 10%;
     }
 
     .card-title {
-        font-size: 2.4rem;
-        padding-left: 8rem;
-        padding-right: 8rem;
-        padding-top: 2rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 2vh;
         padding-bottom: 0.75rem;
     }
 
@@ -824,6 +631,10 @@ and (device-width: 1366px) and (orientation: landscape)
 
     #headline {
         height: 65vh;
+    }
+
+    .centreCopy {
+        padding-top: 5vh;
     }
 
     #carousel {
