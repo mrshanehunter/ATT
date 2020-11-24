@@ -479,7 +479,7 @@ function dailyCardDraw () {
                <p>Take note the card's meaning. Then, for a day, or even a week, keep track of your day to day life. At the end of that time, see how much of that tarot card has manifested itself.</p>
                <hr> 
                  <div class="dailyCardImage">
-                   <img src="${drawnCardImage}"  height="240" width="140">
+                   <img src="${drawnCardImage}"  width="40%" height="auto">
                 </div>
                 <hr>
                    <div class="dailyCardName">
