@@ -113,8 +113,8 @@ body {
     }
     
     .carousel-inner {
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
     }
     
     .carousel p {
@@ -158,10 +158,10 @@ body {
             max-height: 15vh;
         }
 
-        .carousel-inner {
+        /* .carousel-inner {
             width: 70%;
             margin-left: 15%;
-        }
+        } */
 
         .launch {
             max-width: 38vw;
@@ -274,10 +274,10 @@ body {
              height: 25vh;
          }
 
-         .carousel-inner {
+         /* .carousel-inner {
              width: 70%;
              margin-left: 15%;
-         }
+         } */
 
          .launch {
              max-width: 39vw;
@@ -319,10 +319,10 @@ body {
             height: 35vh;
         }
 
-        .carousel-inner {
+        /* .carousel-inner {
             width: 70%;
             margin-left: 15%;
-        }
+        } */
 
         .launch {
             max-width: 35vw;
@@ -355,10 +355,10 @@ body {
             height: 22.5vh;
         }
 
-        .carousel-inner {
+        /* .carousel-inner {
             width: 70%;
             margin-left: 15%;
-        }
+        } */
         
         .btn-card {
             border-radius: 3vw 1.5vw;
@@ -429,10 +429,10 @@ and (device-height: 1366px) and (orientation: portrait)
     height: 50vh;
 }
 
-    .carousel-inner {
+    /* .carousel-inner {
         width: 65%;
         margin-left: 17.5%;
-    }
+    } */
       
     .card-title {
         padding-bottom: 0.5vh;
@@ -463,10 +463,10 @@ and (device-width: 1366px) and (orientation: landscape)
      height: 30vh;
  }
 
- .carousel-inner {
+ /* .carousel-inner {
      width: 70%;
      margin-left: 15%;
- }
+ } */
 
  .launch {
      max-width: 39vw;
@@ -556,10 +556,10 @@ and (device-width: 1366px) and (orientation: landscape)
         padding-top: 2vh;
     }
 
-    .carousel-inner {
+    /* .carousel-inner {
         width: 80%;
         margin-left: 10%;
-    }
+    } */
 
     .card-title {
         padding-left: 5vw;
