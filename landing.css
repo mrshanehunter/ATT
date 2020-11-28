@@ -81,6 +81,15 @@
         width: 90%;
         height: 90%;
     }
+
+    .btn-card:hover {
+        box-shadow: 0 0 2vw rgba(255, 201, 38, 0.5); 
+    }
+
+    .btn-card img:hover{
+        transform: scale(1.5);
+        
+    }
     .centreCopy {
         text-align: center;
         color: #412456;

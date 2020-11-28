@@ -243,6 +243,9 @@ body.hasHover .tokens button:hover {
   padding-bottom: 1vh;
 }
 
+#pracBtn button:hover {
+  box-shadow: 0 0 2.5vw rgba(111, 50, 155, 0.5);
+}
 
 .cardDrawn {
     display: flex;

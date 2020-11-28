@@ -13,6 +13,8 @@ body {
     font-style: normal;
     display: block;
     max-width: 100vw;
+    background-color: rgb(251, 201, 38);
+    background-blend-mode: transparent;
     
 }
 
@@ -76,6 +78,8 @@ body.hasHover .navbar a:hover{
 main {
     max-width: 100vw;
 }
+
+
 
 
 .dailyCardHeader h4 {
