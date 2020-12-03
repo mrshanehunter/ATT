@@ -1,0 +1,182 @@
+HTML
+
+<div class="wrapperIMG">
+    <div class="container">
+        <div class="scene scene--card">
+            <div class="card">
+                <div class="card__face card__face--front">front</div>
+                <div class="card__face card__face--back"></div>
+            </div>        
+        </div>
+        <div class="message">
+            <h3>Yes</h3>
+            <h4>King Of Cups</h4>
+            <h5>Because The Scripting Is Sorted</h5>
+
+        </div>
+        <button type="button" class="button" id="try">Reveal</button>
+    </div>
+
+
+
+    .wrapperIMG {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container {
+    background-color: #412456;
+    height: 100vh;
+    width: 50vw;
+    padding-top: 15vh;
+   
+
+}
+
+CSS
+
+@keyframes fadeInDown {
+
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    } 
+    10% {
+        box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.9);
+        
+    }
+    20% {
+        box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.8);
+        
+    }
+    30% {
+        box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.7);
+        
+    }
+    40% {
+        box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.6);
+        
+    }
+    50% {
+        box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.5);
+        
+    }
+    60% {
+        box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.4);
+        
+    }
+    70% {
+        box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.3);
+       
+    }
+    75% {
+        transform: scale(1.25);
+    }
+    80% {
+        box-shadow: 0 0 2.5rem rgba(255, 255, 255, 0.7);
+    }
+    90% {
+        box-shadow: 0 0 2.5rem rgba(255, 255, 255, 0.4);
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .scene {
+    width: 198px;
+    height: 364px;
+    border: 1px solid #412456;
+    margin: 10px auto;
+    perspective: 600px;
+    opacity: 1;
+    animation: fadeInDown 7s ease-in-out;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .card__face--front {
+    background: red;
+  }
+  
+  .card__face--back {
+    background: center / contain no-repeat url('./CK.jpg');
+    transform: rotateY(180deg);
+    
+  }
+
+  @keyframes fadeup {
+    0% {opacity: 0;
+  }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.05;
+    }
+    75% {
+      opacity: 0.25;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+
+
+  .message {
+    opacity: 0;
+  }
+
+  .message.is-flipped {
+    text-align: center;
+    color: white;
+    opacity: 1;
+    animation: fadeup 3s ease-in;
+  }
+
+  JS
+  
+const card = document.querySelector('.card');
+const message = document.querySelector('.message');
+const flip = document.getElementById('try');
+
+
+function messageFade() {
+    message.classList.toggle('is-flipped')
+};
+
+
+card.addEventListener( 'click', () => {
+  card.classList.toggle('is-flipped');
+  
+});
